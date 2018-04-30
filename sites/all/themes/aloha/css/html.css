@@ -1,0 +1,90 @@
+@import url(../fonts/opensans/stylesheet.css);
+@import url(../fonts/awesome/css/font-awesome.css);
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+/* html.scss */
+/* line 6, ../sass/html.scss */
+body {
+  color: #0e2127;
+  font-family: 'open_sanslight';
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 15, ../sass/html.scss */
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 21, ../sass/html.scss */
+header, nav, section, article, figure, aside, footer {
+  display: block;
+}
+
+/* line 24, ../sass/html.scss */
+a {
+  color: #0e2127;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+/* line 27, ../sass/html.scss */
+a:hover, a:focus {
+  color: #b9b9b9;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 38, ../sass/html.scss */
+a:hover, a:hover {
+  text-decoration: none;
+}
+
+/* line 45, ../sass/html.scss */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+/* line 49, ../sass/html.scss */
+h4 {
+  font-family: 'open_sansbold';
+  font-size: 1em;
+}
+
+/* line 54, ../sass/html.scss */
+p, ul, ol, ul ul, ol ul, ul ol, ol ol {
+  margin-bottom: 20px;
+}
+
+/* line 58, ../sass/html.scss */
+address {
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* line 63, ../sass/html.scss */
+legend {
+  border-bottom: none;
+  font-family: 'open_sansbold';
+  font-size: 1.428em;
+  text-transform: uppercase;
+}
+
+/* line 68, ../sass/html.scss */
+input, button, select, textarea {
+  background: none;
+  border: 1px solid #0e2127;
+  font-size: .857em;
+  padding: 7px 15px;
+}

@@ -1,0 +1,534 @@
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+/* colors */
+/* line 9, ../../../sass/colors/puple/style.scss */
+body {
+  color: #0e2127;
+}
+
+/* btn effect */
+/* line 20, ../../../sass/colors/puple/style.scss */
+a {
+  color: #70154d;
+}
+
+/* button */
+/* line 24, ../../../sass/colors/puple/style.scss */
+.form-submit {
+  border-color: #0e2127;
+  background: none;
+}
+/* line 27, ../../../sass/colors/puple/style.scss */
+.form-submit:hover, .form-submit:focus {
+  background-color: #70154d;
+  border-color: #70154d;
+}
+
+/* line 32, ../../../sass/colors/puple/style.scss */
+.views-field-field-book-link a, #errorbox a {
+  border-color: #70154d;
+  color: #0e2127;
+  border-color: #0e2127;
+}
+/* line 15, ../../../sass/colors/puple/style.scss */
+.views-field-field-book-link a:after, #errorbox a:after {
+  background-color: #70154d;
+}
+/* line 36, ../../../sass/colors/puple/style.scss */
+.views-field-field-book-link a:hover, .views-field-field-book-link a:focus, #errorbox a:hover, #errorbox a:focus {
+  border-color: #70154d;
+}
+
+/* line 41, ../../../sass/colors/puple/style.scss */
+.views-field-field-from-price,
+.field-name-commerce-price {
+  background-color: #333;
+}
+
+/* headline */
+/* line 45, ../../../sass/colors/puple/style.scss */
+.bg-black, .headline, #footer .social-list {
+  background-color: #70154d;
+  color: #bf70a0;
+}
+/* line 48, ../../../sass/colors/puple/style.scss */
+.bg-black a, .headline a, #footer .social-list a {
+  color: #bf70a0;
+}
+/* line 50, ../../../sass/colors/puple/style.scss */
+.bg-black a:hover, .bg-black a:focus, .headline a:hover, .headline a:focus, #footer .social-list a:hover, #footer .social-list a:focus {
+  color: #fff;
+}
+
+/* line 55, ../../../sass/colors/puple/style.scss */
+.headline .block-menu ul.menu li.expanded ul.menu {
+  background-color: #70154d;
+}
+
+/* language */
+/* line 60, ../../../sass/colors/puple/style.scss */
+.language .dd-selected {
+  background-color: #892362;
+  color: #fff;
+}
+/* line 64, ../../../sass/colors/puple/style.scss */
+.language .dd-options {
+  background-color: #70154d;
+  color: #bf70a0;
+}
+/* line 68, ../../../sass/colors/puple/style.scss */
+.language .dd-option {
+  color: #bf70a0;
+}
+/* line 70, ../../../sass/colors/puple/style.scss */
+.language .dd-option:hover, .language .dd-option:focus {
+  color: #fff;
+  background-color: #892362;
+}
+/* line 75, ../../../sass/colors/puple/style.scss */
+.language .dd-option-selected {
+  background-color: #892362;
+}
+/* line 79, ../../../sass/colors/puple/style.scss */
+.language .dd-pointer:after {
+  color: #fff;
+}
+
+/* menu.scss */
+/* line 89, ../../../sass/colors/puple/style.scss */
+.navbar-main ul.menu li a:hover, .navbar-main ul.menu li a:focus {
+  background-color: #70154d;
+}
+/* line 92, ../../../sass/colors/puple/style.scss */
+.navbar-main ul.menu li a.active, .navbar-main ul.menu li a.active-trail {
+  background-color: #70154d;
+}
+/* line 97, ../../../sass/colors/puple/style.scss */
+.navbar-main ul.menu li:hover > a, .navbar-main ul.menu li:focus > a {
+  background-color: #70154d;
+  color: white;
+}
+
+/* .tb-megamenu */
+/* line 109, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .nav > li > a {
+  color: #70154d;
+}
+/* line 111, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .nav > li > a:hover, .tb-megamenu-main-menu .nav > li > a:focus {
+  background-color: #70154d;
+}
+/* line 115, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .nav .open > a, .tb-megamenu-main-menu .nav .open > a:hover, .tb-megamenu-main-menu .nav .open > a:focus {
+  background-color: #70154d;
+}
+/* line 118, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .nav > .active > a, .tb-megamenu-main-menu .nav > .active > a:hover, .tb-megamenu-main-menu .nav > .active > a:focus {
+  background-color: #70154d;
+}
+/* line 121, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .nav li.dropdown.open > .dropdown-toggle {
+  background-color: #70154d;
+}
+/* line 126, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .nav li.dropdown.active > .dropdown-toggle,
+.tb-megamenu-main-menu .nav li.dropdown.open.active > .dropdown-toggle,
+.tb-megamenu-main-menu .nav > li.dropdown.open.active > a:hover {
+  background-color: #70154d;
+}
+/* line 130, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .dropdown-menu {
+  background-color: #70154d;
+}
+/* line 132, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .dropdown-menu li > a {
+  color: #bf70a0;
+}
+/* line 138, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .dropdown-menu .grid-news .views-row {
+  color: #bf70a0;
+}
+/* line 143, ../../../sass/colors/puple/style.scss */
+.tb-megamenu-main-menu .dropdown-menu .views-field-type-image a, .tb-megamenu-main-menu .dropdown-menu .views-field-title a {
+  color: #bf70a0;
+}
+
+/* slideshow */
+/* line 152, ../../../sass/colors/puple/style.scss */
+.views-slideshow-controls-text a:hover, .views-slideshow-controls-text a:focus {
+  background-color: #70154d;
+  color: #fff;
+}
+
+/* line 160, ../../../sass/colors/puple/style.scss */
+.main-slideshow .views-field-title a {
+  background-color: #70154d;
+}
+/* line 162, ../../../sass/colors/puple/style.scss */
+.main-slideshow .views-field-title a:hover, .main-slideshow .views-field-title a:focus {
+  color: #fff;
+}
+/* line 167, ../../../sass/colors/puple/style.scss */
+.main-slideshow .views-field-field-book-link a {
+  color: #0e2127;
+}
+/* line 169, ../../../sass/colors/puple/style.scss */
+.main-slideshow .views-field-field-book-link a:hover, .main-slideshow .views-field-field-book-link a:focus {
+  border-color: #70154d;
+  color: #fff;
+}
+
+/* line 176, ../../../sass/colors/puple/style.scss */
+.views-slideshow-controls-text a {
+  color: #0e2127;
+}
+
+/* line 181, ../../../sass/colors/puple/style.scss */
+.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+  color: #0e2127;
+}
+/* line 183, ../../../sass/colors/puple/style.scss */
+.jcarousel-skin-default .jcarousel-next:hover, .jcarousel-skin-default .jcarousel-next:focus, .jcarousel-skin-default .jcarousel-prev:hover, .jcarousel-skin-default .jcarousel-prev:focus {
+  border-color: #70154d;
+  background-color: #70154d;
+}
+
+/* line 189, ../../../sass/colors/puple/style.scss */
+.carousel-control {
+  background-color: #70154d;
+}
+/* line 192, ../../../sass/colors/puple/style.scss */
+.carousel-control:hover .fa, .carousel-control:focus .fa {
+  background-color: #70154d;
+}
+
+/* line 199, ../../../sass/colors/puple/style.scss */
+.slideshow-thumb .views-field-title a, .slideshow-thumb .views-field-title a:hover, .slideshow-thumb .views-field-title a:focus, .slideshow-thumb .views-field-title-1 a, .slideshow-thumb .views-field-title-1 a:hover, .slideshow-thumb .views-field-title-1 a:focus {
+  color: #fff;
+}
+
+/* booking */
+/* line 206, ../../../sass/colors/puple/style.scss */
+.rooms-availability-search .form-submit {
+  background-color: #70154d;
+  border-color: #70154d;
+}
+/* line 209, ../../../sass/colors/puple/style.scss */
+.rooms-availability-search .form-submit:hover, .rooms-availability-search .form-submit:focus {
+  background-color: #0e2127;
+  border-color: #0e2127;
+}
+
+/* special offer */
+/* line 217, ../../../sass/colors/puple/style.scss */
+.views-field-title a, .views-field-title-1 a, .views-field-commerce-price a {
+  color: #0e2127;
+}
+/* line 219, ../../../sass/colors/puple/style.scss */
+.views-field-title a:hover, .views-field-title a:focus, .views-field-title-1 a:hover, .views-field-title-1 a:focus, .views-field-commerce-price a:hover, .views-field-commerce-price a:focus {
+  color: #70154d;
+}
+
+/* footer */
+/* line 226, ../../../sass/colors/puple/style.scss */
+#footer a {
+  color: inherit;
+}
+
+/* line 232, ../../../sass/colors/puple/style.scss */
+.panel-column ul.menu a {
+  color: inherit;
+}
+
+/* line 238, ../../../sass/colors/puple/style.scss */
+.tagclouds-term a {
+  border-color: #bf70a0;
+}
+
+/* line 243, ../../../sass/colors/puple/style.scss */
+.line-through:after {
+  background-color: rgba(191, 112, 160, 0.3);
+}
+
+/* line 247, ../../../sass/colors/puple/style.scss */
+.simplenews-subscribe .form-text {
+  border-color: #bf70a0;
+}
+/* line 249, ../../../sass/colors/puple/style.scss */
+.simplenews-subscribe .form-text:focus {
+  border-color: #fff;
+}
+
+/* line 253, ../../../sass/colors/puple/style.scss */
+.simplenews-unsubscribe .form-submit {
+  border-color: #bf70a0;
+  color: #bf70a0;
+}
+/* line 256, ../../../sass/colors/puple/style.scss */
+.simplenews-unsubscribe .form-submit:hover, .simplenews-unsubscribe .form-submit:focus {
+  background-color: white !important;
+  border-color: white;
+}
+
+/* News page */
+/* line 264, ../../../sass/colors/puple/style.scss */
+.node-readmore a,
+.list-article .views-field-view-node a {
+  border-color: #0e2127;
+  color: #0e2127;
+}
+/* line 267, ../../../sass/colors/puple/style.scss */
+.node-readmore a:after,
+.list-article .views-field-view-node a:after {
+  background-color: #70154d;
+}
+/* line 270, ../../../sass/colors/puple/style.scss */
+.node-readmore a:hover, .node-readmore a:focus,
+.list-article .views-field-view-node a:hover,
+.list-article .views-field-view-node a:focus {
+  border-color: #70154d;
+}
+
+/* line 278, ../../../sass/colors/puple/style.scss */
+.grid-news .views-field-title a:hover, .grid-news .views-field-title a:focus {
+  color: #70154d;
+}
+
+/* line 286, ../../../sass/colors/puple/style.scss */
+.item-info .views-field-view-node a {
+  color: #0e2127;
+}
+/* line 288, ../../../sass/colors/puple/style.scss */
+.item-info .views-field-view-node a:after {
+  background-color: #70154d;
+}
+/* line 291, ../../../sass/colors/puple/style.scss */
+.item-info .views-field-view-node a:hover, .item-info .views-field-view-node a:focus {
+  border-color: #70154d;
+}
+
+/* sidebar */
+/* line 302, ../../../sass/colors/puple/style.scss */
+.sidebar .block-menu ul.menu li a:hover, .sidebar .block-menu ul.menu li a:focus, .sidebar .block-menu ul.menu li .active {
+  background-color: #70154d;
+  color: #fff;
+}
+
+/* line 311, ../../../sass/colors/puple/style.scss */
+.latest-views .views-field-title a:hover, .latest-views .views-field-title a:focus {
+  color: #70154d;
+}
+
+/* line 315, ../../../sass/colors/puple/style.scss */
+.support {
+  background-color: #70154d;
+}
+
+/* line 318, ../../../sass/colors/puple/style.scss */
+.jcarousel-skin-default .jcarousel-navigation li.active a {
+  background-color: #70154d;
+}
+
+/* accommodation */
+/* line 325, ../../../sass/colors/puple/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item a {
+  color: #0e2127;
+}
+/* line 327, ../../../sass/colors/puple/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item a:hover, .ctools-auto-submit-full-form .form-item .form-item a:focus {
+  background-color: #70154d;
+  border-color: #70154d;
+}
+/* line 334, ../../../sass/colors/puple/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item.selected a {
+  background-color: #70154d;
+  border-color: #70154d;
+}
+
+/* line 343, ../../../sass/colors/puple/style.scss */
+ul.secondary li a {
+  border-color: #0e2127;
+  color: #0e2127;
+}
+/* line 346, ../../../sass/colors/puple/style.scss */
+ul.secondary li a:hover, ul.secondary li a:focus {
+  background-color: #70154d;
+  color: white;
+}
+/* line 351, ../../../sass/colors/puple/style.scss */
+ul.secondary li.active .active {
+  background-color: #70154d;
+  border-color: #70154d;
+  color: white;
+}
+
+/* line 361, ../../../sass/colors/puple/style.scss */
+.view-type ul.menu li a {
+  color: #0e2127;
+}
+/* line 364, ../../../sass/colors/puple/style.scss */
+.view-type ul.menu li a:hover, .view-type ul.menu li a:focus, .view-type ul.menu li a.active-trail {
+  background-color: #70154d;
+  border-color: #70154d;
+}
+
+/* owl-theme */
+/* line 374, ../../../sass/colors/puple/style.scss */
+.owl-theme .owl-controls .owl-buttons div {
+  color: #0e2127;
+}
+/* line 376, ../../../sass/colors/puple/style.scss */
+.owl-theme .owl-controls .owl-buttons div:hover, .owl-theme .owl-controls .owl-buttons div:focus {
+  background-color: #70154d;
+}
+
+/* pager */
+/* line 387, ../../../sass/colors/puple/style.scss */
+.pager li > a:hover,
+.pager li > a:focus,
+.pager li > span:hover,
+.pager li > span:focus,
+.pager li.pager-current {
+  background-color: #70154d;
+}
+
+/* services */
+/* line 393, ../../../sass/colors/puple/style.scss */
+.aloha-services a:hover, .aloha-services a:focus {
+  color: #fff;
+}
+/* line 398, ../../../sass/colors/puple/style.scss */
+.aloha-services .service-item:hover, .aloha-services .service-item:focus {
+  background-color: #70154d;
+}
+
+/* about*/
+/* line 406, ../../../sass/colors/puple/style.scss */
+.group-social-info a:hover, .group-social-info a:focus {
+  background-color: #70154d;
+}
+
+/* contact */
+/* line 413, ../../../sass/colors/puple/style.scss */
+.contact-form .form-submit {
+  background: none;
+  color: #0e2127;
+}
+/* line 416, ../../../sass/colors/puple/style.scss */
+.contact-form .form-submit:hover, .contact-form .form-submit:focus {
+  background-color: #70154d;
+  color: #fff;
+}
+
+/* gallery */
+/* line 424, ../../../sass/colors/puple/style.scss */
+.option-set li a {
+  color: #0e2127;
+}
+/* line 426, ../../../sass/colors/puple/style.scss */
+.option-set li a:hover, .option-set li a:focus {
+  background-color: #70154d;
+  border-color: #70154d;
+}
+/* line 431, ../../../sass/colors/puple/style.scss */
+.option-set li a.selected {
+  background-color: #70154d;
+  border-color: #70154d;
+}
+
+/* checkout */
+/* line 439, ../../../sass/colors/puple/style.scss */
+.checkout-buttons .checkout-cancel:hover, .checkout-buttons .checkout-cancel:focus, .checkout-buttons .checkout-back:hover, .checkout-buttons .checkout-back:focus {
+  background-color: #70154d;
+  border-color: #70154d;
+}
+
+/* line 445, ../../../sass/colors/puple/style.scss */
+.chosen-container .chosen-results li.highlighted {
+  background-color: #70154d;
+}
+
+/* comment form */
+/* line 450, ../../../sass/colors/puple/style.scss */
+ul.inline li.comment-add a {
+  color: #70154d;
+}
+/* line 452, ../../../sass/colors/puple/style.scss */
+ul.inline li.comment-add a:hover, ul.inline li.comment-add a:focus {
+  color: inherit;
+}
+
+/* line 459, ../../../sass/colors/puple/style.scss */
+.comment h3 a {
+  color: #0e2127;
+}
+/* line 461, ../../../sass/colors/puple/style.scss */
+.comment h3 a:hover, .comment h3 a:focus {
+  color: #70154d;
+}
+/* line 467, ../../../sass/colors/puple/style.scss */
+.comment ul.inline a, .comment ul.links.inline a {
+  color: #0e2127;
+}
+/* line 469, ../../../sass/colors/puple/style.scss */
+.comment ul.inline a:hover, .comment ul.inline a:focus, .comment ul.links.inline a:hover, .comment ul.links.inline a:focus {
+  color: #70154d;
+}
+
+/* table */
+/* line 476, ../../../sass/colors/puple/style.scss */
+.views-table, .sticky-header, .sticky-table, .weather table {
+  border-color: #70154d;
+}
+
+/* line 479, ../../../sass/colors/puple/style.scss */
+#search-block-form .container-inline {
+  background-color: #70154d;
+}
+
+/* line 482, ../../../sass/colors/puple/style.scss */
+.btn-btt {
+  background: black;
+}
+/* line 484, ../../../sass/colors/puple/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #bf70a0;
+}
+
+@media (max-width: 992px) {
+  /* skin-purple */
+  /* line 492, ../../../sass/colors/puple/style.scss */
+  .skin-puple .navbar-toggle .icon-bar {
+    background-color: #70154d;
+  }
+  /* line 496, ../../../sass/colors/puple/style.scss */
+  .skin-puple .navbar-toggle:hover .icon-bar, .skin-puple .navbar-toggle:focus .icon-bar {
+    background-color: black;
+  }
+  /* line 501, ../../../sass/colors/puple/style.scss */
+  .skin-puple .navbar-collapse.collapse {
+    background-color: #70154d;
+  }
+  /* line 504, ../../../sass/colors/puple/style.scss */
+  .skin-puple .tb-megamenu-main-menu {
+    background-color: #70154d;
+  }
+  /* line 508, ../../../sass/colors/puple/style.scss */
+  .skin-puple .tb-megamenu-main-menu .nav > li > a {
+    color: #bf70a0;
+  }
+  /* line 510, ../../../sass/colors/puple/style.scss */
+  .skin-puple .tb-megamenu-main-menu .nav > li > a:hover, .skin-puple .tb-megamenu-main-menu .nav > li > a:focus {
+    color: white;
+  }
+  /* line 515, ../../../sass/colors/puple/style.scss */
+  .skin-puple .tb-megamenu-main-menu .nav > .active > a, .skin-puple .tb-megamenu-main-menu .nav > .active > a:hover, .skin-puple .tb-megamenu-main-menu .nav > .active > a:focus {
+    color: white;
+  }
+}

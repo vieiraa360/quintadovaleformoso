@@ -1,0 +1,677 @@
+@import "../includes/_include";
+.tb-megamenu-main-menu .mega-nav > li a, .tb-megamenu-main-menu .dropdown-menu .mega-nav > li a {
+	margin-left: 0;
+}
+#errorbox {
+	padding-bottom: 50px;
+}
+@media (max-width: 767px) {
+
+	.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#errorbox {
+		padding-bottom: 80px;
+	}
+}
+@media (max-width: 640px) {
+
+	.alo-testimonial .jcarousel-item {
+		width: 610px;
+	}
+	.alo-main-jcarousel .jcarousel-item{
+		width: 290px;
+	}
+	/**/
+	.main {
+		padding-bottom: 0;
+		padding-top: 30px;
+	}
+	.main-slideshow {
+		.alo-item-caption {
+			bottom: 40px;
+		}
+		.views-field-type-image {
+			height: 350px;
+		}
+	}
+	.views-view-grid.cols-3 .views-col {
+		width: 100%;
+	}
+	.views-view-grid.cols-4 .views-col {
+		margin-bottom: 30px;
+		width: 50%;
+	}
+	.views-view-grid.cols-5 .views-col {
+		margin-bottom: 30px;
+		width: 50%;
+	}
+	.cols-3 .views-row > .views-col + .views-col {
+		margin-top: 30px;
+	}
+	/* grid-news */
+	.grid-news {
+		.views-row {
+			margin-left: -15px;
+			.col-inner {
+				margin-left: 15px;
+			}
+		}
+		.cols-3 {
+			.views-row {
+				margin-left: 0;
+				.col-inner {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+	/***/
+	.view-type,
+	.ctools-auto-submit-full-form .views-exposed-form .views-exposed-widget {
+		margin-bottom: 20px;
+	}
+	/* alo-special-offers */
+	.offer-info {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.alo-special-offers {
+		.offer-info, .views-field-field-image {
+			float: left;
+			position: static;
+			width: 50%;
+		}
+		.views-row {
+			background-color: white;
+			float: none;
+			margin-bottom: 30px;
+			width: 100%;
+		}
+		.view-row-inner {
+			height: auto;
+		}
+		.views-row-even .offer-info:after, .views-row-odd .offer-info:after {
+			display: none;
+		}
+		.views-row-first {
+			width: 100%;
+			.offer-info, .offer-info .views-field {
+				opacity: 1;
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+		}
+	}
+	.alo-special-offers-2 {
+		.views-row {
+			margin-bottom: 30px;
+		}
+		.grid-inner {
+			background-color: white;
+			height: auto;
+			overflow: hidden;
+		}
+		.offer-info, .views-field-field-image {
+			float: left;
+			position: static;
+			width: 50%;
+		}
+		.views-field-field-image {
+			img {
+				max-width: 100%;
+			}
+		}
+		.offer-info {
+			min-height: 0;
+		}
+		.views-field-title-1 {
+			margin-bottom: 10px;
+		}
+		.col-odd .offer-info:after, .col-even .offer-info:after {
+			display: none;
+		}
+	}
+	.item-list .pager {
+		padding-bottom: 60px;
+	}
+	/* aloha-services */
+	.aloha-services {
+		li {
+			display: block;
+			float: none;
+			height: auto;
+			width: 100%;
+			+ li {
+				margin-top: 30px;
+			}
+		}
+		.service-item {
+			display: block;
+		}
+	}
+	.item-info {
+		padding: 0 20px 20px;
+	}
+	.view-header {
+		margin-bottom: 20px;
+	}
+	.option-set {
+		margin-bottom: 0;
+		li {
+			margin-bottom: 10px;
+		}
+	}
+	.isotope {
+		margin-bottom: 50px;
+	}
+	.isotope-element {
+		width: 33.333%;
+	}
+	.sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+		width: 285px;
+	}
+	.aloha-timeline {
+		.views-row-odd .views-row-inner {
+			margin-right: 65px;
+		}
+		.views-row-even .views-row-inner {
+			margin-left: 65px;
+		}
+	}
+	/**/
+	#newsletter-manage-subscriptions-form, #contact-personal-form, #user-login, #user-register-form, #user-pass {
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	/***/
+	#content {
+		margin-bottom: 50px;
+	}
+	.not-front #panel-first {
+		padding-top: 0;
+	}
+	.rooms-search-result__unit-type .rooms-search-result__unit-embedded {
+		float: none;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.contact-form .form-text {
+		width: 100%;
+	}
+	#search-form #edit-basic {
+		label, .form-text, .form-submit {
+			display: block;
+		}
+		.form-text {
+			margin-bottom: 15px;
+			width: 100%;
+		}
+	}
+	form.comment-form {
+		.form-text {
+			width: 100%;
+		}
+		.form-submit {
+			min-width: 0;
+		}
+	}
+	
+	ul.primary li + li {
+		padding-left: 10px;
+	}
+	.list-article .group-info {
+		padding: 20px;
+	}
+	.alo-special-offers, .alo-special-offers-2 {
+		.views-field-field-image {
+			padding: 15px 0 15px 15px;
+			width: 40%;
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+}
+@media (max-width: 568px) {
+	.item-info .views-field-view-node a, .node-readmore a, .list-article .views-field-view-node a, .views-field-field-book-link a, .form-submit {
+		min-width: 120px;
+	}
+	.main-slideshow {
+		.views-field-title {
+			@include size_16;
+		}
+		.views-field-body p {
+			@include size_14;
+		}
+		.alo-item-caption {
+			bottom: 51px;
+		}
+		.views-field-type-image {
+			height: 300px;
+		}
+	}
+	.title, #page-title {
+		&:after {
+			width: 400px;
+		}
+	}
+	#rooms-booking-manager-change-search-form legend, #booking h2, #panel-second h2, .bg-grey h2, .slideshow h2 {
+		@extend .title;
+	}
+	.alo-main-jcarousel .jcarousel-item, .alo-testimonial .jcarousel-item {
+		width: 538px;
+	}
+	.sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+		width: 498px;
+	}
+	.alo-act-jcarousel {
+		.views-field-title {
+			margin-right: 110px;
+		}
+		.views-field-type-image > .field-content {
+			margin-left: 0;
+		}
+		.views-field-type-image {
+			margin-bottom: 0;
+			margin-top: 0;
+			text-align: left;
+		}
+		.activity-info-body, .views-field-type-image {
+			float: none;
+			width: 100%;
+		}
+	}
+	.rooms-management-form {
+		.rooms-date-range, .form-item-unit-type {
+			margin-right: 0;
+		}
+		.form-actions {
+			padding-top: 10px;
+		}
+	}
+	.list-article {
+		ul.inline li {
+			display: block;
+			float: none;
+			padding: 0;
+		}
+	}
+	.node-teaser > ul.links.inline li + li {
+		margin-left: 0;
+	}
+}
+@media (max-width: 480px) {
+
+  .views-table{
+	th, td{
+	  padding: 10px;
+	}
+  }
+
+
+	.title, #page-title {
+		font-size: 1.714em;
+		@include font_bold_italic;
+		&:after {
+			width: 300px;
+		}
+	}
+	#rooms-booking-manager-change-search-form legend, #booking h2, #panel-second h2, .bg-grey h2, .slideshow h2 {
+		@extend .title;
+	}
+	.views-view-grid .views-col {
+		float: none;
+	}
+	.views-view-grid.cols-2 .views-col, .views-view-grid.cols-4 .views-col, .views-view-grid.cols-5 .views-col {
+		width: 100%;
+	}
+	.views-field-title, .views-field-title-1, .views-field-commerce-price {
+		@include size_14;
+	}
+	.offer-info .form-submit {
+		@include size_12;
+		padding: 5px 15px;
+	}
+	.rooms-management-form {
+		.form-wrapper {
+			float: none;
+		}
+		.rooms-date-range {
+			> div {
+				display: block;
+				margin-right: 0;
+				width: 100%;
+			}
+			.start-date {
+				margin-bottom: 17px;
+			}
+			.container-inline-date .form-item input {
+				width: 100%;
+			}
+		}
+		.form-item,
+		.form-item-group-size-children,
+		.form-item-group-size-adults, 
+		.form-item-unit-type,
+		.form-item-rooms, 
+		.form-wrapper {
+			clear: both;
+			float: none;
+			width: 100%;
+		}
+		.form-submit {
+			width: 100%;
+		}
+	}
+	.alo-special-offers {
+		.views-field-field-image {
+			padding: 15px 0 15px 15px;
+			width: 40%;
+		}
+		.offer-info {
+			width: 60%;
+		}
+	}
+	.cols-2 .views-row > .views-col + .views-col {
+		margin-top: 30px;
+	}
+	.alo-main-jcarousel .view-row-list-inner {
+		.views-field-field-images {
+			float: none;
+			margin-bottom: 25px;
+			margin-right: 0;
+			width: 100%;
+		}
+		.item-group-title {
+			overflow: visible;
+		}
+		.item-info-wrap .views-field-field-from-price {
+			margin-top: -25px;
+		}
+	}
+	/* about */
+	.aloha-timeline {
+		.views-row-odd, .views-row-even {
+			float: none;
+			margin-bottom: 30px;
+		}
+		.views-row {
+			width: 100%;
+		}
+		.views-row-odd .views-row-inner {
+			margin-right: 0;
+		}
+		.views-row-even .views-row-inner {
+			margin-left: 0;
+		}
+		.views-field-field-year {
+			position: static;
+		}
+		.item-list ul:after, .views-field-field-year:before, .views-field-field-year:after, .views-field-field-year > div:after {
+			display: none;
+		}
+		.views-field-field-year > div {
+			padding: 0;
+		}
+	}
+	.alo-main-jcarousel .jcarousel-item, .alo-testimonial .jcarousel-item {
+		width: 450px;
+	}
+	.sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+		width: 410px;
+	}
+	#rooms-booking-manager-change-search-form .fieldset-wrapper .form-item {
+		display: block;
+		width: 100%;
+	}
+	.checkout_review {
+		overflow-x: auto;
+		padding-bottom: 50px;
+	}
+	.checkout-continue { padding: 10px 15px; }
+	.carousel-control {
+		display: none;
+	}
+	.comment {
+		padding-left: 95px;
+	}
+	.node > .content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#comments {
+		padding: 20px;
+	}
+	.indented {
+		margin-left: 0;
+	}
+	.change-skin-menu-wrapper {
+		display: none;
+	}
+	.commerce-paypal-icons {
+		.label {
+			display: block;
+			margin-bottom: 5px;
+			text-align: left;
+		}
+	}
+	.jcarousel-skin-default {
+		.jcarousel-navigation {
+			top: -45px;
+		}
+		.jcarousel-next, .jcarousel-prev {
+			height: 30px;
+			top: -49px;
+			width: 30px;
+			&:after {
+				line-height: 28px;
+			}
+		}
+		.jcarousel-prev {
+			right: 40px;
+		}
+	}
+}
+@media (max-width: 479px) {
+	.page-404 h1 {
+		font-size: 10.714em;
+	}
+	.comment{
+		padding-left: 0;
+		.user-picture{
+			position: static;
+			top: auto;
+			left: auto;
+			margin-right: 20px;
+			float: left;
+			margin-bottom: 10px;
+		}
+	}
+
+}
+@media (max-width: 360px) {
+
+	.title, #page-title {
+		font-size: 1.285em;
+	}
+
+  .views-table{
+	th, td{
+	  padding: 5px;
+	}
+  }
+
+	#rooms-booking-manager-change-search-form legend, #booking h2, #panel-second h2, .bg-grey h2, .slideshow h2 {
+		@extend .title;
+	}
+	
+	
+	.carousel-indicators {
+		bottom: 0;
+	}
+	.sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+		width: 290px;
+	}
+	#commerce-checkout-form-checkout {
+		label {
+			display: block;
+		}
+		.form-text {
+			width: 100%;
+		}
+	}
+	.customer_profile_billing {
+		.chosen-container {
+			width: 100% !important;
+		}
+	}
+	.checkout-continue {
+		margin-bottom: 15px;
+	}
+	.customer_profile_billing > .fieldset-wrapper, .checkout-buttons > .fieldset-wrapper {
+		padding: 20px;
+	}
+	.headline .block-menu {
+		float: none;
+		clear: both;
+	}
+	#panel-second h2:after, #panel-fifth h2:after {
+		display: none;
+	}
+	.alo-main-jcarousel .jcarousel-item, .alo-testimonial .jcarousel-item {
+		width: 330px;
+	}
+	.slideshow-thumb {
+		display: none;
+	}
+	.carousel-control {
+		&:hover, &:focus {
+			width: 40px;
+		}
+	}
+	.alo-special-offers, .alo-special-offers-2 {
+		.views-field-field-image {
+			float: none;
+			padding: 0;
+			width: 100%;
+		}
+		.offer-info {
+			float: none;
+			width: 100%;
+		}
+		.views-row-even .offer-info:after {
+			display: block;
+		}
+		.views-row-even, .views-row-odd {
+			.offer-info {
+				left: auto;
+				top: auto;
+				position: relative;
+				@include arrow;
+				&:after {
+					border-bottom: 12px solid;
+					border-bottom-color: white;
+					border-top: none;
+					top: -12px;
+				}
+			}
+		}
+	}
+	.alo-special-offers-2 {
+		.views-field-field-image {
+			float: none;
+			padding: 0;
+			width: 100%;
+		}
+		.offer-info {
+			float: none;
+			width: 100%;
+		}
+		.col-even .offer-info:after, .col-odd .offer-info:after {
+			display: block;
+		}
+		.col-even, .col-odd {
+			.offer-info {
+				left: auto;
+				top: auto;
+				position: relative;
+				@include arrow;
+				&:after {
+					border-bottom: 12px solid;
+					border-bottom-color: white;
+					border-top: none;
+					top: -12px;
+				}
+			}
+		}
+	}
+	/* contact */
+	.node-type-webform .node-webform {
+		.webform-client-form {
+			float: none;
+			width: 100%;
+			> div {
+				margin-right: 0;
+			}
+		}
+		.field-type-text-with-summary {
+			float: none;
+			margin-top: 0;
+			width: 100%;
+		}
+	}
+	.view-type, .menu-type {
+		float: none;
+	}
+	.ctools-auto-submit-full-form {
+		.form-item {
+			text-align: center;
+		}
+		.form-item .form-item a {
+			padding: 5px;
+		}
+	}
+	.alo-act-jcarousel {
+		.views-field-title {
+			margin-right: 80px;
+		}
+	}
+	.commerce-line-item-views-form {
+		overflow-x: auto;
+	}
+}
+@media (max-width: 320px) {
+	.alo-main-jcarousel .jcarousel-item, .alo-testimonial .jcarousel-item {
+		width: 290px;
+	}
+	.sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+		width: 250px;
+	}
+	.headline .block-menu ul.menu li {
+		padding-left: 5px;
+		padding-right: 5px;
+		&.expanded li {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+	.isotope-element {
+		width: 33%;
+	}
+	.node .owl-theme .owl-controls .owl-buttons {
+		margin-top: -20px;
+		div {
+			height: 40px;
+			&:after {
+				line-height: 40px;
+			}
+		}
+	}
+	.commerce-paypal-icons {
+		img {
+			margin-bottom: 5px;
+		}
+	}
+}

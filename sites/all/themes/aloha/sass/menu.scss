@@ -1,0 +1,234 @@
+@import "includes/_include";
+
+/* menu.scss */
+.collapse {
+	display: block;
+}
+.navbar-main {
+	background-color: transparent;
+    border: none;
+	background-image: none;
+    border-radius: 0;
+    box-shadow: none;
+	margin-bottom: 0;
+
+	.tb-megamenu {
+		.nav-collapse.collapse {
+			display: block;
+		}
+	}
+
+	ul.menu {
+		float: right;
+		margin-right: -15px;
+		text-transform: uppercase;
+		li {
+			display: inline-block;
+			float: left;
+			padding: 0;
+			a {
+				display: block;
+				padding: 43px 15px 45px;
+				position: relative;
+				color: $main-color;
+				&:hover, &:focus {
+					background-color: $main-color;
+					color: white;
+				}
+				&.active, &.active-trail {
+					background-color: $main-color;
+					color: white;
+					@include arrow-t;
+					&:after {
+						bottom: 0;
+						border-width: 6px;
+						top: auto;
+					}
+				}
+			}
+			&:hover, &:focus{
+				> a {
+					background-color: $main-color;
+					color: white;
+				}
+			}
+			&.expanded {
+				position: relative;
+				&:hover {
+					@include arrow-t;
+					&:after {
+						bottom: 0;
+						border-width: 6px;
+						top: auto;
+					}
+				}
+				ul.menu {
+					background-color: white;
+					display: none;
+					left: 0;
+					@include absolute;
+					top: 100%;
+					min-width: 220px;
+					text-align: center;
+					z-index: 10;
+					li {
+						display: block;
+						float: none;
+						a {
+							padding: 15px;
+						}
+					}
+				}
+				&:hover ul.menu {
+					display: block;
+				}
+			}
+
+		}
+	}
+}
+
+/* .tb-megamenu */
+.tb-megamenu-main-menu {
+	background-color: transparent;
+	margin-right: -15px;
+	text-transform: uppercase;
+	.nav {
+		float: right;
+		> li > a {
+			border-right: none;
+			color: $main-color;
+			font-weight: 100;
+			padding: 43px 15px 45px;
+			&:hover, &:focus {
+				background-color: $main-color;
+				color: white;
+			}
+		}
+		> .dropdown > .dropdown-toggle .caret {
+			display: none;
+		}
+		.open > a, .open > a:hover, .open > a:focus {
+			background-color: $main-color;
+			border-color: transparent;
+			color: white;
+			@include arrow-b;
+			&:after {
+				border-width: 5px;
+				bottom: auto;
+				top: 0;
+			}
+		}
+		> .active > a, > .active > a:hover, > .active > a:focus {
+			background-color: $main-color;
+			@include arrow-b;
+			&:after {
+				border-width: 5px;
+				bottom: auto;
+				top: 0;
+			}
+		}
+		li.dropdown.open > .dropdown-toggle {
+			background-color: $main-color;
+			color: white;
+			@include arrow-b;
+			&:after {
+				border-width: 5px;
+				bottom: auto;
+				top: 0;
+			}
+		}
+		li.dropdown.active > .dropdown-toggle,
+		li.dropdown.open.active > .dropdown-toggle,
+		> li.dropdown.open.active > a:hover	{
+			background-color: $main-color;
+			@include arrow-b;
+			&:after {
+				border-width: 5px;
+				bottom: auto;
+				top: 0;
+			}
+		}
+	}
+	.mega-inner, .span12.mega-col-nav .mega-inner {
+		padding: 30px;
+	}
+	.dropdown-menu {
+		background-color: $main-color;
+		border: none;
+		border-bottom: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		li > a {
+			border-top: none;
+			color: #929292;
+			padding: 8px 0;
+			&:hover, &:focus {
+				color: white;
+				&:after {
+					display: none;
+				}
+			}
+		}
+		.open > a, .open > a:hover, .open > a:focus {
+			&:after {
+				display: none;
+			}
+		}
+		.views-field-type-image a, .views-field-title a {
+			padding: 0;
+			&:hover, &:focus {
+				color: white;
+			}
+		}
+		.grid-news .views-row {
+			margin-bottom: 0;
+			margin-left: 0;
+			text-align: left;
+			text-transform: none;
+		}
+		.views-field-title {
+			font-size: 1em;
+			margin-bottom: 15px;
+		}
+		.views-field-body p {
+			margin-bottom: 0;
+		}
+		.active > a, .active > a:hover{
+			background: none;
+		}
+	}
+	.mega-nav > li a, .dropdown-menu .mega-nav > li a {
+		padding: 8px 0;
+	}
+	.tb-megamenu-row .tb-megamenu-column + .tb-megamenu-column {
+		border-left: 1px solid rgba($minor-color, .23);
+		color: $minor-color;
+	}
+	.mega-dropdown-inner h2 {
+		color: $minor-color;
+		@include size_14;
+		@include font_bold;
+	}
+}
+
+/********************
+* Mobile menu *
+********************/
+
+.btn-close {
+  @include transition;
+  display: none;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  padding: 3px 7px;
+  right: 8px;
+  top: -25px;
+  font-size: 12px;
+  color: #aaa;
+  &:hover, &:focus {
+    color: #fff;
+  }
+}

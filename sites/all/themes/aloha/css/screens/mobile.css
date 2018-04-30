@@ -1,0 +1,865 @@
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+/* line 2, ../../sass/screens/mobile.scss */
+.tb-megamenu-main-menu .mega-nav > li a, .tb-megamenu-main-menu .dropdown-menu .mega-nav > li a {
+  margin-left: 0;
+}
+
+/* line 5, ../../sass/screens/mobile.scss */
+#errorbox {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  /* line 10, ../../sass/screens/mobile.scss */
+  .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 14, ../../sass/screens/mobile.scss */
+  #errorbox {
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 640px) {
+  /* line 20, ../../sass/screens/mobile.scss */
+  .alo-testimonial .jcarousel-item {
+    width: 610px;
+  }
+
+  /* line 23, ../../sass/screens/mobile.scss */
+  .alo-main-jcarousel .jcarousel-item {
+    width: 290px;
+  }
+
+  /**/
+  /* line 27, ../../sass/screens/mobile.scss */
+  .main {
+    padding-bottom: 0;
+    padding-top: 30px;
+  }
+
+  /* line 32, ../../sass/screens/mobile.scss */
+  .main-slideshow .alo-item-caption {
+    bottom: 40px;
+  }
+  /* line 35, ../../sass/screens/mobile.scss */
+  .main-slideshow .views-field-type-image {
+    height: 350px;
+  }
+
+  /* line 39, ../../sass/screens/mobile.scss */
+  .views-view-grid.cols-3 .views-col {
+    width: 100%;
+  }
+
+  /* line 42, ../../sass/screens/mobile.scss */
+  .views-view-grid.cols-4 .views-col {
+    margin-bottom: 30px;
+    width: 50%;
+  }
+
+  /* line 46, ../../sass/screens/mobile.scss */
+  .views-view-grid.cols-5 .views-col {
+    margin-bottom: 30px;
+    width: 50%;
+  }
+
+  /* line 50, ../../sass/screens/mobile.scss */
+  .cols-3 .views-row > .views-col + .views-col {
+    margin-top: 30px;
+  }
+
+  /* grid-news */
+  /* line 55, ../../sass/screens/mobile.scss */
+  .grid-news .views-row {
+    margin-left: -15px;
+  }
+  /* line 57, ../../sass/screens/mobile.scss */
+  .grid-news .views-row .col-inner {
+    margin-left: 15px;
+  }
+  /* line 62, ../../sass/screens/mobile.scss */
+  .grid-news .cols-3 .views-row {
+    margin-left: 0;
+  }
+  /* line 64, ../../sass/screens/mobile.scss */
+  .grid-news .cols-3 .views-row .col-inner {
+    margin-left: 0;
+  }
+
+  /***/
+  /* line 72, ../../sass/screens/mobile.scss */
+  .view-type,
+  .ctools-auto-submit-full-form .views-exposed-form .views-exposed-widget {
+    margin-bottom: 20px;
+  }
+
+  /* alo-special-offers */
+  /* line 76, ../../sass/screens/mobile.scss */
+  .offer-info {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* line 81, ../../sass/screens/mobile.scss */
+  .alo-special-offers .offer-info, .alo-special-offers .views-field-field-image {
+    float: left;
+    position: static;
+    width: 50%;
+  }
+  /* line 86, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-row {
+    background-color: white;
+    float: none;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  /* line 92, ../../sass/screens/mobile.scss */
+  .alo-special-offers .view-row-inner {
+    height: auto;
+  }
+  /* line 95, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-row-even .offer-info:after, .alo-special-offers .views-row-odd .offer-info:after {
+    display: none;
+  }
+  /* line 98, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-row-first {
+    width: 100%;
+  }
+  /* line 100, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-row-first .offer-info, .alo-special-offers .views-row-first .offer-info .views-field {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  /* line 108, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .views-row {
+    margin-bottom: 30px;
+  }
+  /* line 111, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .grid-inner {
+    background-color: white;
+    height: auto;
+    overflow: hidden;
+  }
+  /* line 116, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .offer-info, .alo-special-offers-2 .views-field-field-image {
+    float: left;
+    position: static;
+    width: 50%;
+  }
+  /* line 122, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .views-field-field-image img {
+    max-width: 100%;
+  }
+  /* line 126, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .offer-info {
+    min-height: 0;
+  }
+  /* line 129, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .views-field-title-1 {
+    margin-bottom: 10px;
+  }
+  /* line 132, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .col-odd .offer-info:after, .alo-special-offers-2 .col-even .offer-info:after {
+    display: none;
+  }
+
+  /* line 136, ../../sass/screens/mobile.scss */
+  .item-list .pager {
+    padding-bottom: 60px;
+  }
+
+  /* aloha-services */
+  /* line 141, ../../sass/screens/mobile.scss */
+  .aloha-services li {
+    display: block;
+    float: none;
+    height: auto;
+    width: 100%;
+  }
+  /* line 146, ../../sass/screens/mobile.scss */
+  .aloha-services li + li {
+    margin-top: 30px;
+  }
+  /* line 150, ../../sass/screens/mobile.scss */
+  .aloha-services .service-item {
+    display: block;
+  }
+
+  /* line 154, ../../sass/screens/mobile.scss */
+  .item-info {
+    padding: 0 20px 20px;
+  }
+
+  /* line 157, ../../sass/screens/mobile.scss */
+  .view-header {
+    margin-bottom: 20px;
+  }
+
+  /* line 160, ../../sass/screens/mobile.scss */
+  .option-set {
+    margin-bottom: 0;
+  }
+  /* line 162, ../../sass/screens/mobile.scss */
+  .option-set li {
+    margin-bottom: 10px;
+  }
+
+  /* line 166, ../../sass/screens/mobile.scss */
+  .isotope {
+    margin-bottom: 50px;
+  }
+
+  /* line 169, ../../sass/screens/mobile.scss */
+  .isotope-element {
+    width: 33.333%;
+  }
+
+  /* line 172, ../../sass/screens/mobile.scss */
+  .sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+    width: 285px;
+  }
+
+  /* line 176, ../../sass/screens/mobile.scss */
+  .aloha-timeline .views-row-odd .views-row-inner {
+    margin-right: 65px;
+  }
+  /* line 179, ../../sass/screens/mobile.scss */
+  .aloha-timeline .views-row-even .views-row-inner {
+    margin-left: 65px;
+  }
+
+  /**/
+  /* line 184, ../../sass/screens/mobile.scss */
+  #newsletter-manage-subscriptions-form, #contact-personal-form, #user-login, #user-register-form, #user-pass {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  /***/
+  /* line 189, ../../sass/screens/mobile.scss */
+  #content {
+    margin-bottom: 50px;
+  }
+
+  /* line 192, ../../sass/screens/mobile.scss */
+  .not-front #panel-first {
+    padding-top: 0;
+  }
+
+  /* line 195, ../../sass/screens/mobile.scss */
+  .rooms-search-result__unit-type .rooms-search-result__unit-embedded {
+    float: none;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  /* line 200, ../../sass/screens/mobile.scss */
+  .contact-form .form-text {
+    width: 100%;
+  }
+
+  /* line 204, ../../sass/screens/mobile.scss */
+  #search-form #edit-basic label, #search-form #edit-basic .form-text, #search-form #edit-basic .form-submit {
+    display: block;
+  }
+  /* line 207, ../../sass/screens/mobile.scss */
+  #search-form #edit-basic .form-text {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  /* line 213, ../../sass/screens/mobile.scss */
+  form.comment-form .form-text {
+    width: 100%;
+  }
+  /* line 216, ../../sass/screens/mobile.scss */
+  form.comment-form .form-submit {
+    min-width: 0;
+  }
+
+  /* line 221, ../../sass/screens/mobile.scss */
+  ul.primary li + li {
+    padding-left: 10px;
+  }
+
+  /* line 224, ../../sass/screens/mobile.scss */
+  .list-article .group-info {
+    padding: 20px;
+  }
+
+  /* line 228, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-field-field-image, .alo-special-offers-2 .views-field-field-image {
+    padding: 15px 0 15px 15px;
+    width: 40%;
+  }
+  /* line 231, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-field-field-image img, .alo-special-offers-2 .views-field-field-image img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 568px) {
+  /* line 238, ../../sass/screens/mobile.scss */
+  .item-info .views-field-view-node a, .node-readmore a, .list-article .views-field-view-node a, .views-field-field-book-link a, .form-submit {
+    min-width: 120px;
+  }
+
+  /* line 242, ../../sass/screens/mobile.scss */
+  .main-slideshow .views-field-title {
+    font-size: 1.142em;
+  }
+  /* line 245, ../../sass/screens/mobile.scss */
+  .main-slideshow .views-field-body p {
+    font-size: 1em;
+  }
+  /* line 248, ../../sass/screens/mobile.scss */
+  .main-slideshow .alo-item-caption {
+    bottom: 51px;
+  }
+  /* line 251, ../../sass/screens/mobile.scss */
+  .main-slideshow .views-field-type-image {
+    height: 300px;
+  }
+
+  /* line 256, ../../sass/screens/mobile.scss */
+  .title:after, #rooms-booking-manager-change-search-form legend:after, #booking h2:after, #panel-second h2:after, .bg-grey h2:after, .slideshow h2:after, #page-title:after {
+    width: 400px;
+  }
+
+  /* line 263, ../../sass/screens/mobile.scss */
+  .alo-main-jcarousel .jcarousel-item, .alo-testimonial .jcarousel-item {
+    width: 538px;
+  }
+
+  /* line 266, ../../sass/screens/mobile.scss */
+  .sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+    width: 498px;
+  }
+
+  /* line 270, ../../sass/screens/mobile.scss */
+  .alo-act-jcarousel .views-field-title {
+    margin-right: 110px;
+  }
+  /* line 273, ../../sass/screens/mobile.scss */
+  .alo-act-jcarousel .views-field-type-image > .field-content {
+    margin-left: 0;
+  }
+  /* line 276, ../../sass/screens/mobile.scss */
+  .alo-act-jcarousel .views-field-type-image {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+  /* line 281, ../../sass/screens/mobile.scss */
+  .alo-act-jcarousel .activity-info-body, .alo-act-jcarousel .views-field-type-image {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 287, ../../sass/screens/mobile.scss */
+  .rooms-management-form .rooms-date-range, .rooms-management-form .form-item-unit-type {
+    margin-right: 0;
+  }
+  /* line 290, ../../sass/screens/mobile.scss */
+  .rooms-management-form .form-actions {
+    padding-top: 10px;
+  }
+
+  /* line 295, ../../sass/screens/mobile.scss */
+  .list-article ul.inline li {
+    display: block;
+    float: none;
+    padding: 0;
+  }
+
+  /* line 301, ../../sass/screens/mobile.scss */
+  .node-teaser > ul.links.inline li + li {
+    margin-left: 0;
+  }
+}
+@media (max-width: 480px) {
+  /* line 308, ../../sass/screens/mobile.scss */
+  .views-table th, .views-table td {
+    padding: 10px;
+  }
+
+  /* line 314, ../../sass/screens/mobile.scss */
+  .title, #rooms-booking-manager-change-search-form legend, #booking h2, #panel-second h2, .bg-grey h2, .slideshow h2, #page-title {
+    font-size: 1.714em;
+    font-family: 'open_sansbold_italic';
+  }
+  /* line 317, ../../sass/screens/mobile.scss */
+  .title:after, #rooms-booking-manager-change-search-form legend:after, #booking h2:after, #panel-second h2:after, .bg-grey h2:after, .slideshow h2:after, #page-title:after {
+    width: 300px;
+  }
+
+  /* line 324, ../../sass/screens/mobile.scss */
+  .views-view-grid .views-col {
+    float: none;
+  }
+
+  /* line 327, ../../sass/screens/mobile.scss */
+  .views-view-grid.cols-2 .views-col, .views-view-grid.cols-4 .views-col, .views-view-grid.cols-5 .views-col {
+    width: 100%;
+  }
+
+  /* line 330, ../../sass/screens/mobile.scss */
+  .views-field-title, .views-field-title-1, .views-field-commerce-price {
+    font-size: 1em;
+  }
+
+  /* line 333, ../../sass/screens/mobile.scss */
+  .offer-info .form-submit {
+    font-size: .857em;
+    padding: 5px 15px;
+  }
+
+  /* line 338, ../../sass/screens/mobile.scss */
+  .rooms-management-form .form-wrapper {
+    float: none;
+  }
+  /* line 342, ../../sass/screens/mobile.scss */
+  .rooms-management-form .rooms-date-range > div {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+  }
+  /* line 347, ../../sass/screens/mobile.scss */
+  .rooms-management-form .rooms-date-range .start-date {
+    margin-bottom: 17px;
+  }
+  /* line 350, ../../sass/screens/mobile.scss */
+  .rooms-management-form .rooms-date-range .container-inline-date .form-item input {
+    width: 100%;
+  }
+  /* line 359, ../../sass/screens/mobile.scss */
+  .rooms-management-form .form-item,
+  .rooms-management-form .form-item-group-size-children,
+  .rooms-management-form .form-item-group-size-adults,
+  .rooms-management-form .form-item-unit-type,
+  .rooms-management-form .form-item-rooms,
+  .rooms-management-form .form-wrapper {
+    clear: both;
+    float: none;
+    width: 100%;
+  }
+  /* line 364, ../../sass/screens/mobile.scss */
+  .rooms-management-form .form-submit {
+    width: 100%;
+  }
+
+  /* line 369, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-field-field-image {
+    padding: 15px 0 15px 15px;
+    width: 40%;
+  }
+  /* line 373, ../../sass/screens/mobile.scss */
+  .alo-special-offers .offer-info {
+    width: 60%;
+  }
+
+  /* line 377, ../../sass/screens/mobile.scss */
+  .cols-2 .views-row > .views-col + .views-col {
+    margin-top: 30px;
+  }
+
+  /* line 381, ../../sass/screens/mobile.scss */
+  .alo-main-jcarousel .view-row-list-inner .views-field-field-images {
+    float: none;
+    margin-bottom: 25px;
+    margin-right: 0;
+    width: 100%;
+  }
+  /* line 387, ../../sass/screens/mobile.scss */
+  .alo-main-jcarousel .view-row-list-inner .item-group-title {
+    overflow: visible;
+  }
+  /* line 390, ../../sass/screens/mobile.scss */
+  .alo-main-jcarousel .view-row-list-inner .item-info-wrap .views-field-field-from-price {
+    margin-top: -25px;
+  }
+
+  /* about */
+  /* line 396, ../../sass/screens/mobile.scss */
+  .aloha-timeline .views-row-odd, .aloha-timeline .views-row-even {
+    float: none;
+    margin-bottom: 30px;
+  }
+  /* line 400, ../../sass/screens/mobile.scss */
+  .aloha-timeline .views-row {
+    width: 100%;
+  }
+  /* line 403, ../../sass/screens/mobile.scss */
+  .aloha-timeline .views-row-odd .views-row-inner {
+    margin-right: 0;
+  }
+  /* line 406, ../../sass/screens/mobile.scss */
+  .aloha-timeline .views-row-even .views-row-inner {
+    margin-left: 0;
+  }
+  /* line 409, ../../sass/screens/mobile.scss */
+  .aloha-timeline .views-field-field-year {
+    position: static;
+  }
+  /* line 412, ../../sass/screens/mobile.scss */
+  .aloha-timeline .item-list ul:after, .aloha-timeline .views-field-field-year:before, .aloha-timeline .views-field-field-year:after, .aloha-timeline .views-field-field-year > div:after {
+    display: none;
+  }
+  /* line 415, ../../sass/screens/mobile.scss */
+  .aloha-timeline .views-field-field-year > div {
+    padding: 0;
+  }
+
+  /* line 419, ../../sass/screens/mobile.scss */
+  .alo-main-jcarousel .jcarousel-item, .alo-testimonial .jcarousel-item {
+    width: 450px;
+  }
+
+  /* line 422, ../../sass/screens/mobile.scss */
+  .sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+    width: 410px;
+  }
+
+  /* line 425, ../../sass/screens/mobile.scss */
+  #rooms-booking-manager-change-search-form .fieldset-wrapper .form-item {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 429, ../../sass/screens/mobile.scss */
+  .checkout_review {
+    overflow-x: auto;
+    padding-bottom: 50px;
+  }
+
+  /* line 433, ../../sass/screens/mobile.scss */
+  .checkout-continue {
+    padding: 10px 15px;
+  }
+
+  /* line 434, ../../sass/screens/mobile.scss */
+  .carousel-control {
+    display: none;
+  }
+
+  /* line 437, ../../sass/screens/mobile.scss */
+  .comment {
+    padding-left: 95px;
+  }
+
+  /* line 440, ../../sass/screens/mobile.scss */
+  .node > .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 444, ../../sass/screens/mobile.scss */
+  #comments {
+    padding: 20px;
+  }
+
+  /* line 447, ../../sass/screens/mobile.scss */
+  .indented {
+    margin-left: 0;
+  }
+
+  /* line 450, ../../sass/screens/mobile.scss */
+  .change-skin-menu-wrapper {
+    display: none;
+  }
+
+  /* line 454, ../../sass/screens/mobile.scss */
+  .commerce-paypal-icons .label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  /* line 461, ../../sass/screens/mobile.scss */
+  .jcarousel-skin-default .jcarousel-navigation {
+    top: -45px;
+  }
+  /* line 464, ../../sass/screens/mobile.scss */
+  .jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+    height: 30px;
+    top: -49px;
+    width: 30px;
+  }
+  /* line 468, ../../sass/screens/mobile.scss */
+  .jcarousel-skin-default .jcarousel-next:after, .jcarousel-skin-default .jcarousel-prev:after {
+    line-height: 28px;
+  }
+  /* line 472, ../../sass/screens/mobile.scss */
+  .jcarousel-skin-default .jcarousel-prev {
+    right: 40px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 478, ../../sass/screens/mobile.scss */
+  .page-404 h1 {
+    font-size: 10.714em;
+  }
+
+  /* line 481, ../../sass/screens/mobile.scss */
+  .comment {
+    padding-left: 0;
+  }
+  /* line 483, ../../sass/screens/mobile.scss */
+  .comment .user-picture {
+    position: static;
+    top: auto;
+    left: auto;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 360px) {
+  /* line 496, ../../sass/screens/mobile.scss */
+  .title, #rooms-booking-manager-change-search-form legend, #booking h2, #panel-second h2, .bg-grey h2, .slideshow h2, #page-title {
+    font-size: 1.285em;
+  }
+
+  /* line 501, ../../sass/screens/mobile.scss */
+  .views-table th, .views-table td {
+    padding: 5px;
+  }
+
+  /* line 511, ../../sass/screens/mobile.scss */
+  .carousel-indicators {
+    bottom: 0;
+  }
+
+  /* line 514, ../../sass/screens/mobile.scss */
+  .sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+    width: 290px;
+  }
+
+  /* line 518, ../../sass/screens/mobile.scss */
+  #commerce-checkout-form-checkout label {
+    display: block;
+  }
+  /* line 521, ../../sass/screens/mobile.scss */
+  #commerce-checkout-form-checkout .form-text {
+    width: 100%;
+  }
+
+  /* line 526, ../../sass/screens/mobile.scss */
+  .customer_profile_billing .chosen-container {
+    width: 100% !important;
+  }
+
+  /* line 530, ../../sass/screens/mobile.scss */
+  .checkout-continue {
+    margin-bottom: 15px;
+  }
+
+  /* line 533, ../../sass/screens/mobile.scss */
+  .customer_profile_billing > .fieldset-wrapper, .checkout-buttons > .fieldset-wrapper {
+    padding: 20px;
+  }
+
+  /* line 536, ../../sass/screens/mobile.scss */
+  .headline .block-menu {
+    float: none;
+    clear: both;
+  }
+
+  /* line 540, ../../sass/screens/mobile.scss */
+  #panel-second h2:after, #panel-fifth h2:after {
+    display: none;
+  }
+
+  /* line 543, ../../sass/screens/mobile.scss */
+  .alo-main-jcarousel .jcarousel-item, .alo-testimonial .jcarousel-item {
+    width: 330px;
+  }
+
+  /* line 546, ../../sass/screens/mobile.scss */
+  .slideshow-thumb {
+    display: none;
+  }
+
+  /* line 550, ../../sass/screens/mobile.scss */
+  .carousel-control:hover, .carousel-control:focus {
+    width: 40px;
+  }
+
+  /* line 555, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-field-field-image, .alo-special-offers-2 .views-field-field-image {
+    float: none;
+    padding: 0;
+    width: 100%;
+  }
+  /* line 560, ../../sass/screens/mobile.scss */
+  .alo-special-offers .offer-info, .alo-special-offers-2 .offer-info {
+    float: none;
+    width: 100%;
+  }
+  /* line 564, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-row-even .offer-info:after, .alo-special-offers-2 .views-row-even .offer-info:after {
+    display: block;
+  }
+  /* line 568, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-row-even .offer-info, .alo-special-offers .views-row-odd .offer-info, .alo-special-offers-2 .views-row-even .offer-info, .alo-special-offers-2 .views-row-odd .offer-info {
+    left: auto;
+    top: auto;
+    position: relative;
+  }
+  /* line 182, ../../sass/includes/_include.scss */
+  .alo-special-offers .views-row-even .offer-info:after, .alo-special-offers .views-row-odd .offer-info:after, .alo-special-offers-2 .views-row-even .offer-info:after, .alo-special-offers-2 .views-row-odd .offer-info:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: -4px;
+    position: absolute;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    left: 50%;
+  }
+  /* line 573, ../../sass/screens/mobile.scss */
+  .alo-special-offers .views-row-even .offer-info:after, .alo-special-offers .views-row-odd .offer-info:after, .alo-special-offers-2 .views-row-even .offer-info:after, .alo-special-offers-2 .views-row-odd .offer-info:after {
+    border-bottom: 12px solid;
+    border-bottom-color: white;
+    border-top: none;
+    top: -12px;
+  }
+
+  /* line 583, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .views-field-field-image {
+    float: none;
+    padding: 0;
+    width: 100%;
+  }
+  /* line 588, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .offer-info {
+    float: none;
+    width: 100%;
+  }
+  /* line 592, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .col-even .offer-info:after, .alo-special-offers-2 .col-odd .offer-info:after {
+    display: block;
+  }
+  /* line 596, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .col-even .offer-info, .alo-special-offers-2 .col-odd .offer-info {
+    left: auto;
+    top: auto;
+    position: relative;
+  }
+  /* line 182, ../../sass/includes/_include.scss */
+  .alo-special-offers-2 .col-even .offer-info:after, .alo-special-offers-2 .col-odd .offer-info:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: -4px;
+    position: absolute;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    left: 50%;
+  }
+  /* line 601, ../../sass/screens/mobile.scss */
+  .alo-special-offers-2 .col-even .offer-info:after, .alo-special-offers-2 .col-odd .offer-info:after {
+    border-bottom: 12px solid;
+    border-bottom-color: white;
+    border-top: none;
+    top: -12px;
+  }
+
+  /* contact */
+  /* line 612, ../../sass/screens/mobile.scss */
+  .node-type-webform .node-webform .webform-client-form {
+    float: none;
+    width: 100%;
+  }
+  /* line 615, ../../sass/screens/mobile.scss */
+  .node-type-webform .node-webform .webform-client-form > div {
+    margin-right: 0;
+  }
+  /* line 619, ../../sass/screens/mobile.scss */
+  .node-type-webform .node-webform .field-type-text-with-summary {
+    float: none;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  /* line 625, ../../sass/screens/mobile.scss */
+  .view-type, .menu-type {
+    float: none;
+  }
+
+  /* line 629, ../../sass/screens/mobile.scss */
+  .ctools-auto-submit-full-form .form-item {
+    text-align: center;
+  }
+  /* line 632, ../../sass/screens/mobile.scss */
+  .ctools-auto-submit-full-form .form-item .form-item a {
+    padding: 5px;
+  }
+
+  /* line 637, ../../sass/screens/mobile.scss */
+  .alo-act-jcarousel .views-field-title {
+    margin-right: 80px;
+  }
+
+  /* line 641, ../../sass/screens/mobile.scss */
+  .commerce-line-item-views-form {
+    overflow-x: auto;
+  }
+}
+@media (max-width: 320px) {
+  /* line 646, ../../sass/screens/mobile.scss */
+  .alo-main-jcarousel .jcarousel-item, .alo-testimonial .jcarousel-item {
+    width: 290px;
+  }
+
+  /* line 649, ../../sass/screens/mobile.scss */
+  .sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+    width: 250px;
+  }
+
+  /* line 652, ../../sass/screens/mobile.scss */
+  .headline .block-menu ul.menu li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  /* line 655, ../../sass/screens/mobile.scss */
+  .headline .block-menu ul.menu li.expanded li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* line 660, ../../sass/screens/mobile.scss */
+  .isotope-element {
+    width: 33%;
+  }
+
+  /* line 663, ../../sass/screens/mobile.scss */
+  .node .owl-theme .owl-controls .owl-buttons {
+    margin-top: -20px;
+  }
+  /* line 665, ../../sass/screens/mobile.scss */
+  .node .owl-theme .owl-controls .owl-buttons div {
+    height: 40px;
+  }
+  /* line 667, ../../sass/screens/mobile.scss */
+  .node .owl-theme .owl-controls .owl-buttons div:after {
+    line-height: 40px;
+  }
+
+  /* line 673, ../../sass/screens/mobile.scss */
+  .commerce-paypal-icons img {
+    margin-bottom: 5px;
+  }
+}

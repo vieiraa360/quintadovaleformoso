@@ -1,0 +1,499 @@
+@import "includes/_include";
+
+.block-menu {
+  ul.menu {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-image: none;
+      list-style-type: none;
+      margin: 0;
+    }
+  }
+}
+
+.headline {
+  @include size_12;
+  text-transform: uppercase;
+  .block-weather {
+    float: left;
+  }
+  .block-lang-dropdown, .block-search, .block-menu {
+    float: right;
+  }
+  .block-lang-dropdown {
+    margin-right: 25px;
+  }
+  .block-menu {
+    ul.menu {
+      .active-trail{
+        > a{
+          color: #fff;
+        }
+      }
+      li {
+        display: inline-block;
+        padding: 8px 10px 11px;
+        &.expanded {
+          position: relative;
+          > a {
+            padding-right: 15px;
+            position: relative;
+            &:after {
+              content: "\f107";
+              font-family: 'FontAwesome';
+              @include absolute;
+              right: 0;
+              top: 0;
+            }
+          }
+          &:hover {
+            > a:after {
+              content: "\f106";
+            }
+          }
+          ul.menu {
+            background-color: $main-color;
+            display: none;
+            left: 0;
+            min-width: 120px;
+            @include absolute;
+            top: 100%;
+            z-index: 10;
+            li {
+              display: block;
+            }
+          }
+          &:hover ul.menu {
+            display: block;
+          }
+        }
+        a {
+          white-space: nowrap;
+          &.active {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  a {
+    color: $minor-color;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+}
+
+/* search-block-form */
+#search-block-form {
+  position: relative;
+  .search-icon {
+    display: block;
+    height: 38px;
+    line-height: 35px;
+    text-align: center;
+    width: 45px;
+  }
+  .form-text {
+    border: none;
+    height: 38px;
+    padding-right: 70px;
+    text-transform: uppercase;
+    width: 250px;
+  }
+  .form-actions {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    .form-submit {
+      background: none;
+      border: none;
+      color: white;
+      height: 38px;
+      min-width: 0;
+      position: relative;
+      width: 100%;
+      z-index: 2;
+    }
+  }
+  .container-inline {
+    background-color: $main-color;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 48px;
+    z-index: 1;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, -250%, 0);
+    transform: translate3d(0, -250%, 0);
+  }
+  &.active {
+    .container-inline {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+/* weather */
+.weather {
+  p, .weather-date-info {
+    display: inline-block;
+    padding-bottom: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+  }
+  p {
+    margin: 0;
+  }
+  .weather-date-info {
+    border-right: 1px solid rgba(white, .18);
+    padding-left: 8px;
+    padding-right: 13px;
+  }
+  .weather-tempature span {
+    font-weight: 700;
+  }
+}
+
+/* lang_dropdown_form language */
+.language {
+  .form-item-lang-dropdown-select {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .dd-container, .dd-select {
+  }
+  .dd-select {
+    background: #1e3840 !important;
+    border: none;
+    border-radius: 0;
+  }
+  .dd-selected {
+    color: $minor-color;
+    font-weight: 100;
+    padding: 8px 30px 11px 10px;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+  .dd-pointer:after {
+    font-family: 'FontAwesome';
+    margin-top: -7px;
+    position: absolute;
+    right: -2px;
+    top: 50%;
+  }
+  .dd-pointer-down, .dd-pointer-up {
+    border: none !important;
+  }
+  .dd-pointer-down:after {
+    content: "\f107";
+  }
+  .dd-pointer-up:after {
+    content: "\f106";
+    margin-top: -3px;
+  }
+  .dd-options {
+    background: $main-color;
+    border: none;
+    box-shadow: none;
+  }
+  .dd-option {
+    border-bottom-color: rgba(white, .05);
+    color: $minor-color;
+    &:hover, &:focus {
+      background: #1e3840;
+      color: white;
+    }
+  }
+  .dd-option-selected {
+    background: #1e3840;
+  }
+}
+
+/* datepicker */
+#ui-datepicker-div {
+  @include font_light;
+  background: white;
+  border: 1px solid $main-color;
+  padding: 0;
+  .ui-datepicker-calendar {
+    @include size_12;
+  }
+}
+
+.ui-datepicker .ui-datepicker-title select {
+  @include size_12;
+  padding: 7px 10px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background: none;
+  color: $main-color;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  border-bottom-right-radius: 0;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+  border-bottom-left-radius: 0;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+  border-top-right-radius: 0;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+  border-top-left-radius: 0;
+}
+
+.ui-datepicker {
+  .ui-datepicker-header {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba($main-color, .05);
+    padding: 1em 0;
+    .ui-icon {
+      background-image: none;
+      height: 1.8em;
+      left: 0;
+      line-height: .8;
+      margin-left: 0;
+      margin-top: 0;
+      top: 0;
+      width: 1.8em;
+    }
+  }
+  .ui-datepicker-prev, .ui-datepicker-next {
+    top: 18px;
+    .ui-icon {
+      &:after {
+        font-family: 'FontAwesome';
+        @include size_30;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        text-indent: 0;
+        top: 0;
+        width: 100%;
+      }
+    }
+  }
+  .ui-datepicker-prev {
+    left: 0;
+    .ui-icon {
+      &:after {
+        content: "\f104";
+      }
+    }
+  }
+  .ui-datepicker-next {
+    right: 0;
+    .ui-icon {
+      &:after {
+        content: "\f105";
+      }
+    }
+  }
+  .ui-state-hover, .ui-state-focus {
+    border: none;
+    background: none;
+  }
+  table {
+    margin: 0;
+  }
+  th, td {
+    padding: 8px 5px;
+  }
+  td {
+    border-top: 1px solid rgba($main-color, .05);
+    span {
+      padding: 0;
+      text-align: center;
+    }
+  }
+}
+
+.ui-datepicker-calendar {
+  .ui-state-default {
+    border: none;
+  }
+}
+
+#user-login, #user-register-form, #user-pass {
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  width: 40%;
+  label {
+    display: block;
+  }
+  .form-text {
+    height: 40px;
+    width: 100%;
+  }
+}
+
+/* sidebar */
+.sidebar {
+  .block {
+    margin-bottom: 55px;
+    > .content {
+      background-color: white;
+    }
+  }
+  .block-menu ul.menu {
+    li {
+      padding: 0;
+      a {
+        border-top: 1px solid #f8f8f8;
+        color: #929292;
+        display: block;
+        padding: 12px 20px;
+        text-transform: uppercase;
+        &:hover, &:focus {
+          background-color: $main-color;
+          color: white;
+        }
+      }
+      &.first a {
+        border-top: none;
+      }
+    }
+  }
+  .rooms-availability-search {
+    padding: 20px;
+    .form-item-group-size-children,
+    .form-item-group-size-adults,
+    .form-item-unit-type,
+    .form-item-rooms,
+    .form-wrapper {
+      float: none;
+      margin: 0;
+    }
+    select {
+      width: 100%;
+    }
+    .form-item {
+      margin-bottom: 10px;
+    }
+    #edit-actions {
+      margin-top: 16px;
+    }
+    .form-submit {
+      width: 100%;
+    }
+  }
+  .rooms-date-range {
+    .start-date, .end-date {
+      display: block;
+      margin-right: 0;
+      width: 100%;
+    }
+    .container-inline-date {
+      width: 100%;
+      .date-padding, .form-item {
+        width: 100%;
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .rooms-management-form .form-type-select,
+  .rooms-management-form .form-item-operation,
+  .rooms-management-form .form-item-amount,
+  .rooms-management-form .rooms-date-range,
+  .rooms-management-form .form-actions {
+    float: none;
+    margin: 0 0 10px;
+  }
+  .rooms-management-form .form-actions {
+    padding-top: 10px;
+  }
+  .item-list ul {
+    margin: 0;
+    li {
+      margin: 0;
+    }
+  }
+  /* alo-testimonial */
+  .alo-testimonial {
+    padding: 30px 20px;
+    .jcarousel-skin-default {
+      .jcarousel-item {
+        padding-bottom: 30px;
+        text-align: center;
+        width: 223px;
+        .views-field-picture {
+          position: static;
+        }
+        .info-body {
+          padding: 0;
+        }
+      }
+      .jcarousel-navigation {
+        bottom: 0;
+        text-align: center;
+        top: auto;
+        width: 100%;
+        z-index: 2;
+        li {
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+  /***/
+  ul.quicktabs-tabs {
+    @include bg_grey;
+    padding-bottom: 17px;
+    overflow: hidden;
+    li {
+      @include font_bold_italic;
+      padding: 0;
+      text-transform: uppercase;
+      white-space: normal;
+      a {
+        @include bg_grey;
+        color: $minor-color;
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        z-index: 2;
+      }
+      &.active {
+        @include title-line;
+        padding-left: 35px;
+        padding-right: 35px;
+        a {
+          color: $main-color;
+          @include size_20;
+          position: relative;
+        }
+        &:after {
+          width: 100%;
+          z-index: 1;
+        }
+        &.first {
+          padding-left: 0;
+        }
+        &.last {
+          padding-right: 0;
+        }
+      }
+      &.first a {
+        padding-left: 0;
+      }
+      &.last a {
+        padding-right: 0;
+      }
+    }
+  }
+}

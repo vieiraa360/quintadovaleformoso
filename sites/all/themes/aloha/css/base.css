@@ -1,0 +1,307 @@
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+@CHARSET "ISO-8859-1";
+/* line 4, ../sass/base.scss */
+.views-view-grid .views-col {
+  float: left;
+}
+
+/* line 7, ../sass/base.scss */
+.views-view-grid.cols-1 .views-col {
+  width: 100%;
+}
+
+/* line 10, ../sass/base.scss */
+.views-view-grid.cols-2 .views-col {
+  width: 50%;
+}
+
+/* line 13, ../sass/base.scss */
+.views-view-grid.cols-3 .views-col {
+  width: 33.33%;
+}
+
+/* line 16, ../sass/base.scss */
+.views-view-grid.cols-4 .views-col {
+  width: 25%;
+}
+
+/* line 19, ../sass/base.scss */
+.views-view-grid.cols-5 .views-col {
+  width: 20%;
+}
+
+/* skin menu */
+/* line 23, ../sass/base.scss */
+.change-skin-menu-wrapper {
+  position: fixed;
+  left: -188px;
+  top: 150px;
+  z-index: 500;
+  background-color: #fafafa;
+  box-shadow: 1px 1px 2px -1px #888888;
+  -webkit-box-shadow: 1px 1px 2px -1px #888888;
+  border-radius: 0 0 3px 0;
+  -webkit-border-radius: 0 0 3px 0;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  /* tag a */
+  /* color */
+  /*background*/
+  /*layout*/
+  /* color for skin   */
+}
+/* line 35, ../sass/base.scss */
+.change-skin-menu-wrapper .container {
+  width: 185px;
+  padding: 10px;
+}
+/* line 40, ../sass/base.scss */
+.change-skin-menu-wrapper .background,
+.change-skin-menu-wrapper .skin-color {
+  overflow: hidden;
+}
+/* line 43, ../sass/base.scss */
+.change-skin-menu-wrapper .skin-color {
+  margin-bottom: 15px;
+}
+/* line 48, ../sass/base.scss */
+.change-skin-menu-wrapper .change-skin {
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #fafafa;
+  padding: 11px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 1px 1px 2px -2px #888888;
+  -webkit-box-shadow: 1px 1px 2px -2px #888888;
+  color: #666;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+/* line 63, ../sass/base.scss */
+.change-skin-menu-wrapper .change-skin:hover, .change-skin-menu-wrapper .change-skin:focus {
+  color: #333;
+}
+/* line 66, ../sass/base.scss */
+.change-skin-menu-wrapper .change-skin i {
+  font-size: 18px;
+}
+/* line 70, ../sass/base.scss */
+.change-skin-menu-wrapper strong {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 600;
+}
+/* line 76, ../sass/base.scss */
+.change-skin-menu-wrapper ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+/* line 80, ../sass/base.scss */
+.change-skin-menu-wrapper li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+/* line 90, ../sass/base.scss */
+.change-skin-menu-wrapper .change-skin-button,
+.change-skin-menu-wrapper .change-background-button {
+  display: inline-block;
+  text-indent: -999em;
+  width: 30px;
+  height: 30px;
+  opacity: 0.7;
+}
+/* line 96, ../sass/base.scss */
+.change-skin-menu-wrapper .change-skin-button:hover, .change-skin-menu-wrapper .change-skin-button:focus,
+.change-skin-menu-wrapper .change-background-button:hover,
+.change-skin-menu-wrapper .change-background-button:focus {
+  opacity: 1;
+}
+/* line 102, ../sass/base.scss */
+.change-skin-menu-wrapper .change-background-button {
+  border: 1px solid #cdcdcd;
+}
+/* line 104, ../sass/base.scss */
+.change-skin-menu-wrapper .change-background-button:hover, .change-skin-menu-wrapper .change-background-button:focus {
+  border-color: #7b7b7b;
+}
+/* line 110, ../sass/base.scss */
+.change-skin-menu-wrapper .layout {
+  margin-bottom: 15px;
+}
+/* line 113, ../sass/base.scss */
+.change-skin-menu-wrapper .change-layout-button {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  padding: 4px 18px;
+  background-color: #fff;
+  background-image: none;
+}
+/* line 122, ../sass/base.scss */
+.change-skin-menu-wrapper .change-layout-button:first-child {
+  border-right: none;
+}
+/* line 126, ../sass/base.scss */
+.change-skin-menu-wrapper .change-layout-button.active {
+  background-color: #428bca;
+  color: #fff;
+  border-color: #428bca;
+}
+/* line 133, ../sass/base.scss */
+.change-skin-menu-wrapper .color-default {
+  background-color: #0e2127;
+}
+/* line 136, ../sass/base.scss */
+.change-skin-menu-wrapper .color-brown {
+  background-color: #6c512d;
+}
+/* line 139, ../sass/base.scss */
+.change-skin-menu-wrapper .color-yellow {
+  background-color: #efc74b;
+}
+/* line 142, ../sass/base.scss */
+.change-skin-menu-wrapper .color-green {
+  background-color: #18786c;
+}
+/* line 145, ../sass/base.scss */
+.change-skin-menu-wrapper .color-puple {
+  background-color: #70154d;
+}
+
+/* change background */
+/* line 153, ../sass/base.scss */
+.bg-1 {
+  background: url("../images/bg-1.png") 0 0 repeat;
+}
+
+/* line 156, ../sass/base.scss */
+.bg-2 {
+  background: url("../images/bg-2.png") 0 0 repeat;
+}
+
+/* line 159, ../sass/base.scss */
+.bg-3 {
+  background: url("../images/bg-3.png") 0 0 repeat;
+}
+
+/* line 162, ../sass/base.scss */
+.bg-4 {
+  background: url("../images/bg-4.png") 0 0 repeat;
+}
+
+/* line 165, ../sass/base.scss */
+.bg-5 {
+  background: url("../images/bg-5.png") 0 0 repeat;
+}
+
+/* line 168, ../sass/base.scss */
+.bg-6 {
+  background: url("../images/bg-6.png") 0 0 repeat;
+}
+
+/* line 171, ../sass/base.scss */
+.bg-7 {
+  background: url("../images/bg-7.png") 0 0 repeat;
+}
+
+/* line 175, ../sass/base.scss */
+.fly-out {
+  left: 0;
+}
+
+/* maintenance page */
+/* line 179, ../sass/base.scss */
+.maintenance-page {
+  background: #e6e6e6;
+}
+
+/* line 182, ../sass/base.scss */
+.maintenance-page #page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+/* line 188, ../sass/base.scss */
+.maintenance-page #header {
+  overflow: hidden;
+}
+
+/* line 191, ../sass/base.scss */
+.maintenance-page #logo {
+  float: none;
+  margin: 0 0 10px;
+  width: 100% !important;
+}
+
+/* line 196, ../sass/base.scss */
+.maintenance-page #name-and-slogan {
+  float: none;
+}
+
+/* line 199, ../sass/base.scss */
+.maintenance-page #container {
+  padding: 40px 0 0 0;
+}
+
+/* direction */
+/* line 204, ../sass/base.scss */
+.change-direction .direction {
+  margin-bottom: 15px;
+}
+
+/* line 208, ../sass/base.scss */
+.change-skin-menu-wrapper .change-direction-button {
+  border-radius: 0;
+  display: block;
+  -webkit-border-radius: 0;
+  padding: 4px 18px;
+  color: #333;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  text-shadow: 0 1px 0 #fff;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 221, ../sass/base.scss */
+.change-skin-menu-wrapper .change-direction li {
+  display: inline-block;
+  margin-right: 0;
+  font-size: 14px;
+  margin-left: 0;
+  float: none;
+}
+
+/* line 230, ../sass/base.scss */
+.change-skin-menu-wrapper .change-direction-button:hover,
+.change-skin-menu-wrapper .change-direction-button:focus {
+  border-color: #adadad;
+}
+
+/* line 234, ../sass/base.scss */
+.change-skin-menu-wrapper .change-direction .active .change-direction-button {
+  background-color: #428bca;
+  color: #fff;
+  border-color: #428bca;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+
+/* line 240, ../sass/base.scss */
+.change-skin-menu-wrapper .background {
+  margin-bottom: 15px;
+}

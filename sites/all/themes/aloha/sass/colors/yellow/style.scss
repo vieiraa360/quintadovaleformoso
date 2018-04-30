@@ -1,0 +1,928 @@
+@import "../../includes/_include.scss";
+
+/* colors */
+$body-color: #7d7d7d;
+$main-color: #efc74b;
+$minor-color: #7d7d7d;
+$dark-orange: #444;
+$dark: #333;
+
+body{
+	color: $body-color;
+}
+/* btn effect */
+@mixin btn-effect {
+	border-color: $main-color;
+	&:after {
+		background-color: $main-color;
+	}
+}
+
+a{
+	color: $main-color;
+}
+#page{
+	background-color: #343434;
+}
+/* button */
+.form-submit {
+	border-color: $body-color;
+	background: none;
+	&:hover, &:focus {
+		background-color: $main-color;
+		border-color: $main-color;
+		color: $dark;
+	}
+}
+.views-field-field-book-link a, #errorbox a {
+	@include btn-effect;
+	color: $body-color;
+	border-color: $body-color;
+	&:hover, &:focus{
+		border-color: $main-color;
+		color: $dark;
+	}
+}
+.views-field-field-from-price, 
+.field-name-commerce-price{
+	background-color: $dark;
+	color: #fff;
+}
+.title, 
+#booking h2, 
+#panel-second h2, 
+.bg-grey h2, 
+.main h2, 
+.main .title span h2, 
+.not-front #panel-second h2, 
+.not-front #panel-third h2, 
+.slideshow h2, #page-title{
+	&:after{
+		background-color: $body-color;
+	}
+	span{
+		background-color: #222;
+	}
+}
+
+#booking h2, #panel-second h2{
+	span{
+		background-color: #343434;
+	}
+}
+/* headline */
+.bg-black, .headline, #footer .social-list{
+	background-color: #343434;
+	color: $body-color;
+	a{
+		color: $body-color;
+		&:hover, &:focus{
+			color: $main-color;
+		}
+	}
+}
+.headline{
+	background-color: #343434;
+	.block-menu ul.menu li.expanded ul.menu{
+		background-color: #343434;
+	}
+	.block-menu ul.menu li{
+		a.active{
+			color: $main-color;
+		}
+	}
+
+}
+
+/* language */
+.language{
+	.dd-selected{
+		background-color: $dark-orange;
+		color: $main-color;
+	}
+	.dd-options{
+		background-color: $dark-orange;
+		color: $minor-color;
+	}
+	.dd-option{
+		color: $minor-color;
+		&:hover, &:focus{
+			color: $main-color;
+			background-color: $dark-orange;
+		}
+	}
+	.dd-option-selected{
+		background-color: $dark-orange;
+	}
+	.dd-pointer{
+		&:after{
+			color: $main-color;
+		}
+	}
+}
+/* header */
+#header{
+	background-color: #222;
+}
+/* menu.scss */
+.navbar-main {
+	ul.menu {
+		li {
+			a {
+				color: $main-color;
+				&:hover, &:focus {
+					background-color: $main-color;
+					color: $dark;
+				}
+				&.active, &.active-trail {
+					background-color: $main-color;
+					color: $dark;
+				}
+			}
+			&:hover, &:focus{
+				> a {
+					background-color: $main-color;
+					color: $dark;
+				}
+			}
+		}
+		li.expanded{
+			ul.menu{
+				li{
+					a{
+						color: $dark;
+					}
+				}
+			}
+		}
+	}
+	ul.menu li a.active:after, ul.menu li a.active-trail:after{
+		border-bottom-color: $dark;
+	}
+}
+
+/* .tb-megamenu */
+.tb-megamenu-main-menu {
+	.nav {
+		> li > a {
+			color: $main-color;
+			&:hover, &:focus {
+				background-color: $main-color;
+			}
+		}
+		.open > a, .open > a:hover, .open > a:focus {
+			background-color: $main-color;
+			color: $dark;
+			&:after{
+				border-top-color: $dark;
+			}
+		}
+		> .active > a, > .active > a:hover, > .active > a:focus {
+			background-color: $main-color;
+			color: $dark;
+			&:after{
+				border-top-color: $dark;
+			}
+		}
+		li.dropdown.open > .dropdown-toggle {
+			background-color: $main-color;
+			color: $dark;
+			&:after{
+				border-top-color: $dark;
+			}
+		}
+		li.dropdown.active > .dropdown-toggle,
+		li.dropdown.open.active > .dropdown-toggle,
+		> li.dropdown.open.active > a:hover {
+			background-color: $main-color;
+			color: $dark;
+			&:after{
+				border-top-color: $dark;
+			}
+		}
+	}
+	.dropdown-menu {
+		background-color: $main-color;
+		li > a {
+			color: $dark;
+			&:hover, &:focus{
+				color: #fff !important;
+			}
+		}
+	}
+	.dropdown-menu{
+		.grid-news{
+			.views-row{
+				color: $dark;
+			}
+		}
+		.views-field-type-image, .views-field-title{
+			a{
+				color: $dark;
+			}
+		}
+	}
+	.mega-dropdown-inner h2 {
+		color: $dark;
+	}
+}
+/* slideshow */
+.views-slideshow-controls-text{
+	a{
+		&:hover, &:focus{
+			background-color: $main-color;
+			color: $dark;
+		}
+	}
+}
+.main-slideshow{
+	.views-field-title{
+		a{
+			background-color: $main-color;
+			color: $dark;
+			&:hover, &:focus{
+				color: $dark;
+			}
+		}
+	}
+	.views-field-field-book-link a {
+		color: $main-color;
+		background-color: #222;
+		border-color: #222;
+		&:hover, &:focus {
+			border-color: $main-color;
+			color: $dark;
+		}
+	}
+}
+.views-slideshow-controls-text{
+	a{
+		color: $body-color;
+	}
+}
+.jcarousel-skin-default{
+	.jcarousel-next, .jcarousel-prev{
+ 		color: $body-color;
+ 		border-color: $body-color;
+		&:hover, &:focus{
+			border-color: $main-color;
+			background-color: $main-color;
+			color: $dark;
+		}
+	}
+	.jcarousel-navigation li a{
+		border: none;
+	}
+}
+.carousel-control{
+	background-color: #222;
+	.fa{
+		background-color: #222;
+		color: $main-color;
+	}
+	&:hover, &:focus{
+		.fa{
+			background-color: $main-color;
+			color: $dark;
+		}
+	}
+}
+.slideshow-thumb{
+	.views-field-title, .views-field-title-1{
+		a,a:hover, a:focus{
+			color: #fff;
+		}
+	}
+}
+.views-slideshow-controls-text{
+	a{
+		background-color: #222;
+		color: $main-color;
+	}
+}
+.alo-main-jcarousel{
+	.views-field-field-from-price, .field-name-commerce-price{
+		background-color: #fff;
+		color: $dark;
+	}
+}
+/* booking */
+#booking{
+	background-color: #343434;
+	color: $body-color;
+	.form-text{
+		border-color: $body-color;
+		color: $body-color;
+	}
+}
+.chosen-container-single .chosen-single{
+	border-color: $body-color;
+	color: $body-color;
+}
+.chosen-container-active.chosen-with-drop .chosen-single{
+	border-color: $body-color;
+}
+.chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b{
+	background: none;
+	position: relative;
+	color: $body-color;
+	&:after{
+		font-family: 'FontAwesome';
+		left: 0;
+		position: absolute;
+		text-align: center;
+		top: -2px;
+		width: 100%;
+		content: "\f0dd";
+	}
+}
+.chosen-container-active{
+	.chosen-single abbr, .chosen-single div b{
+		&:after{
+			content: "\f0de";
+			top: 1px;
+		}
+	}
+}
+.chosen-container .chosen-drop{
+	border-color: $body-color;
+	background-color: #343434;
+}
+.chosen-container .chosen-results li.highlighted{
+	background-color: $main-color;
+	color: $dark;
+}
+
+.chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b{ background: none !important; }
+
+.rooms-availability-search {
+	.form-submit {
+		background-color: $main-color;
+		border-color: $main-color;
+		color: $dark;
+		&:hover, &:focus {
+			background-color: #fff;
+			border-color: #fff;
+		}
+	}
+}
+/* main content */
+.main{
+	background-color: #222;
+	.title{
+		span{
+			background-color: #222 !important;
+			color: $body-color;
+		}
+	}
+}
+#panel-first{
+	background-color: #222;
+	h2{
+		span{
+			background-color: #222;
+		}
+	}
+}
+/* special offer */
+.views-field-title, .views-field-title-1, .views-field-commerce-price{
+	a{
+		color:$body-color;
+		&:hover, &:focus{
+			color: $main-color;
+		}
+	}
+}
+/* footer */
+#panel-footer{
+	a{
+		&:hover, &:focus{
+			color: $main-color;
+		}
+	}
+}
+#footer{
+	a{
+		color: inherit;
+		&:hover, &:focus{
+			color: $main-color;
+		}
+	}
+}
+.panel-column{
+	ul.menu{
+		li:hover, li:focus {
+			&:before {
+				color: $main-color;
+			}
+			a {
+				color: $main-color;
+			}
+		}
+		a{
+			color: inherit;
+		}
+	}
+}
+.tagclouds-term{
+	a{
+		border-color: $minor-color;
+		&:hover, &:focus{
+			border-color: $main-color;
+		}
+	}
+}
+.line-through{
+	&:after{
+		background-color: rgba($minor-color, 0.3);
+	}
+}
+.simplenews-subscribe .form-text{
+	border-color: $minor-color;
+	&:focus{
+		border-color: $main-color;
+	}
+}
+.simplenews-unsubscribe .form-submit {
+	border-color: $minor-color;
+	color: $minor-color;
+	&:hover, &:focus {
+		background-color: $main-color !important;
+		border-color: $main-color;
+		color: $dark;
+	}
+}
+/* News page */
+.node-readmore,
+.list-article .views-field-view-node{
+	a{
+		border-color: $body-color;
+		color: $body-color;
+		&:after{
+			background-color: $main-color;
+		}
+		&:hover, &:focus{
+			border-color: $main-color;
+			color: $dark;
+		}
+	}
+}
+.grid-news{
+	.views-field-title{
+		a{
+			&:hover, &:focus{
+				color: $main-color;
+			}
+		}
+	}
+}
+.item-info{
+	 .views-field-view-node{
+	 	a{
+	 		color: $body-color;
+	 		&:after{
+	 			background-color: $main-color;
+	 		}
+	 		&:hover, &:focus{
+	 			border-color: $main-color;
+	 			color: $dark;
+	 		}
+	 	}
+	 }
+}
+/* sidebar */
+.sidebar{
+	.block-menu{
+		ul.menu{
+			li{
+				a:hover, a:focus, .active{
+					background-color: $main-color;
+					color: $dark;
+				}
+			}
+		}
+	}
+	.rooms-availability-search {
+		.form-submit {
+			&:hover, &:focus {
+				background-color: $dark;
+				border-color:$dark;
+				color: #fff;
+			}
+		}
+	}
+	ul.quicktabs-tabs {
+		background-color: #222;
+		li {
+			a {
+				background-color: #222;
+				color: $dark-orange;
+			}
+			&.active a {
+				color: $body-color;
+			}
+			&.active:after {
+				background-color: $body-color;
+			}
+		}
+	}
+}
+.latest-views .views-field-title{
+	a:hover, a:focus{
+		color: $main-color;
+	}
+}
+.support{
+	background-color: $main-color;
+}
+.jcarousel-skin-default .jcarousel-navigation li.active a{
+	background-color: $main-color;
+}
+/* accommodation */
+#panel-second{
+	background-color: #343434;
+}
+.ctools-auto-submit-full-form{
+	.form-item{
+		.form-item{
+			a{
+				color: $body-color;
+				border-color: $body-color;
+				&:hover, &:focus{
+					background-color: $main-color;
+					border-color: $main-color;
+					color: $dark;
+				}
+			}
+		}
+		.form-item.selected{
+			a{
+				background-color: $main-color;
+				border-color: $main-color;
+				color: $dark;
+			}
+		}
+	}
+}
+ul.secondary {
+	li {
+		a {
+			border-color: $body-color;
+			color: $body-color;
+			&:hover, &:focus {
+				background-color: $main-color;
+				border-color: $main-color;
+				color: $dark;
+			}
+		}
+		&.active .active {
+			background-color: $main-color;
+			border-color: $main-color;
+			color: $dark;
+		}
+	}
+}
+.view-type{
+	ul.menu{
+		li{
+			a{
+				color: $body-color;
+			}
+			a:hover, a:focus,a.active-trail{
+				background-color: $main-color;
+				border-color: $main-color;
+				color: $dark;
+			}
+		}
+	}
+}
+/* owl-theme */
+.owl-theme{
+	.owl-controls{
+		.owl-buttons div{
+			color: $body-color;
+			&:hover, &:focus{
+				background-color: $main-color;
+				color: $dark;
+			}
+		}
+	}
+}
+/* pager */
+.pager li > a, .pager li > span{
+	color: $dark;
+}
+.pager li > a:hover, 
+.pager li > a:focus, 
+.pager li > span:hover, 
+.pager li > span:focus,
+.pager li.pager-current{
+	background-color: $main-color;
+	color: $dark;
+}
+/* services */
+.aloha-services{
+	a{
+		&:hover, &:focus{
+			color: #fff;
+		}
+	}
+	.service-item{
+		&:hover, &:focus{
+			background-color: $main-color;
+		}
+	}
+	h2{
+		a{
+			color: #fff !important;
+		}
+	}
+}
+/* about*/
+.group-social-info{
+	a{
+		&:hover, &:focus{
+			background-color: $main-color;
+		}
+	}
+}
+/* contact */
+.contact-form{
+	.form-submit{
+		background: none;
+		color: $dark;
+		&:hover, &:focus{
+			background-color: $main-color;
+			border-color: $main-color;
+			color: $dark;
+		}
+	}
+}
+/* gallery */
+.option-set li{
+	a{
+		color: $body-color;
+		border-color: $body-color;
+		&:hover, &:focus{
+			background-color: $main-color;
+			border-color: $main-color;
+			color: $dark;
+		}
+	}
+	a.selected{
+		background-color: $main-color;
+		border-color: $main-color;
+		color: $dark;
+	}
+}
+/* #panel-fifth */
+#panel-fifth{
+	background-color: #222;
+}
+.ui-widget-content, .ui-widget-content{
+	color: $body-color;
+}
+.ui-accordion {
+	.ui-accordion-header{
+		border-color: $body-color;
+		.ui-accordion-header-icon:after {
+			color: $body-color;
+		}
+	}
+	.ui-accordion-content{
+		border-color: $body-color;
+	}
+}
+.ui-state-default a{
+	color: $body-color;
+	&:hover, &:focus{
+		color: $main-color;
+	}
+}
+.ui-state-hover a, .ui-state-hover a:link, .ui-state-hover a:visited {
+    color: $main-color;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: $body-color;
+}
+/* primary */
+ul.primary {
+	li, li + li{
+		a{
+			background-color: #222;
+			&:hover, &:focus{
+				background-color: #222;
+				color: $main-color;
+			}
+		}
+	}
+	li + li{
+		&:after{
+			background-color: $body-color;
+		}
+	}
+	li.active{
+		a{
+			background-color: #222;
+			color: $main-color;
+		}
+	}
+}
+
+.item-meta > div + div,
+.list-article ul.inline li + li{
+	border-color: $body-color;
+}
+.node{
+	h2{
+		a{
+			color: $body-color;
+			&:hover, &:focus{
+				color: $main-color;
+			}
+		}
+	}
+}
+
+.not-front .alo-main-jcarousel .views-row .grid-inner,
+.bg-white, .owl-carousel, .group-info, #comments{
+	.views-field-field-from-price, .field-name-commerce-price{
+		background-color: $dark;
+		color: #fff;
+	}
+}
+/* checkout */
+.checkout-buttons{
+	.checkout-cancel, .checkout-back{
+		&:hover, &:focus{
+			background-color: $main-color;
+			border-color: $main-color;
+		}
+	}
+}
+.chosen-container .chosen-results li.highlighted{
+	background-color: $main-color;
+}
+
+.rooms-date-range .container-inline-date .form-item input{
+	border-color: $body-color;
+}
+#edit-info{
+	legend{
+		&:after{
+			background-color: $body-color !important;
+		}
+	}
+	.fieldset-legend{
+		background-color: #222 !important;
+		color: $body-color;
+	}
+}
+.views-table, .sticky-header, .sticky-table,
+.views-table tbody, .sticky-header tbody, .sticky-table tbody{
+	border-color: $main-color;
+}
+.commerce-order-handler-area-order-total .commerce-price-formatted-components tr.even, 
+.commerce-order-handler-area-order-total .commerce-price-formatted-components tr.odd,
+.line-item-summary{
+	background-color: $main-color;
+}
+.commerce-line-item-actions .form-submit{
+	color: $body-color;
+	&:hover, &:focus{
+		color: $dark;
+	}
+}
+legend{
+	color: $body-color;
+}
+.checkout-buttons .checkout-cancel, .checkout-buttons .checkout-back{
+	&:hover, &:focus{
+		color: $dark;
+	}
+}
+/* about */
+.not-front{
+	#panel-second, #panel-third{
+		background-color: #222;
+	}
+}
+.aloha-timeline{
+	.item-list{
+		ul{
+			border-bottom-color: $body-color;
+			&:after{
+				background-color: $body-color;
+			}
+		}
+	}
+	.views-field-field-year > div{
+		color: #fff;
+	}
+	.views-field-field-year{
+		&:after{
+			background-color: #d2d0d0;
+		}
+	}
+}
+/* comment form */
+ul.inline li.comment-add {
+	a {
+		color: $main-color;
+		&:hover, &:focus {
+			color: inherit;
+		}
+	}
+}
+.comment{
+	h3{
+		a{ 
+			color: $body-color;
+			&:hover, &:focus{
+				color: $main-color;
+			}
+		}
+	}
+	ul.inline, ul.links.inline{
+		a{ 
+			color: $body-color;
+			&:hover, &:focus{
+				color: $main-color;
+			}
+		}
+	}
+}
+#comment-confirm-delete {
+	.form-submit {
+		color: $minor-color;
+		&:hover, &:focus {
+			color: $dark;
+		}
+	}
+}
+/* table */
+.views-table, .sticky-header, .sticky-table, .weather table{
+	border-color: $main-color;
+}
+#search-block-form .container-inline {
+    background-color: $dark;
+}
+/* search page */
+#search-form{
+	#edit-basic{
+		.form-text{
+			border-color: $body-color;
+		}
+		.form-submit {
+			color: $body-color;
+		}
+	}
+}
+.btn-btt {
+	background: $main-color;
+	&:hover, &:focus {
+		background: $body-color;
+	}
+}
+@media (max-width: 992px) {
+	/* skin-yellow */
+	.skin-yellow {
+		.navbar-toggle {
+			.icon-bar {
+				background-color: $main-color;
+			}
+			&:hover, &:focus {
+				.icon-bar {
+					background-color: $dark-color;
+				}
+			}
+		}
+		.navbar-collapse.collapse {
+			background-color: $main-color;
+		}
+		.tb-megamenu-main-menu {
+			background-color: $main-color;
+			.nav {
+				> li {
+					> a {
+						color: $dark;
+						&:hover, &:focus {
+							color: white;
+						}
+					}
+				}
+				.open > a, .open > a:hover, .open > a:focus {
+					color: white;
+				}
+				> .active > a, > .active > a:hover, > .active > a:focus {
+					color: white;
+				}
+				li.dropdown.active > .dropdown-toggle,
+				li.dropdown.open.active > .dropdown-toggle,
+				> li.dropdown.open.active > a:hover	{
+					color: white;
+				}
+			}
+		}
+	}
+}

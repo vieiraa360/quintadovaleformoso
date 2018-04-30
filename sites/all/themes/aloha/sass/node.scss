@@ -1,0 +1,95 @@
+@import "includes/_include";
+
+/* node.scss */
+.node-type-webform {
+	.region-content {
+		background-color: white;
+		padding: 30px;
+	}
+	.iframe-map {
+		margin: -30px -30px 50px;
+	}
+
+	.node-webform {
+		> .content {
+			overflow: hidden;
+			padding: 0;
+		}
+		.field-type-text-with-summary {
+			float: right;
+			margin-top: 1em;
+			width: 30%;
+		}
+		.webform-client-form {
+			float: left;
+			width: 70%;
+		}
+		.form-item {
+			float: left;
+			margin-right: 30px;
+			width: 46%;
+			.form-text {
+				height: 45px;
+				text-transform: uppercase;
+				width: 100%;
+			}
+		}
+		.webform-component-textarea {
+			clear: both;
+			float: none;
+			width: 100%;
+			.form-textarea-wrapper  {
+				padding-top: 1em;
+				padding-right: 30px;
+			}
+			.form-textarea {
+				text-transform: uppercase;
+			}
+		}
+		.form-actions {
+			margin-bottom: 2em;
+			margin-top: 2em;
+		}
+	}
+}
+
+.node {
+	background-color: white;
+	margin-bottom: 30px;
+	> h2 {
+		margin: 0;
+		padding: 30px 30px 0;
+	}
+	> ul.links.inline {
+		border-top: 1px solid #ddd;
+		color: $minor-color;
+		display: block;
+		padding: 20px 30px 0;
+		li {
+			padding: 0;
+		}
+	}
+	> .content {
+		padding: 30px;
+	}
+	.field-name-commerce-price {
+		margin: -30px -30px 0 30px;
+	}
+	.field-name-field-from-price, .field-name-rooms-package-dates, .field-name-rooms-package-unit-types {
+		margin-bottom: 25px;
+	}
+}
+
+.node-teaser {
+	> .content {
+		padding-top: 0;
+	}
+	> ul.links.inline {
+		border-top: none;
+		padding-top: 0;
+		li + li {
+			margin-left: 15px;
+			padding-left: 15px;
+		}
+	}
+}

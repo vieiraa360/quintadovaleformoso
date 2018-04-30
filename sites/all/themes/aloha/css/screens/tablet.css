@@ -1,0 +1,38 @@
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+/* line 2, ../../sass/screens/tablet.scss */
+.alo-testimonial .jcarousel-item {
+  width: 617px;
+}
+
+/* line 5, ../../sass/screens/tablet.scss */
+.item-info {
+  padding: 0 20px 20px;
+}
+/* line 7, ../../sass/screens/tablet.scss */
+.item-info .views-field-view-node a {
+  min-width: 150px;
+}
+
+/* line 14, ../../sass/screens/tablet.scss */
+.sidebar .alo-testimonial .jcarousel-skin-default .jcarousel-item {
+  width: 172px;
+}
+
+/* line 21, ../../sass/screens/tablet.scss */
+.alo-main-jcarousel .jcarousel-item {
+  width: 293px;
+}
+
+@media (min-width: 993px) and (max-width: 1279px) {
+  /* line 28, ../../sass/screens/tablet.scss */
+  .alo-special-offers .views-row-first .views-field-type-image img {
+    max-width: none;
+  }
+}

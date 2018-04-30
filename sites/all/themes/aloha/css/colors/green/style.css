@@ -1,0 +1,534 @@
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+/* colors */
+/* line 9, ../../../sass/colors/green/style.scss */
+body {
+  color: #0e2127;
+}
+
+/* btn effect */
+/* line 20, ../../../sass/colors/green/style.scss */
+a {
+  color: #18786c;
+}
+
+/* button */
+/* line 24, ../../../sass/colors/green/style.scss */
+.form-submit {
+  border-color: #0e2127;
+  background: none;
+}
+/* line 27, ../../../sass/colors/green/style.scss */
+.form-submit:hover, .form-submit:focus {
+  background-color: #18786c;
+  border-color: #18786c;
+}
+
+/* line 32, ../../../sass/colors/green/style.scss */
+.views-field-field-book-link a, #errorbox a {
+  border-color: #18786c;
+  color: #0e2127;
+  border-color: #0e2127;
+}
+/* line 15, ../../../sass/colors/green/style.scss */
+.views-field-field-book-link a:after, #errorbox a:after {
+  background-color: #18786c;
+}
+/* line 36, ../../../sass/colors/green/style.scss */
+.views-field-field-book-link a:hover, .views-field-field-book-link a:focus, #errorbox a:hover, #errorbox a:focus {
+  border-color: #18786c;
+}
+
+/* line 41, ../../../sass/colors/green/style.scss */
+.views-field-field-from-price,
+.field-name-commerce-price {
+  background-color: #333;
+}
+
+/* headline */
+/* line 45, ../../../sass/colors/green/style.scss */
+.bg-black, .headline, #footer .social-list {
+  background-color: #18786c;
+  color: #46b5a7;
+}
+/* line 48, ../../../sass/colors/green/style.scss */
+.bg-black a, .headline a, #footer .social-list a {
+  color: #46b5a7;
+}
+/* line 50, ../../../sass/colors/green/style.scss */
+.bg-black a:hover, .bg-black a:focus, .headline a:hover, .headline a:focus, #footer .social-list a:hover, #footer .social-list a:focus {
+  color: #fff;
+}
+
+/* line 55, ../../../sass/colors/green/style.scss */
+.headline .block-menu ul.menu li.expanded ul.menu {
+  background-color: #18786c;
+}
+
+/* language */
+/* line 60, ../../../sass/colors/green/style.scss */
+.language .dd-selected {
+  background-color: #268d80;
+  color: #fff;
+}
+/* line 64, ../../../sass/colors/green/style.scss */
+.language .dd-options {
+  background-color: #18786c;
+  color: #46b5a7;
+}
+/* line 68, ../../../sass/colors/green/style.scss */
+.language .dd-option {
+  color: #46b5a7;
+}
+/* line 70, ../../../sass/colors/green/style.scss */
+.language .dd-option:hover, .language .dd-option:focus {
+  color: #fff;
+  background-color: #268d80;
+}
+/* line 75, ../../../sass/colors/green/style.scss */
+.language .dd-option-selected {
+  background-color: #268d80;
+}
+/* line 79, ../../../sass/colors/green/style.scss */
+.language .dd-pointer:after {
+  color: #fff;
+}
+
+/* menu.scss */
+/* line 89, ../../../sass/colors/green/style.scss */
+.navbar-main ul.menu li a:hover, .navbar-main ul.menu li a:focus {
+  background-color: #18786c;
+}
+/* line 92, ../../../sass/colors/green/style.scss */
+.navbar-main ul.menu li a.active, .navbar-main ul.menu li a.active-trail {
+  background-color: #18786c;
+}
+/* line 97, ../../../sass/colors/green/style.scss */
+.navbar-main ul.menu li:hover > a, .navbar-main ul.menu li:focus > a {
+  background-color: #18786c;
+  color: white;
+}
+
+/* .tb-megamenu */
+/* line 109, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .nav > li > a {
+  color: #18786c;
+}
+/* line 111, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .nav > li > a:hover, .tb-megamenu-main-menu .nav > li > a:focus {
+  background-color: #18786c;
+}
+/* line 115, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .nav .open > a, .tb-megamenu-main-menu .nav .open > a:hover, .tb-megamenu-main-menu .nav .open > a:focus {
+  background-color: #18786c;
+}
+/* line 118, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .nav > .active > a, .tb-megamenu-main-menu .nav > .active > a:hover, .tb-megamenu-main-menu .nav > .active > a:focus {
+  background-color: #18786c;
+}
+/* line 121, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .nav li.dropdown.open > .dropdown-toggle {
+  background-color: #18786c;
+}
+/* line 126, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .nav li.dropdown.active > .dropdown-toggle,
+.tb-megamenu-main-menu .nav li.dropdown.open.active > .dropdown-toggle,
+.tb-megamenu-main-menu .nav > li.dropdown.open.active > a:hover {
+  background-color: #18786c;
+}
+/* line 130, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .dropdown-menu {
+  background-color: #18786c;
+}
+/* line 132, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .dropdown-menu li > a {
+  color: #46b5a7;
+}
+/* line 138, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .dropdown-menu .grid-news .views-row {
+  color: #46b5a7;
+}
+/* line 143, ../../../sass/colors/green/style.scss */
+.tb-megamenu-main-menu .dropdown-menu .views-field-type-image a, .tb-megamenu-main-menu .dropdown-menu .views-field-title a {
+  color: #46b5a7;
+}
+
+/* slideshow */
+/* line 152, ../../../sass/colors/green/style.scss */
+.views-slideshow-controls-text a:hover, .views-slideshow-controls-text a:focus {
+  background-color: #18786c;
+  color: #fff;
+}
+
+/* line 160, ../../../sass/colors/green/style.scss */
+.main-slideshow .views-field-title a {
+  background-color: #18786c;
+}
+/* line 162, ../../../sass/colors/green/style.scss */
+.main-slideshow .views-field-title a:hover, .main-slideshow .views-field-title a:focus {
+  color: #fff;
+}
+/* line 167, ../../../sass/colors/green/style.scss */
+.main-slideshow .views-field-field-book-link a {
+  color: #0e2127;
+}
+/* line 169, ../../../sass/colors/green/style.scss */
+.main-slideshow .views-field-field-book-link a:hover, .main-slideshow .views-field-field-book-link a:focus {
+  border-color: #18786c;
+  color: #fff;
+}
+
+/* line 176, ../../../sass/colors/green/style.scss */
+.views-slideshow-controls-text a {
+  color: #0e2127;
+}
+
+/* line 181, ../../../sass/colors/green/style.scss */
+.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+  color: #0e2127;
+}
+/* line 183, ../../../sass/colors/green/style.scss */
+.jcarousel-skin-default .jcarousel-next:hover, .jcarousel-skin-default .jcarousel-next:focus, .jcarousel-skin-default .jcarousel-prev:hover, .jcarousel-skin-default .jcarousel-prev:focus {
+  border-color: #18786c;
+  background-color: #18786c;
+}
+
+/* line 189, ../../../sass/colors/green/style.scss */
+.carousel-control {
+  background-color: #18786c;
+}
+/* line 192, ../../../sass/colors/green/style.scss */
+.carousel-control:hover .fa, .carousel-control:focus .fa {
+  background-color: #18786c;
+}
+
+/* line 199, ../../../sass/colors/green/style.scss */
+.slideshow-thumb .views-field-title a, .slideshow-thumb .views-field-title a:hover, .slideshow-thumb .views-field-title a:focus, .slideshow-thumb .views-field-title-1 a, .slideshow-thumb .views-field-title-1 a:hover, .slideshow-thumb .views-field-title-1 a:focus {
+  color: #fff;
+}
+
+/* booking */
+/* line 206, ../../../sass/colors/green/style.scss */
+.rooms-availability-search .form-submit {
+  background-color: #18786c;
+  border-color: #18786c;
+}
+/* line 209, ../../../sass/colors/green/style.scss */
+.rooms-availability-search .form-submit:hover, .rooms-availability-search .form-submit:focus {
+  background-color: #0e2127;
+  border-color: #0e2127;
+}
+
+/* special offer */
+/* line 217, ../../../sass/colors/green/style.scss */
+.views-field-title a, .views-field-title-1 a, .views-field-commerce-price a {
+  color: #0e2127;
+}
+/* line 219, ../../../sass/colors/green/style.scss */
+.views-field-title a:hover, .views-field-title a:focus, .views-field-title-1 a:hover, .views-field-title-1 a:focus, .views-field-commerce-price a:hover, .views-field-commerce-price a:focus {
+  color: #18786c;
+}
+
+/* footer */
+/* line 226, ../../../sass/colors/green/style.scss */
+#footer a {
+  color: inherit;
+}
+
+/* line 232, ../../../sass/colors/green/style.scss */
+.panel-column ul.menu a {
+  color: inherit;
+}
+
+/* line 238, ../../../sass/colors/green/style.scss */
+.tagclouds-term a {
+  border-color: #46b5a7;
+}
+
+/* line 243, ../../../sass/colors/green/style.scss */
+.line-through:after {
+  background-color: rgba(70, 181, 167, 0.3);
+}
+
+/* line 247, ../../../sass/colors/green/style.scss */
+.simplenews-subscribe .form-text {
+  border-color: #46b5a7;
+}
+/* line 249, ../../../sass/colors/green/style.scss */
+.simplenews-subscribe .form-text:focus {
+  border-color: #fff;
+}
+
+/* line 253, ../../../sass/colors/green/style.scss */
+.simplenews-unsubscribe .form-submit {
+  border-color: #46b5a7;
+  color: #46b5a7;
+}
+/* line 256, ../../../sass/colors/green/style.scss */
+.simplenews-unsubscribe .form-submit:hover, .simplenews-unsubscribe .form-submit:focus {
+  background-color: white !important;
+  border-color: white;
+}
+
+/* News page */
+/* line 264, ../../../sass/colors/green/style.scss */
+.node-readmore a,
+.list-article .views-field-view-node a {
+  border-color: #0e2127;
+  color: #0e2127;
+}
+/* line 267, ../../../sass/colors/green/style.scss */
+.node-readmore a:after,
+.list-article .views-field-view-node a:after {
+  background-color: #18786c;
+}
+/* line 270, ../../../sass/colors/green/style.scss */
+.node-readmore a:hover, .node-readmore a:focus,
+.list-article .views-field-view-node a:hover,
+.list-article .views-field-view-node a:focus {
+  border-color: #18786c;
+}
+
+/* line 278, ../../../sass/colors/green/style.scss */
+.grid-news .views-field-title a:hover, .grid-news .views-field-title a:focus {
+  color: #18786c;
+}
+
+/* line 286, ../../../sass/colors/green/style.scss */
+.item-info .views-field-view-node a {
+  color: #0e2127;
+}
+/* line 288, ../../../sass/colors/green/style.scss */
+.item-info .views-field-view-node a:after {
+  background-color: #18786c;
+}
+/* line 291, ../../../sass/colors/green/style.scss */
+.item-info .views-field-view-node a:hover, .item-info .views-field-view-node a:focus {
+  border-color: #18786c;
+}
+
+/* sidebar */
+/* line 302, ../../../sass/colors/green/style.scss */
+.sidebar .block-menu ul.menu li a:hover, .sidebar .block-menu ul.menu li a:focus, .sidebar .block-menu ul.menu li .active {
+  background-color: #18786c;
+  color: #fff;
+}
+
+/* line 311, ../../../sass/colors/green/style.scss */
+.latest-views .views-field-title a:hover, .latest-views .views-field-title a:focus {
+  color: #18786c;
+}
+
+/* line 315, ../../../sass/colors/green/style.scss */
+.support {
+  background-color: #18786c;
+}
+
+/* line 318, ../../../sass/colors/green/style.scss */
+.jcarousel-skin-default .jcarousel-navigation li.active a {
+  background-color: #18786c;
+}
+
+/* accommodation */
+/* line 325, ../../../sass/colors/green/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item a {
+  color: #0e2127;
+}
+/* line 327, ../../../sass/colors/green/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item a:hover, .ctools-auto-submit-full-form .form-item .form-item a:focus {
+  background-color: #18786c;
+  border-color: #18786c;
+}
+/* line 334, ../../../sass/colors/green/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item.selected a {
+  background-color: #18786c;
+  border-color: #18786c;
+}
+
+/* line 343, ../../../sass/colors/green/style.scss */
+ul.secondary li a {
+  border-color: #0e2127;
+  color: #0e2127;
+}
+/* line 346, ../../../sass/colors/green/style.scss */
+ul.secondary li a:hover, ul.secondary li a:focus {
+  background-color: #18786c;
+  color: white;
+}
+/* line 351, ../../../sass/colors/green/style.scss */
+ul.secondary li.active .active {
+  background-color: #18786c;
+  border-color: #18786c;
+  color: white;
+}
+
+/* line 361, ../../../sass/colors/green/style.scss */
+.view-type ul.menu li a {
+  color: #0e2127;
+}
+/* line 364, ../../../sass/colors/green/style.scss */
+.view-type ul.menu li a:hover, .view-type ul.menu li a:focus, .view-type ul.menu li a.active-trail {
+  background-color: #18786c;
+  border-color: #18786c;
+}
+
+/* owl-theme */
+/* line 374, ../../../sass/colors/green/style.scss */
+.owl-theme .owl-controls .owl-buttons div {
+  color: #0e2127;
+}
+/* line 376, ../../../sass/colors/green/style.scss */
+.owl-theme .owl-controls .owl-buttons div:hover, .owl-theme .owl-controls .owl-buttons div:focus {
+  background-color: #18786c;
+}
+
+/* pager */
+/* line 387, ../../../sass/colors/green/style.scss */
+.pager li > a:hover,
+.pager li > a:focus,
+.pager li > span:hover,
+.pager li > span:focus,
+.pager li.pager-current {
+  background-color: #18786c;
+}
+
+/* services */
+/* line 393, ../../../sass/colors/green/style.scss */
+.aloha-services a:hover, .aloha-services a:focus {
+  color: #fff;
+}
+/* line 398, ../../../sass/colors/green/style.scss */
+.aloha-services .service-item:hover, .aloha-services .service-item:focus {
+  background-color: #18786c;
+}
+
+/* about*/
+/* line 406, ../../../sass/colors/green/style.scss */
+.group-social-info a:hover, .group-social-info a:focus {
+  background-color: #18786c;
+}
+
+/* contact */
+/* line 413, ../../../sass/colors/green/style.scss */
+.contact-form .form-submit {
+  background: none;
+  color: #0e2127;
+}
+/* line 416, ../../../sass/colors/green/style.scss */
+.contact-form .form-submit:hover, .contact-form .form-submit:focus {
+  background-color: #18786c;
+  color: #fff;
+}
+
+/* gallery */
+/* line 424, ../../../sass/colors/green/style.scss */
+.option-set li a {
+  color: #0e2127;
+}
+/* line 426, ../../../sass/colors/green/style.scss */
+.option-set li a:hover, .option-set li a:focus {
+  background-color: #18786c;
+  border-color: #18786c;
+}
+/* line 431, ../../../sass/colors/green/style.scss */
+.option-set li a.selected {
+  background-color: #18786c;
+  border-color: #18786c;
+}
+
+/* checkout */
+/* line 439, ../../../sass/colors/green/style.scss */
+.checkout-buttons .checkout-cancel:hover, .checkout-buttons .checkout-cancel:focus, .checkout-buttons .checkout-back:hover, .checkout-buttons .checkout-back:focus {
+  background-color: #18786c;
+  border-color: #18786c;
+}
+
+/* line 445, ../../../sass/colors/green/style.scss */
+.chosen-container .chosen-results li.highlighted {
+  background-color: #18786c;
+}
+
+/* comment form */
+/* line 450, ../../../sass/colors/green/style.scss */
+ul.inline li.comment-add a {
+  color: #18786c;
+}
+/* line 452, ../../../sass/colors/green/style.scss */
+ul.inline li.comment-add a:hover, ul.inline li.comment-add a:focus {
+  color: inherit;
+}
+
+/* line 459, ../../../sass/colors/green/style.scss */
+.comment h3 a {
+  color: #0e2127;
+}
+/* line 461, ../../../sass/colors/green/style.scss */
+.comment h3 a:hover, .comment h3 a:focus {
+  color: #18786c;
+}
+/* line 467, ../../../sass/colors/green/style.scss */
+.comment ul.inline a, .comment ul.links.inline a {
+  color: #0e2127;
+}
+/* line 469, ../../../sass/colors/green/style.scss */
+.comment ul.inline a:hover, .comment ul.inline a:focus, .comment ul.links.inline a:hover, .comment ul.links.inline a:focus {
+  color: #18786c;
+}
+
+/* table */
+/* line 476, ../../../sass/colors/green/style.scss */
+.views-table, .sticky-header, .sticky-table, .weather table {
+  border-color: #18786c;
+}
+
+/* line 479, ../../../sass/colors/green/style.scss */
+#search-block-form .container-inline {
+  background-color: #18786c;
+}
+
+/* line 482, ../../../sass/colors/green/style.scss */
+.btn-btt {
+  background: black;
+}
+/* line 484, ../../../sass/colors/green/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #46b5a7;
+}
+
+@media (max-width: 992px) {
+  /* skin-green */
+  /* line 492, ../../../sass/colors/green/style.scss */
+  .skin-green .navbar-toggle .icon-bar {
+    background-color: #18786c;
+  }
+  /* line 496, ../../../sass/colors/green/style.scss */
+  .skin-green .navbar-toggle:hover .icon-bar, .skin-green .navbar-toggle:focus .icon-bar {
+    background-color: black;
+  }
+  /* line 501, ../../../sass/colors/green/style.scss */
+  .skin-green .navbar-collapse.collapse {
+    background-color: #18786c;
+  }
+  /* line 504, ../../../sass/colors/green/style.scss */
+  .skin-green .tb-megamenu-main-menu {
+    background-color: #18786c;
+  }
+  /* line 508, ../../../sass/colors/green/style.scss */
+  .skin-green .tb-megamenu-main-menu .nav > li > a {
+    color: #46b5a7;
+  }
+  /* line 510, ../../../sass/colors/green/style.scss */
+  .skin-green .tb-megamenu-main-menu .nav > li > a:hover, .skin-green .tb-megamenu-main-menu .nav > li > a:focus {
+    color: white;
+  }
+  /* line 515, ../../../sass/colors/green/style.scss */
+  .skin-green .tb-megamenu-main-menu .nav > .active > a, .skin-green .tb-megamenu-main-menu .nav > .active > a:hover, .skin-green .tb-megamenu-main-menu .nav > .active > a:focus {
+    color: white;
+  }
+}

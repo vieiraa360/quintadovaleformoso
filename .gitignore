@@ -1,0 +1,21 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+at/
+cgi-bin/
+database/
+files/
+heldervieira/
+home/
+imgresize/
+kambolife/
+resume/
+site4u/
+ster/
+tmp/
+w_api/
+aloha-profile-7.x-1.0.zip/
+

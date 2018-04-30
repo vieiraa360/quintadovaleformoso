@@ -1,0 +1,997 @@
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+/* colors */
+/* line 10, ../../../sass/colors/yellow/style.scss */
+body {
+  color: #7d7d7d;
+}
+
+/* btn effect */
+/* line 21, ../../../sass/colors/yellow/style.scss */
+a {
+  color: #efc74b;
+}
+
+/* line 24, ../../../sass/colors/yellow/style.scss */
+#page {
+  background-color: #343434;
+}
+
+/* button */
+/* line 28, ../../../sass/colors/yellow/style.scss */
+.form-submit {
+  border-color: #7d7d7d;
+  background: none;
+}
+/* line 31, ../../../sass/colors/yellow/style.scss */
+.form-submit:hover, .form-submit:focus {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* line 37, ../../../sass/colors/yellow/style.scss */
+.views-field-field-book-link a, #errorbox a {
+  border-color: #efc74b;
+  color: #7d7d7d;
+  border-color: #7d7d7d;
+}
+/* line 16, ../../../sass/colors/yellow/style.scss */
+.views-field-field-book-link a:after, #errorbox a:after {
+  background-color: #efc74b;
+}
+/* line 41, ../../../sass/colors/yellow/style.scss */
+.views-field-field-book-link a:hover, .views-field-field-book-link a:focus, #errorbox a:hover, #errorbox a:focus {
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* line 47, ../../../sass/colors/yellow/style.scss */
+.views-field-field-from-price,
+.field-name-commerce-price {
+  background-color: #333333;
+  color: #fff;
+}
+
+/* line 60, ../../../sass/colors/yellow/style.scss */
+.title:after,
+#booking h2:after,
+#panel-second h2:after,
+.bg-grey h2:after,
+.main h2:after,
+.main .title span h2:after,
+.not-front #panel-second h2:after,
+.not-front #panel-third h2:after,
+.slideshow h2:after, #page-title:after {
+  background-color: #7d7d7d;
+}
+/* line 63, ../../../sass/colors/yellow/style.scss */
+.title span,
+#booking h2 span,
+#panel-second h2 span,
+.bg-grey h2 span,
+.main h2 span,
+.main .title span h2 span,
+.not-front #panel-second h2 span,
+.not-front #panel-third h2 span,
+.slideshow h2 span, #page-title span {
+  background-color: #222;
+}
+
+/* line 69, ../../../sass/colors/yellow/style.scss */
+#booking h2 span, #panel-second h2 span {
+  background-color: #343434;
+}
+
+/* headline */
+/* line 74, ../../../sass/colors/yellow/style.scss */
+.bg-black, .headline, #footer .social-list {
+  background-color: #343434;
+  color: #7d7d7d;
+}
+/* line 77, ../../../sass/colors/yellow/style.scss */
+.bg-black a, .headline a, #footer .social-list a {
+  color: #7d7d7d;
+}
+/* line 79, ../../../sass/colors/yellow/style.scss */
+.bg-black a:hover, .bg-black a:focus, .headline a:hover, .headline a:focus, #footer .social-list a:hover, #footer .social-list a:focus {
+  color: #efc74b;
+}
+
+/* line 84, ../../../sass/colors/yellow/style.scss */
+.headline {
+  background-color: #343434;
+}
+/* line 86, ../../../sass/colors/yellow/style.scss */
+.headline .block-menu ul.menu li.expanded ul.menu {
+  background-color: #343434;
+}
+/* line 90, ../../../sass/colors/yellow/style.scss */
+.headline .block-menu ul.menu li a.active {
+  color: #efc74b;
+}
+
+/* language */
+/* line 99, ../../../sass/colors/yellow/style.scss */
+.language .dd-selected {
+  background-color: #444444;
+  color: #efc74b;
+}
+/* line 103, ../../../sass/colors/yellow/style.scss */
+.language .dd-options {
+  background-color: #444444;
+  color: #7d7d7d;
+}
+/* line 107, ../../../sass/colors/yellow/style.scss */
+.language .dd-option {
+  color: #7d7d7d;
+}
+/* line 109, ../../../sass/colors/yellow/style.scss */
+.language .dd-option:hover, .language .dd-option:focus {
+  color: #efc74b;
+  background-color: #444444;
+}
+/* line 114, ../../../sass/colors/yellow/style.scss */
+.language .dd-option-selected {
+  background-color: #444444;
+}
+/* line 118, ../../../sass/colors/yellow/style.scss */
+.language .dd-pointer:after {
+  color: #efc74b;
+}
+
+/* header */
+/* line 124, ../../../sass/colors/yellow/style.scss */
+#header {
+  background-color: #222;
+}
+
+/* menu.scss */
+/* line 131, ../../../sass/colors/yellow/style.scss */
+.navbar-main ul.menu li a {
+  color: #efc74b;
+}
+/* line 133, ../../../sass/colors/yellow/style.scss */
+.navbar-main ul.menu li a:hover, .navbar-main ul.menu li a:focus {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 137, ../../../sass/colors/yellow/style.scss */
+.navbar-main ul.menu li a.active, .navbar-main ul.menu li a.active-trail {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 143, ../../../sass/colors/yellow/style.scss */
+.navbar-main ul.menu li:hover > a, .navbar-main ul.menu li:focus > a {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 152, ../../../sass/colors/yellow/style.scss */
+.navbar-main ul.menu li.expanded ul.menu li a {
+  color: #333333;
+}
+/* line 159, ../../../sass/colors/yellow/style.scss */
+.navbar-main ul.menu li a.active:after, .navbar-main ul.menu li a.active-trail:after {
+  border-bottom-color: #333333;
+}
+
+/* .tb-megamenu */
+/* line 167, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav > li > a {
+  color: #efc74b;
+}
+/* line 169, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav > li > a:hover, .tb-megamenu-main-menu .nav > li > a:focus {
+  background-color: #efc74b;
+}
+/* line 173, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav .open > a, .tb-megamenu-main-menu .nav .open > a:hover, .tb-megamenu-main-menu .nav .open > a:focus {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 176, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav .open > a:after, .tb-megamenu-main-menu .nav .open > a:hover:after, .tb-megamenu-main-menu .nav .open > a:focus:after {
+  border-top-color: #333333;
+}
+/* line 180, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav > .active > a, .tb-megamenu-main-menu .nav > .active > a:hover, .tb-megamenu-main-menu .nav > .active > a:focus {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 183, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav > .active > a:after, .tb-megamenu-main-menu .nav > .active > a:hover:after, .tb-megamenu-main-menu .nav > .active > a:focus:after {
+  border-top-color: #333333;
+}
+/* line 187, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav li.dropdown.open > .dropdown-toggle {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 190, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav li.dropdown.open > .dropdown-toggle:after {
+  border-top-color: #333333;
+}
+/* line 196, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav li.dropdown.active > .dropdown-toggle,
+.tb-megamenu-main-menu .nav li.dropdown.open.active > .dropdown-toggle,
+.tb-megamenu-main-menu .nav > li.dropdown.open.active > a:hover {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 199, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .nav li.dropdown.active > .dropdown-toggle:after,
+.tb-megamenu-main-menu .nav li.dropdown.open.active > .dropdown-toggle:after,
+.tb-megamenu-main-menu .nav > li.dropdown.open.active > a:hover:after {
+  border-top-color: #333333;
+}
+/* line 204, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .dropdown-menu {
+  background-color: #efc74b;
+}
+/* line 206, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .dropdown-menu li > a {
+  color: #333333;
+}
+/* line 208, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .dropdown-menu li > a:hover, .tb-megamenu-main-menu .dropdown-menu li > a:focus {
+  color: #fff !important;
+}
+/* line 215, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .dropdown-menu .grid-news .views-row {
+  color: #333333;
+}
+/* line 220, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .dropdown-menu .views-field-type-image a, .tb-megamenu-main-menu .dropdown-menu .views-field-title a {
+  color: #333333;
+}
+/* line 225, ../../../sass/colors/yellow/style.scss */
+.tb-megamenu-main-menu .mega-dropdown-inner h2 {
+  color: #333333;
+}
+
+/* slideshow */
+/* line 232, ../../../sass/colors/yellow/style.scss */
+.views-slideshow-controls-text a:hover, .views-slideshow-controls-text a:focus {
+  background-color: #efc74b;
+  color: #333333;
+}
+
+/* line 240, ../../../sass/colors/yellow/style.scss */
+.main-slideshow .views-field-title a {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 243, ../../../sass/colors/yellow/style.scss */
+.main-slideshow .views-field-title a:hover, .main-slideshow .views-field-title a:focus {
+  color: #333333;
+}
+/* line 248, ../../../sass/colors/yellow/style.scss */
+.main-slideshow .views-field-field-book-link a {
+  color: #efc74b;
+  background-color: #222;
+  border-color: #222;
+}
+/* line 252, ../../../sass/colors/yellow/style.scss */
+.main-slideshow .views-field-field-book-link a:hover, .main-slideshow .views-field-field-book-link a:focus {
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* line 259, ../../../sass/colors/yellow/style.scss */
+.views-slideshow-controls-text a {
+  color: #7d7d7d;
+}
+
+/* line 264, ../../../sass/colors/yellow/style.scss */
+.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+  color: #7d7d7d;
+  border-color: #7d7d7d;
+}
+/* line 267, ../../../sass/colors/yellow/style.scss */
+.jcarousel-skin-default .jcarousel-next:hover, .jcarousel-skin-default .jcarousel-next:focus, .jcarousel-skin-default .jcarousel-prev:hover, .jcarousel-skin-default .jcarousel-prev:focus {
+  border-color: #efc74b;
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 273, ../../../sass/colors/yellow/style.scss */
+.jcarousel-skin-default .jcarousel-navigation li a {
+  border: none;
+}
+
+/* line 277, ../../../sass/colors/yellow/style.scss */
+.carousel-control {
+  background-color: #222;
+}
+/* line 279, ../../../sass/colors/yellow/style.scss */
+.carousel-control .fa {
+  background-color: #222;
+  color: #efc74b;
+}
+/* line 284, ../../../sass/colors/yellow/style.scss */
+.carousel-control:hover .fa, .carousel-control:focus .fa {
+  background-color: #efc74b;
+  color: #333333;
+}
+
+/* line 292, ../../../sass/colors/yellow/style.scss */
+.slideshow-thumb .views-field-title a, .slideshow-thumb .views-field-title a:hover, .slideshow-thumb .views-field-title a:focus, .slideshow-thumb .views-field-title-1 a, .slideshow-thumb .views-field-title-1 a:hover, .slideshow-thumb .views-field-title-1 a:focus {
+  color: #fff;
+}
+
+/* line 298, ../../../sass/colors/yellow/style.scss */
+.views-slideshow-controls-text a {
+  background-color: #222;
+  color: #efc74b;
+}
+
+/* line 304, ../../../sass/colors/yellow/style.scss */
+.alo-main-jcarousel .views-field-field-from-price, .alo-main-jcarousel .field-name-commerce-price {
+  background-color: #fff;
+  color: #333333;
+}
+
+/* booking */
+/* line 310, ../../../sass/colors/yellow/style.scss */
+#booking {
+  background-color: #343434;
+  color: #7d7d7d;
+}
+/* line 313, ../../../sass/colors/yellow/style.scss */
+#booking .form-text {
+  border-color: #7d7d7d;
+  color: #7d7d7d;
+}
+
+/* line 318, ../../../sass/colors/yellow/style.scss */
+.chosen-container-single .chosen-single {
+  border-color: #7d7d7d;
+  color: #7d7d7d;
+}
+
+/* line 322, ../../../sass/colors/yellow/style.scss */
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border-color: #7d7d7d;
+}
+
+/* line 325, ../../../sass/colors/yellow/style.scss */
+.chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b {
+  background: none;
+  position: relative;
+  color: #7d7d7d;
+}
+/* line 329, ../../../sass/colors/yellow/style.scss */
+.chosen-container-single .chosen-single abbr:after, .chosen-container-single .chosen-single div b:after {
+  font-family: 'FontAwesome';
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  width: 100%;
+  content: "\f0dd";
+}
+
+/* line 341, ../../../sass/colors/yellow/style.scss */
+.chosen-container-active .chosen-single abbr:after, .chosen-container-active .chosen-single div b:after {
+  content: "\f0de";
+  top: 1px;
+}
+
+/* line 347, ../../../sass/colors/yellow/style.scss */
+.chosen-container .chosen-drop {
+  border-color: #7d7d7d;
+  background-color: #343434;
+}
+
+/* line 351, ../../../sass/colors/yellow/style.scss */
+.chosen-container .chosen-results li.highlighted {
+  background-color: #efc74b;
+  color: #333333;
+}
+
+/* line 356, ../../../sass/colors/yellow/style.scss */
+.chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b {
+  background: none !important;
+}
+
+/* line 359, ../../../sass/colors/yellow/style.scss */
+.rooms-availability-search .form-submit {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+/* line 363, ../../../sass/colors/yellow/style.scss */
+.rooms-availability-search .form-submit:hover, .rooms-availability-search .form-submit:focus {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* main content */
+/* line 370, ../../../sass/colors/yellow/style.scss */
+.main {
+  background-color: #222;
+}
+/* line 373, ../../../sass/colors/yellow/style.scss */
+.main .title span {
+  background-color: #222 !important;
+  color: #7d7d7d;
+}
+
+/* line 379, ../../../sass/colors/yellow/style.scss */
+#panel-first {
+  background-color: #222;
+}
+/* line 382, ../../../sass/colors/yellow/style.scss */
+#panel-first h2 span {
+  background-color: #222;
+}
+
+/* special offer */
+/* line 389, ../../../sass/colors/yellow/style.scss */
+.views-field-title a, .views-field-title-1 a, .views-field-commerce-price a {
+  color: #7d7d7d;
+}
+/* line 391, ../../../sass/colors/yellow/style.scss */
+.views-field-title a:hover, .views-field-title a:focus, .views-field-title-1 a:hover, .views-field-title-1 a:focus, .views-field-commerce-price a:hover, .views-field-commerce-price a:focus {
+  color: #efc74b;
+}
+
+/* footer */
+/* line 399, ../../../sass/colors/yellow/style.scss */
+#panel-footer a:hover, #panel-footer a:focus {
+  color: #efc74b;
+}
+
+/* line 405, ../../../sass/colors/yellow/style.scss */
+#footer a {
+  color: inherit;
+}
+/* line 407, ../../../sass/colors/yellow/style.scss */
+#footer a:hover, #footer a:focus {
+  color: #efc74b;
+}
+
+/* line 415, ../../../sass/colors/yellow/style.scss */
+.panel-column ul.menu li:hover:before, .panel-column ul.menu li:focus:before {
+  color: #efc74b;
+}
+/* line 418, ../../../sass/colors/yellow/style.scss */
+.panel-column ul.menu li:hover a, .panel-column ul.menu li:focus a {
+  color: #efc74b;
+}
+/* line 422, ../../../sass/colors/yellow/style.scss */
+.panel-column ul.menu a {
+  color: inherit;
+}
+
+/* line 428, ../../../sass/colors/yellow/style.scss */
+.tagclouds-term a {
+  border-color: #7d7d7d;
+}
+/* line 430, ../../../sass/colors/yellow/style.scss */
+.tagclouds-term a:hover, .tagclouds-term a:focus {
+  border-color: #efc74b;
+}
+
+/* line 436, ../../../sass/colors/yellow/style.scss */
+.line-through:after {
+  background-color: rgba(125, 125, 125, 0.3);
+}
+
+/* line 440, ../../../sass/colors/yellow/style.scss */
+.simplenews-subscribe .form-text {
+  border-color: #7d7d7d;
+}
+/* line 442, ../../../sass/colors/yellow/style.scss */
+.simplenews-subscribe .form-text:focus {
+  border-color: #efc74b;
+}
+
+/* line 446, ../../../sass/colors/yellow/style.scss */
+.simplenews-unsubscribe .form-submit {
+  border-color: #7d7d7d;
+  color: #7d7d7d;
+}
+/* line 449, ../../../sass/colors/yellow/style.scss */
+.simplenews-unsubscribe .form-submit:hover, .simplenews-unsubscribe .form-submit:focus {
+  background-color: #efc74b !important;
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* News page */
+/* line 458, ../../../sass/colors/yellow/style.scss */
+.node-readmore a,
+.list-article .views-field-view-node a {
+  border-color: #7d7d7d;
+  color: #7d7d7d;
+}
+/* line 461, ../../../sass/colors/yellow/style.scss */
+.node-readmore a:after,
+.list-article .views-field-view-node a:after {
+  background-color: #efc74b;
+}
+/* line 464, ../../../sass/colors/yellow/style.scss */
+.node-readmore a:hover, .node-readmore a:focus,
+.list-article .views-field-view-node a:hover,
+.list-article .views-field-view-node a:focus {
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* line 473, ../../../sass/colors/yellow/style.scss */
+.grid-news .views-field-title a:hover, .grid-news .views-field-title a:focus {
+  color: #efc74b;
+}
+
+/* line 481, ../../../sass/colors/yellow/style.scss */
+.item-info .views-field-view-node a {
+  color: #7d7d7d;
+}
+/* line 483, ../../../sass/colors/yellow/style.scss */
+.item-info .views-field-view-node a:after {
+  background-color: #efc74b;
+}
+/* line 486, ../../../sass/colors/yellow/style.scss */
+.item-info .views-field-view-node a:hover, .item-info .views-field-view-node a:focus {
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* sidebar */
+/* line 498, ../../../sass/colors/yellow/style.scss */
+.sidebar .block-menu ul.menu li a:hover, .sidebar .block-menu ul.menu li a:focus, .sidebar .block-menu ul.menu li .active {
+  background-color: #efc74b;
+  color: #333333;
+}
+/* line 507, ../../../sass/colors/yellow/style.scss */
+.sidebar .rooms-availability-search .form-submit:hover, .sidebar .rooms-availability-search .form-submit:focus {
+  background-color: #333333;
+  border-color: #333333;
+  color: #fff;
+}
+/* line 514, ../../../sass/colors/yellow/style.scss */
+.sidebar ul.quicktabs-tabs {
+  background-color: #222;
+}
+/* line 517, ../../../sass/colors/yellow/style.scss */
+.sidebar ul.quicktabs-tabs li a {
+  background-color: #222;
+  color: #444444;
+}
+/* line 521, ../../../sass/colors/yellow/style.scss */
+.sidebar ul.quicktabs-tabs li.active a {
+  color: #7d7d7d;
+}
+/* line 524, ../../../sass/colors/yellow/style.scss */
+.sidebar ul.quicktabs-tabs li.active:after {
+  background-color: #7d7d7d;
+}
+
+/* line 531, ../../../sass/colors/yellow/style.scss */
+.latest-views .views-field-title a:hover, .latest-views .views-field-title a:focus {
+  color: #efc74b;
+}
+
+/* line 535, ../../../sass/colors/yellow/style.scss */
+.support {
+  background-color: #efc74b;
+}
+
+/* line 538, ../../../sass/colors/yellow/style.scss */
+.jcarousel-skin-default .jcarousel-navigation li.active a {
+  background-color: #efc74b;
+}
+
+/* accommodation */
+/* line 542, ../../../sass/colors/yellow/style.scss */
+#panel-second {
+  background-color: #343434;
+}
+
+/* line 548, ../../../sass/colors/yellow/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item a {
+  color: #7d7d7d;
+  border-color: #7d7d7d;
+}
+/* line 551, ../../../sass/colors/yellow/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item a:hover, .ctools-auto-submit-full-form .form-item .form-item a:focus {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+/* line 559, ../../../sass/colors/yellow/style.scss */
+.ctools-auto-submit-full-form .form-item .form-item.selected a {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* line 569, ../../../sass/colors/yellow/style.scss */
+ul.secondary li a {
+  border-color: #7d7d7d;
+  color: #7d7d7d;
+}
+/* line 572, ../../../sass/colors/yellow/style.scss */
+ul.secondary li a:hover, ul.secondary li a:focus {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+/* line 578, ../../../sass/colors/yellow/style.scss */
+ul.secondary li.active .active {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* line 588, ../../../sass/colors/yellow/style.scss */
+.view-type ul.menu li a {
+  color: #7d7d7d;
+}
+/* line 591, ../../../sass/colors/yellow/style.scss */
+.view-type ul.menu li a:hover, .view-type ul.menu li a:focus, .view-type ul.menu li a.active-trail {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* owl-theme */
+/* line 602, ../../../sass/colors/yellow/style.scss */
+.owl-theme .owl-controls .owl-buttons div {
+  color: #7d7d7d;
+}
+/* line 604, ../../../sass/colors/yellow/style.scss */
+.owl-theme .owl-controls .owl-buttons div:hover, .owl-theme .owl-controls .owl-buttons div:focus {
+  background-color: #efc74b;
+  color: #333333;
+}
+
+/* pager */
+/* line 612, ../../../sass/colors/yellow/style.scss */
+.pager li > a, .pager li > span {
+  color: #333333;
+}
+
+/* line 619, ../../../sass/colors/yellow/style.scss */
+.pager li > a:hover,
+.pager li > a:focus,
+.pager li > span:hover,
+.pager li > span:focus,
+.pager li.pager-current {
+  background-color: #efc74b;
+  color: #333333;
+}
+
+/* services */
+/* line 626, ../../../sass/colors/yellow/style.scss */
+.aloha-services a:hover, .aloha-services a:focus {
+  color: #fff;
+}
+/* line 631, ../../../sass/colors/yellow/style.scss */
+.aloha-services .service-item:hover, .aloha-services .service-item:focus {
+  background-color: #efc74b;
+}
+/* line 636, ../../../sass/colors/yellow/style.scss */
+.aloha-services h2 a {
+  color: #fff !important;
+}
+
+/* about*/
+/* line 644, ../../../sass/colors/yellow/style.scss */
+.group-social-info a:hover, .group-social-info a:focus {
+  background-color: #efc74b;
+}
+
+/* contact */
+/* line 651, ../../../sass/colors/yellow/style.scss */
+.contact-form .form-submit {
+  background: none;
+  color: #333333;
+}
+/* line 654, ../../../sass/colors/yellow/style.scss */
+.contact-form .form-submit:hover, .contact-form .form-submit:focus {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* gallery */
+/* line 663, ../../../sass/colors/yellow/style.scss */
+.option-set li a {
+  color: #7d7d7d;
+  border-color: #7d7d7d;
+}
+/* line 666, ../../../sass/colors/yellow/style.scss */
+.option-set li a:hover, .option-set li a:focus {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+/* line 672, ../../../sass/colors/yellow/style.scss */
+.option-set li a.selected {
+  background-color: #efc74b;
+  border-color: #efc74b;
+  color: #333333;
+}
+
+/* #panel-fifth */
+/* line 679, ../../../sass/colors/yellow/style.scss */
+#panel-fifth {
+  background-color: #222;
+}
+
+/* line 682, ../../../sass/colors/yellow/style.scss */
+.ui-widget-content, .ui-widget-content {
+  color: #7d7d7d;
+}
+
+/* line 686, ../../../sass/colors/yellow/style.scss */
+.ui-accordion .ui-accordion-header {
+  border-color: #7d7d7d;
+}
+/* line 688, ../../../sass/colors/yellow/style.scss */
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon:after {
+  color: #7d7d7d;
+}
+/* line 692, ../../../sass/colors/yellow/style.scss */
+.ui-accordion .ui-accordion-content {
+  border-color: #7d7d7d;
+}
+
+/* line 696, ../../../sass/colors/yellow/style.scss */
+.ui-state-default a {
+  color: #7d7d7d;
+}
+/* line 698, ../../../sass/colors/yellow/style.scss */
+.ui-state-default a:hover, .ui-state-default a:focus {
+  color: #efc74b;
+}
+
+/* line 702, ../../../sass/colors/yellow/style.scss */
+.ui-state-hover a, .ui-state-hover a:link, .ui-state-hover a:visited {
+  color: #efc74b;
+}
+
+/* line 705, ../../../sass/colors/yellow/style.scss */
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+  color: #7d7d7d;
+}
+
+/* primary */
+/* line 711, ../../../sass/colors/yellow/style.scss */
+ul.primary li a, ul.primary li + li a {
+  background-color: #222;
+}
+/* line 713, ../../../sass/colors/yellow/style.scss */
+ul.primary li a:hover, ul.primary li a:focus, ul.primary li + li a:hover, ul.primary li + li a:focus {
+  background-color: #222;
+  color: #efc74b;
+}
+/* line 720, ../../../sass/colors/yellow/style.scss */
+ul.primary li + li:after {
+  background-color: #7d7d7d;
+}
+/* line 725, ../../../sass/colors/yellow/style.scss */
+ul.primary li.active a {
+  background-color: #222;
+  color: #efc74b;
+}
+
+/* line 733, ../../../sass/colors/yellow/style.scss */
+.item-meta > div + div,
+.list-article ul.inline li + li {
+  border-color: #7d7d7d;
+}
+
+/* line 738, ../../../sass/colors/yellow/style.scss */
+.node h2 a {
+  color: #7d7d7d;
+}
+/* line 740, ../../../sass/colors/yellow/style.scss */
+.node h2 a:hover, .node h2 a:focus {
+  color: #efc74b;
+}
+
+/* line 749, ../../../sass/colors/yellow/style.scss */
+.not-front .alo-main-jcarousel .views-row .grid-inner .views-field-field-from-price, .not-front .alo-main-jcarousel .views-row .grid-inner .field-name-commerce-price,
+.bg-white .views-field-field-from-price,
+.bg-white .field-name-commerce-price, .owl-carousel .views-field-field-from-price, .owl-carousel .field-name-commerce-price, .group-info .views-field-field-from-price, .group-info .field-name-commerce-price, #comments .views-field-field-from-price, #comments .field-name-commerce-price {
+  background-color: #333333;
+  color: #fff;
+}
+
+/* checkout */
+/* line 757, ../../../sass/colors/yellow/style.scss */
+.checkout-buttons .checkout-cancel:hover, .checkout-buttons .checkout-cancel:focus, .checkout-buttons .checkout-back:hover, .checkout-buttons .checkout-back:focus {
+  background-color: #efc74b;
+  border-color: #efc74b;
+}
+
+/* line 763, ../../../sass/colors/yellow/style.scss */
+.chosen-container .chosen-results li.highlighted {
+  background-color: #efc74b;
+}
+
+/* line 767, ../../../sass/colors/yellow/style.scss */
+.rooms-date-range .container-inline-date .form-item input {
+  border-color: #7d7d7d;
+}
+
+/* line 772, ../../../sass/colors/yellow/style.scss */
+#edit-info legend:after {
+  background-color: #7d7d7d !important;
+}
+/* line 776, ../../../sass/colors/yellow/style.scss */
+#edit-info .fieldset-legend {
+  background-color: #222 !important;
+  color: #7d7d7d;
+}
+
+/* line 782, ../../../sass/colors/yellow/style.scss */
+.views-table, .sticky-header, .sticky-table,
+.views-table tbody, .sticky-header tbody, .sticky-table tbody {
+  border-color: #efc74b;
+}
+
+/* line 787, ../../../sass/colors/yellow/style.scss */
+.commerce-order-handler-area-order-total .commerce-price-formatted-components tr.even,
+.commerce-order-handler-area-order-total .commerce-price-formatted-components tr.odd,
+.line-item-summary {
+  background-color: #efc74b;
+}
+
+/* line 790, ../../../sass/colors/yellow/style.scss */
+.commerce-line-item-actions .form-submit {
+  color: #7d7d7d;
+}
+/* line 792, ../../../sass/colors/yellow/style.scss */
+.commerce-line-item-actions .form-submit:hover, .commerce-line-item-actions .form-submit:focus {
+  color: #333333;
+}
+
+/* line 796, ../../../sass/colors/yellow/style.scss */
+legend {
+  color: #7d7d7d;
+}
+
+/* line 800, ../../../sass/colors/yellow/style.scss */
+.checkout-buttons .checkout-cancel:hover, .checkout-buttons .checkout-cancel:focus, .checkout-buttons .checkout-back:hover, .checkout-buttons .checkout-back:focus {
+  color: #333333;
+}
+
+/* about */
+/* line 806, ../../../sass/colors/yellow/style.scss */
+.not-front #panel-second, .not-front #panel-third {
+  background-color: #222;
+}
+
+/* line 812, ../../../sass/colors/yellow/style.scss */
+.aloha-timeline .item-list ul {
+  border-bottom-color: #7d7d7d;
+}
+/* line 814, ../../../sass/colors/yellow/style.scss */
+.aloha-timeline .item-list ul:after {
+  background-color: #7d7d7d;
+}
+/* line 819, ../../../sass/colors/yellow/style.scss */
+.aloha-timeline .views-field-field-year > div {
+  color: #fff;
+}
+/* line 823, ../../../sass/colors/yellow/style.scss */
+.aloha-timeline .views-field-field-year:after {
+  background-color: #d2d0d0;
+}
+
+/* comment form */
+/* line 830, ../../../sass/colors/yellow/style.scss */
+ul.inline li.comment-add a {
+  color: #efc74b;
+}
+/* line 832, ../../../sass/colors/yellow/style.scss */
+ul.inline li.comment-add a:hover, ul.inline li.comment-add a:focus {
+  color: inherit;
+}
+
+/* line 839, ../../../sass/colors/yellow/style.scss */
+.comment h3 a {
+  color: #7d7d7d;
+}
+/* line 841, ../../../sass/colors/yellow/style.scss */
+.comment h3 a:hover, .comment h3 a:focus {
+  color: #efc74b;
+}
+/* line 847, ../../../sass/colors/yellow/style.scss */
+.comment ul.inline a, .comment ul.links.inline a {
+  color: #7d7d7d;
+}
+/* line 849, ../../../sass/colors/yellow/style.scss */
+.comment ul.inline a:hover, .comment ul.inline a:focus, .comment ul.links.inline a:hover, .comment ul.links.inline a:focus {
+  color: #efc74b;
+}
+
+/* line 856, ../../../sass/colors/yellow/style.scss */
+#comment-confirm-delete .form-submit {
+  color: #7d7d7d;
+}
+/* line 858, ../../../sass/colors/yellow/style.scss */
+#comment-confirm-delete .form-submit:hover, #comment-confirm-delete .form-submit:focus {
+  color: #333333;
+}
+
+/* table */
+/* line 864, ../../../sass/colors/yellow/style.scss */
+.views-table, .sticky-header, .sticky-table, .weather table {
+  border-color: #efc74b;
+}
+
+/* line 867, ../../../sass/colors/yellow/style.scss */
+#search-block-form .container-inline {
+  background-color: #333333;
+}
+
+/* search page */
+/* line 873, ../../../sass/colors/yellow/style.scss */
+#search-form #edit-basic .form-text {
+  border-color: #7d7d7d;
+}
+/* line 876, ../../../sass/colors/yellow/style.scss */
+#search-form #edit-basic .form-submit {
+  color: #7d7d7d;
+}
+
+/* line 881, ../../../sass/colors/yellow/style.scss */
+.btn-btt {
+  background: #efc74b;
+}
+/* line 883, ../../../sass/colors/yellow/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #7d7d7d;
+}
+
+@media (max-width: 992px) {
+  /* skin-yellow */
+  /* line 891, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .navbar-toggle .icon-bar {
+    background-color: #efc74b;
+  }
+  /* line 895, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .navbar-toggle:hover .icon-bar, .skin-yellow .navbar-toggle:focus .icon-bar {
+    background-color: black;
+  }
+  /* line 900, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .navbar-collapse.collapse {
+    background-color: #efc74b;
+  }
+  /* line 903, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .tb-megamenu-main-menu {
+    background-color: #efc74b;
+  }
+  /* line 907, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .tb-megamenu-main-menu .nav > li > a {
+    color: #333333;
+  }
+  /* line 909, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .tb-megamenu-main-menu .nav > li > a:hover, .skin-yellow .tb-megamenu-main-menu .nav > li > a:focus {
+    color: white;
+  }
+  /* line 914, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .tb-megamenu-main-menu .nav .open > a, .skin-yellow .tb-megamenu-main-menu .nav .open > a:hover, .skin-yellow .tb-megamenu-main-menu .nav .open > a:focus {
+    color: white;
+  }
+  /* line 917, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .tb-megamenu-main-menu .nav > .active > a, .skin-yellow .tb-megamenu-main-menu .nav > .active > a:hover, .skin-yellow .tb-megamenu-main-menu .nav > .active > a:focus {
+    color: white;
+  }
+  /* line 922, ../../../sass/colors/yellow/style.scss */
+  .skin-yellow .tb-megamenu-main-menu .nav li.dropdown.active > .dropdown-toggle,
+  .skin-yellow .tb-megamenu-main-menu .nav li.dropdown.open.active > .dropdown-toggle,
+  .skin-yellow .tb-megamenu-main-menu .nav > li.dropdown.open.active > a:hover {
+    color: white;
+  }
+}

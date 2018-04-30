@@ -1,0 +1,1859 @@
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+/* line 3, ../sass/page.scss */
+.title, #rooms-booking-manager-change-search-form legend, #booking h2, #panel-second h2, .bg-grey h2, .main h2, .main .title span h2, .not-front #panel-second h2, .not-front #panel-third h2, .slideshow h2, #page-title {
+  font-family: 'open_sansbold_italic';
+  font-size: 2.142em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 146, ../sass/includes/_include.scss */
+.title:after, #rooms-booking-manager-change-search-form legend:after, #booking h2:after, #panel-second h2:after, .bg-grey h2:after, .main h2:after, .main .title span h2:after, .not-front #panel-second h2:after, .not-front #panel-third h2:after, .slideshow h2:after, #page-title:after {
+  background-color: #0e2127;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  margin-top: -1px;
+  position: absolute;
+  top: 50%;
+  width: 500px;
+}
+/* line 7, ../sass/page.scss */
+.title span, #rooms-booking-manager-change-search-form legend span, #booking h2 span, #panel-second h2 span, .bg-grey h2 span, .main h2 span, .main .title span h2 span, .not-front #panel-second h2 span, .not-front #panel-third h2 span, .slideshow h2 span, #page-title span {
+  background: white;
+  padding-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 15, ../sass/page.scss */
+.bg-black, .headline, #footer .social-list {
+  background-color: #0e2127;
+  color: #b9b9b9;
+}
+/* line 17, ../sass/page.scss */
+.bg-black a, .headline a, #footer .social-list a {
+  color: #b9b9b9;
+}
+/* line 19, ../sass/page.scss */
+.bg-black a:hover, .headline a:hover, #footer .social-list a:hover, .bg-black a:focus, .headline a:focus, #footer .social-list a:focus {
+  color: #fff;
+}
+
+/* line 25, ../sass/page.scss */
+.bg-grey, .main, .main .title span, .main #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .main legend span, .main #booking h2 span, #booking .main h2 span, .main #panel-second h2 span, #panel-second .main h2 span, .main .bg-grey h2 span, .bg-grey .main h2 span, .main .slideshow h2 span, .slideshow .main h2 span, .not-front #panel-second, .not-front #panel-third {
+  background-color: #f6f5f5;
+}
+/* line 27, ../sass/page.scss */
+.bg-grey .title span, .main .title span, .main .title span .title span, .main #rooms-booking-manager-change-search-form legend span .title span, #rooms-booking-manager-change-search-form .main legend span .title span, .main #booking h2 span .title span, #booking .main h2 span .title span, .main #panel-second h2 span .title span, #panel-second .main h2 span .title span, .main .bg-grey h2 span .title span, .bg-grey .main h2 span .title span, .main .slideshow h2 span .title span, .slideshow .main h2 span .title span, .not-front #panel-second .title span, .not-front #panel-third .title span, .bg-grey #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .bg-grey legend span, .main #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .main legend span, .main .title span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .main .title span legend span, .main #rooms-booking-manager-change-search-form legend span legend span, #rooms-booking-manager-change-search-form .main legend span legend span, .main #booking h2 span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .main #booking h2 span legend span, #booking .main h2 span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form #booking .main h2 span legend span, .main #panel-second h2 span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .main #panel-second h2 span legend span, #panel-second .main h2 span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form #panel-second .main h2 span legend span, .main .bg-grey h2 span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .main .bg-grey h2 span legend span, .bg-grey .main h2 span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .bg-grey .main h2 span legend span, .main .slideshow h2 span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .main .slideshow h2 span legend span, .slideshow .main h2 span #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .slideshow .main h2 span legend span, .not-front #panel-second #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .not-front #panel-second legend span, .not-front #panel-third #rooms-booking-manager-change-search-form legend span, #rooms-booking-manager-change-search-form .not-front #panel-third legend span, .bg-grey #booking h2 span, #booking .bg-grey h2 span, .main #booking h2 span, #booking .main h2 span, .main .title span #booking h2 span, #booking .main .title span h2 span, .main #rooms-booking-manager-change-search-form legend span #booking h2 span, #booking .main #rooms-booking-manager-change-search-form legend span h2 span, #rooms-booking-manager-change-search-form .main legend span #booking h2 span, #booking #rooms-booking-manager-change-search-form .main legend span h2 span, .main #booking h2 span h2 span, #booking .main h2 span h2 span, .main #panel-second h2 span #booking h2 span, #booking .main #panel-second h2 span h2 span, #panel-second .main h2 span #booking h2 span, #booking #panel-second .main h2 span h2 span, .main .bg-grey h2 span #booking h2 span, #booking .main .bg-grey h2 span h2 span, .bg-grey .main h2 span #booking h2 span, #booking .bg-grey .main h2 span h2 span, .main .slideshow h2 span #booking h2 span, #booking .main .slideshow h2 span h2 span, .slideshow .main h2 span #booking h2 span, #booking .slideshow .main h2 span h2 span, .not-front #panel-second #booking h2 span, #booking .not-front #panel-second h2 span, .not-front #panel-third #booking h2 span, #booking .not-front #panel-third h2 span, .bg-grey #panel-second h2 span, #panel-second .bg-grey h2 span, .main #panel-second h2 span, #panel-second .main h2 span, .main .title span #panel-second h2 span, #panel-second .main .title span h2 span, .main #rooms-booking-manager-change-search-form legend span #panel-second h2 span, #panel-second .main #rooms-booking-manager-change-search-form legend span h2 span, #rooms-booking-manager-change-search-form .main legend span #panel-second h2 span, #panel-second #rooms-booking-manager-change-search-form .main legend span h2 span, .main #booking h2 span #panel-second h2 span, #panel-second .main #booking h2 span h2 span, #booking .main h2 span #panel-second h2 span, #panel-second #booking .main h2 span h2 span, .main #panel-second h2 span h2 span, #panel-second .main h2 span h2 span, .main .bg-grey h2 span #panel-second h2 span, #panel-second .main .bg-grey h2 span h2 span, .bg-grey .main h2 span #panel-second h2 span, #panel-second .bg-grey .main h2 span h2 span, .main .slideshow h2 span #panel-second h2 span, #panel-second .main .slideshow h2 span h2 span, .slideshow .main h2 span #panel-second h2 span, #panel-second .slideshow .main h2 span h2 span, .not-front #panel-second h2 span, .not-front #panel-third #panel-second h2 span, #panel-second .not-front #panel-third h2 span, .bg-grey h2 span, .main .bg-grey h2 span, .bg-grey .main h2 span, .main #rooms-booking-manager-change-search-form legend span .bg-grey h2 span, .bg-grey .main #rooms-booking-manager-change-search-form legend span h2 span, #rooms-booking-manager-change-search-form .main legend span .bg-grey h2 span, .bg-grey #rooms-booking-manager-change-search-form .main legend span h2 span, .main #booking h2 span .bg-grey h2 span, .bg-grey .main #booking h2 span h2 span, #booking .main h2 span .bg-grey h2 span, .bg-grey #booking .main h2 span h2 span, .main #panel-second h2 span .bg-grey h2 span, .bg-grey .main #panel-second h2 span h2 span, #panel-second .main h2 span .bg-grey h2 span, .bg-grey #panel-second .main h2 span h2 span, .main .bg-grey h2 span h2 span, .bg-grey .main h2 span h2 span, .main .slideshow h2 span .bg-grey h2 span, .bg-grey .main .slideshow h2 span h2 span, .slideshow .main h2 span .bg-grey h2 span, .bg-grey .slideshow .main h2 span h2 span, .not-front #panel-second .bg-grey h2 span, .bg-grey .not-front #panel-second h2 span, .not-front #panel-third .bg-grey h2 span, .bg-grey .not-front #panel-third h2 span, .bg-grey .main h2 span, .main .bg-grey h2 span, .main h2 span, .main .title span h2 span, .main #rooms-booking-manager-change-search-form legend span h2 span, #rooms-booking-manager-change-search-form .main legend span h2 span, .main #booking h2 span h2 span, #booking .main h2 span h2 span, .main #panel-second h2 span h2 span, #panel-second .main h2 span h2 span, .main .bg-grey h2 span h2 span, .bg-grey .main h2 span h2 span, .main .slideshow h2 span h2 span, .slideshow .main h2 span h2 span, .not-front #panel-second .main h2 span, .main .not-front #panel-second h2 span, .not-front #panel-third .main h2 span, .main .not-front #panel-third h2 span, .main .title span h2 span, .main .title span h2 span, .main #rooms-booking-manager-change-search-form legend .title span h2 span, .main .title #rooms-booking-manager-change-search-form legend span h2 span, #rooms-booking-manager-change-search-form .main legend .title span h2 span, #rooms-booking-manager-change-search-form .main .title legend span h2 span, .main #booking h2 .title span h2 span, .main .title #booking h2 span h2 span, #booking .main h2 .title span h2 span, #booking .main .title h2 span h2 span, .main #panel-second h2 .title span h2 span, .main .title #panel-second h2 span h2 span, #panel-second .main h2 .title span h2 span, #panel-second .main .title h2 span h2 span, .main .bg-grey h2 .title span h2 span, .main .title .bg-grey h2 span h2 span, .main .slideshow h2 .title span h2 span, .main .title .slideshow h2 span h2 span, .slideshow .main h2 .title span h2 span, .slideshow .main .title h2 span h2 span, .not-front #panel-second .main .title span h2 span, .main .title span .not-front #panel-second h2 span, .not-front #panel-third .main .title span h2 span, .main .title span .not-front #panel-third h2 span, .bg-grey .not-front #panel-second h2 span, .not-front #panel-second .bg-grey h2 span, .main .not-front #panel-second h2 span, .not-front #panel-second .main h2 span, .main .title span .not-front #panel-second h2 span, .not-front #panel-second .main .title span h2 span, .main #rooms-booking-manager-change-search-form legend span .not-front #panel-second h2 span, .not-front #panel-second .main #rooms-booking-manager-change-search-form legend span h2 span, #rooms-booking-manager-change-search-form .main legend span .not-front #panel-second h2 span, .not-front #panel-second #rooms-booking-manager-change-search-form .main legend span h2 span, .main #booking h2 span .not-front #panel-second h2 span, .not-front #panel-second .main #booking h2 span h2 span, #booking .main h2 span .not-front #panel-second h2 span, .not-front #panel-second #booking .main h2 span h2 span, .main .not-front #panel-second h2 span h2 span, .not-front .main #panel-second h2 span h2 span, .not-front #panel-second .main h2 span h2 span, .main .bg-grey h2 span .not-front #panel-second h2 span, .not-front #panel-second .main .bg-grey h2 span h2 span, .bg-grey .main h2 span .not-front #panel-second h2 span, .not-front #panel-second .bg-grey .main h2 span h2 span, .main .slideshow h2 span .not-front #panel-second h2 span, .not-front #panel-second .main .slideshow h2 span h2 span, .slideshow .main h2 span .not-front #panel-second h2 span, .not-front #panel-second .slideshow .main h2 span h2 span, .not-front #panel-second h2 span, .not-front #panel-third #panel-second h2 span, .not-front #panel-second #panel-third h2 span, .bg-grey .not-front #panel-third h2 span, .not-front #panel-third .bg-grey h2 span, .main .not-front #panel-third h2 span, .not-front #panel-third .main h2 span, .main .title span .not-front #panel-third h2 span, .not-front #panel-third .main .title span h2 span, .main #rooms-booking-manager-change-search-form legend span .not-front #panel-third h2 span, .not-front #panel-third .main #rooms-booking-manager-change-search-form legend span h2 span, #rooms-booking-manager-change-search-form .main legend span .not-front #panel-third h2 span, .not-front #panel-third #rooms-booking-manager-change-search-form .main legend span h2 span, .main #booking h2 span .not-front #panel-third h2 span, .not-front #panel-third .main #booking h2 span h2 span, #booking .main h2 span .not-front #panel-third h2 span, .not-front #panel-third #booking .main h2 span h2 span, .main #panel-second h2 span .not-front #panel-third h2 span, .not-front #panel-third .main #panel-second h2 span h2 span, #panel-second .main h2 span .not-front #panel-third h2 span, .not-front #panel-third #panel-second .main h2 span h2 span, .main .bg-grey h2 span .not-front #panel-third h2 span, .not-front #panel-third .main .bg-grey h2 span h2 span, .bg-grey .main h2 span .not-front #panel-third h2 span, .not-front #panel-third .bg-grey .main h2 span h2 span, .main .slideshow h2 span .not-front #panel-third h2 span, .not-front #panel-third .main .slideshow h2 span h2 span, .slideshow .main h2 span .not-front #panel-third h2 span, .not-front #panel-third .slideshow .main h2 span h2 span, .not-front #panel-second #panel-third h2 span, .not-front #panel-third #panel-second h2 span, .not-front #panel-third h2 span, .bg-grey .slideshow h2 span, .slideshow .bg-grey h2 span, .main .slideshow h2 span, .slideshow .main h2 span, .main .title span .slideshow h2 span, .slideshow .main .title span h2 span, .main #rooms-booking-manager-change-search-form legend span .slideshow h2 span, .slideshow .main #rooms-booking-manager-change-search-form legend span h2 span, #rooms-booking-manager-change-search-form .main legend span .slideshow h2 span, .slideshow #rooms-booking-manager-change-search-form .main legend span h2 span, .main #booking h2 span .slideshow h2 span, .slideshow .main #booking h2 span h2 span, #booking .main h2 span .slideshow h2 span, .slideshow #booking .main h2 span h2 span, .main #panel-second h2 span .slideshow h2 span, .slideshow .main #panel-second h2 span h2 span, #panel-second .main h2 span .slideshow h2 span, .slideshow #panel-second .main h2 span h2 span, .main .bg-grey h2 span .slideshow h2 span, .slideshow .main .bg-grey h2 span h2 span, .bg-grey .main h2 span .slideshow h2 span, .slideshow .bg-grey .main h2 span h2 span, .main .slideshow h2 span h2 span, .slideshow .main h2 span h2 span, .not-front #panel-second .slideshow h2 span, .slideshow .not-front #panel-second h2 span, .not-front #panel-third .slideshow h2 span, .slideshow .not-front #panel-third h2 span, .bg-grey #page-title span, .main #page-title span, .main #rooms-booking-manager-change-search-form legend span #page-title span, #rooms-booking-manager-change-search-form .main legend span #page-title span, .main #booking h2 span #page-title span, #booking .main h2 span #page-title span, .main #panel-second h2 span #page-title span, #panel-second .main h2 span #page-title span, .not-front #panel-second #page-title span, .not-front #panel-third #page-title span {
+  background-color: #f6f5f5;
+}
+
+/* line 32, ../sass/page.scss */
+.bg-white, .owl-carousel, #comments {
+  background-color: white;
+}
+
+/* line 36, ../sass/page.scss */
+#page {
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+/* headline */
+/* header */
+/* line 49, ../sass/page.scss */
+#logo {
+  display: block;
+  padding: 10px 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+/* booking */
+/* line 57, ../sass/page.scss */
+#booking {
+  padding: 40px 0;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+/* line 61, ../sass/page.scss */
+#booking label, #booking th {
+  font-family: 'open_sansbold';
+}
+
+/* line 65, ../sass/page.scss */
+.front #booking h2 {
+  display: none;
+}
+
+/* line 69, ../sass/page.scss */
+.rooms-availability-search .form-submit {
+  background-color: #929292;
+  border-color: #929292;
+  color: white;
+}
+/* line 73, ../sass/page.scss */
+.rooms-availability-search .form-submit:hover, .rooms-availability-search .form-submit:focus {
+  background-color: #0e2127;
+  border-color: #0e2127;
+}
+/* line 78, ../sass/page.scss */
+.rooms-availability-search #edit-actions {
+  margin-top: 26px;
+}
+/* line 81, ../sass/page.scss */
+.rooms-availability-search select {
+  height: 45px;
+  width: 70px;
+}
+
+/* line 88, ../sass/page.scss */
+.rooms-date-range .start-date {
+  margin-right: 17px;
+}
+/* line 91, ../sass/page.scss */
+.rooms-date-range .container-inline-date .form-item input {
+  height: 45px;
+  width: 238px;
+}
+/* line 95, ../sass/page.scss */
+.rooms-date-range .date-padding .form-item {
+  position: relative;
+}
+/* line 97, ../sass/page.scss */
+.rooms-date-range .date-padding .form-item:after {
+  content: "\f073";
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 15px;
+  top: 12px;
+}
+
+/* line 110, ../sass/page.scss */
+.rooms-availability-search .form-item-group-size-children,
+.rooms-availability-search .form-item-group-size-adults,
+.rooms-availability-search .form-item-unit-type,
+.rooms-availability-search .form-item-rooms {
+  margin: 0 17px 0 0;
+}
+
+/* line 117, ../sass/page.scss */
+.rooms-management-form .form-type-select,
+.rooms-management-form .form-item-operation,
+.rooms-management-form .form-item-amount,
+.rooms-management-form .rooms-date-range {
+  margin: 0 17px 0 0;
+}
+
+/* line 120, ../sass/page.scss */
+.rooms-management-form .form-actions {
+  padding-top: 1.8em;
+}
+
+/* line 123, ../sass/page.scss */
+.rooms-availability-search .rooms-group, .rooms-management-form .form-actions {
+  margin: 0;
+}
+
+/* line 127, ../sass/page.scss */
+.rooms-group-size .rooms-group-size__children {
+  padding-left: 30px;
+}
+
+/* slideshow */
+/* main */
+/* line 134, ../sass/page.scss */
+.main {
+  padding: 60px 0;
+}
+
+/* panel-first */
+/* line 143, ../sass/page.scss */
+#panel-first {
+  padding: 60px 0;
+}
+
+/* panel-second */
+/* line 152, ../sass/page.scss */
+.front #panel-second {
+  padding: 60px 0;
+}
+
+/* line 155, ../sass/page.scss */
+#panel-second {
+  background-color: #fff;
+}
+
+/* panel-fifth */
+/* line 160, ../sass/page.scss */
+#panel-fifth {
+  padding: 80px 0;
+}
+
+/* panel-footer */
+/* line 166, ../sass/page.scss */
+#panel-footer,
+#footer {
+  font-size: .928em;
+}
+
+/* line 170, ../sass/page.scss */
+#panel-footer {
+  padding: 60px 0 15px;
+}
+/* line 172, ../sass/page.scss */
+#panel-footer h2 {
+  font-family: 'open_sansbold';
+  font-size: 1em;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* line 181, ../sass/page.scss */
+.panel-column ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 185, ../sass/page.scss */
+.panel-column ul.menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 2px 8px;
+  position: relative;
+}
+/* line 191, ../sass/page.scss */
+.panel-column ul.menu li:before {
+  content: "\f105";
+  font-family: 'FontAwesome';
+  left: 0;
+  position: absolute;
+  top: 0px;
+}
+/* line 199, ../sass/page.scss */
+.panel-column ul.menu li:hover:before, .panel-column ul.menu li:focus:before {
+  color: white;
+}
+/* line 200, ../sass/page.scss */
+.panel-column ul.menu li:hover a, .panel-column ul.menu li:focus a {
+  color: white;
+}
+/* line 205, ../sass/page.scss */
+.panel-column ul.menu a {
+  color: #b9b9b9;
+}
+/* line 207, ../sass/page.scss */
+.panel-column ul.menu a:hover, .panel-column ul.menu a:focus {
+  color: white;
+}
+
+/* tags */
+/* line 215, ../sass/page.scss */
+.tagclouds-term a {
+  border: 1px solid #b9b9b9;
+  color: #b9b9b9;
+  display: inline-block;
+  margin: 0 2px 5px 0;
+  padding: 3px 10px;
+  text-transform: capitalize;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+/* line 223, ../sass/page.scss */
+.tagclouds-term a:hover, .tagclouds-term a:focus {
+  border-color: white;
+  color: white;
+}
+
+/* line 238, ../sass/page.scss */
+.tagclouds.level1,
+.tagclouds.level2,
+.tagclouds.level3,
+.tagclouds.level4,
+.tagclouds.level5,
+.tagclouds.level6,
+.tagclouds.level7,
+.tagclouds.level8,
+.tagclouds.level9,
+.tagclouds.level10 {
+  font-size: .923em;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/* newsletter */
+/* line 244, ../sass/page.scss */
+.simplenews-subscribe {
+  position: relative;
+}
+/* line 246, ../sass/page.scss */
+.simplenews-subscribe .form-item {
+  margin: 0;
+  position: relative;
+}
+/* line 249, ../sass/page.scss */
+.simplenews-subscribe .form-item:after {
+  content: "\f1d8";
+  font-family: 'FontAwesome';
+  font-size: 1em;
+  right: 0;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  text-indent: 0;
+  top: 0;
+  width: 45px;
+}
+/* line 261, ../sass/page.scss */
+.simplenews-subscribe .form-item:hover:after, .simplenews-subscribe .form-item:focus:after {
+  color: white;
+}
+/* line 265, ../sass/page.scss */
+.simplenews-subscribe .form-text {
+  border-color: #929292;
+  height: 45px;
+  padding-right: 45px;
+  text-transform: uppercase;
+  width: 100%;
+}
+/* line 272, ../sass/page.scss */
+.simplenews-subscribe label {
+  font-size: .857em;
+  display: none;
+}
+/* line 276, ../sass/page.scss */
+.simplenews-subscribe .form-submit {
+  background: none;
+  border: none;
+  height: 45px;
+  min-width: 0;
+  position: absolute;
+  right: 0;
+  text-indent: -99999em;
+  top: 0;
+  width: 45px;
+}
+/* line 286, ../sass/page.scss */
+.simplenews-subscribe .form-submit:hover, .simplenews-subscribe .form-submit:focus {
+  background: none;
+  border: none;
+}
+
+/* line 292, ../sass/page.scss */
+.simplenews-unsubscribe .form-submit {
+  border-color: #b9b9b9;
+  color: #b9b9b9;
+  width: 100%;
+}
+/* line 296, ../sass/page.scss */
+.simplenews-unsubscribe .form-submit:hover, .simplenews-unsubscribe .form-submit:focus {
+  background-color: #b9b9b9 !important;
+  color: #0e2127 !important;
+}
+
+/* line 301, ../sass/page.scss */
+.logged-in .simplenews-subscribe .form-submit {
+  border: 1px solid #b9b9b9;
+  color: #b9b9b9;
+  position: static;
+  text-indent: 0;
+  width: 100%;
+}
+/* line 307, ../sass/page.scss */
+.logged-in .simplenews-subscribe .form-submit:hover, .logged-in .simplenews-subscribe .form-submit:focus {
+  background-color: #b9b9b9;
+  color: #0e2127;
+}
+
+/* footer */
+/* line 313, ../sass/page.scss */
+#footer {
+  padding-bottom: 30px;
+  text-align: center;
+}
+/* line 316, ../sass/page.scss */
+#footer a {
+  color: #b9b9b9;
+}
+/* line 318, ../sass/page.scss */
+#footer a:hover, #footer a:focus {
+  color: white;
+}
+/* line 322, ../sass/page.scss */
+#footer .social-list {
+  display: inline-block;
+  font-size: 1.076em;
+  padding: 0 20px;
+}
+/* line 328, ../sass/page.scss */
+#footer p a {
+  font-family: 'open_sansbold';
+}
+
+/* line 333, ../sass/page.scss */
+.line-through {
+  margin-bottom: 30px;
+  position: relative;
+}
+/* line 129, ../sass/includes/_include.scss */
+.line-through:after {
+  background-color: #1e3840;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  margin-top: -1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+/* line 339, ../sass/page.scss */
+.social-list {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+/* line 343, ../sass/page.scss */
+.social-list > li {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 347, ../sass/page.scss */
+.social-list a {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  width: 45px;
+}
+/* line 353, ../sass/page.scss */
+.social-list a span {
+  display: none;
+}
+/* line 356, ../sass/page.scss */
+.social-list a:hover, .social-list a:focus {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* title-wrapper */
+/* line 363, ../sass/page.scss */
+#title-wrapper {
+  background: url(../images/bg-title.jpg) no-repeat #b9b9b9;
+  background-size: cover;
+}
+/* line 365, ../sass/page.scss */
+#title-wrapper > .container {
+  display: table;
+  height: 150px;
+}
+/* line 369, ../sass/page.scss */
+#title-wrapper #page-title {
+  color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 374, ../sass/page.scss */
+#title-wrapper #page-title span {
+  background: none;
+}
+/* line 377, ../sass/page.scss */
+#title-wrapper #page-title:after {
+  display: none;
+}
+
+/* line 384, ../sass/page.scss */
+.not-front .main .sidebar h2 {
+  font-size: 1.428em;
+  margin-bottom: 20px;
+}
+/* line 388, ../sass/page.scss */
+.not-front .main #content h2:after {
+  display: none;
+}
+
+/* aloha-services */
+/* line 394, ../sass/page.scss */
+.aloha-services {
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+  padding: 0;
+}
+/* line 401, ../sass/page.scss */
+.aloha-services h2 {
+  font-family: 'open_sansbold';
+  font-size: 1.428em;
+}
+/* line 405, ../sass/page.scss */
+.aloha-services .fa, .aloha-services .glyphicon {
+  font-size: 4.285em;
+  margin-bottom: 25px;
+}
+/* line 409, ../sass/page.scss */
+.aloha-services a {
+  color: white;
+}
+/* line 411, ../sass/page.scss */
+.aloha-services a:hover, .aloha-services a:focus {
+  color: #b9b9b9;
+}
+/* line 415, ../sass/page.scss */
+.aloha-services li {
+  display: table;
+  float: left;
+  height: 470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 33.333%;
+}
+/* line 423, ../sass/page.scss */
+.aloha-services .service-item {
+  background-color: #929292;
+  color: white;
+  display: table-cell;
+  padding: 20px 30px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 431, ../sass/page.scss */
+.aloha-services .service-item:hover {
+  background-color: #0e2127;
+}
+
+/* tabs primary */
+/* line 438, ../sass/page.scss */
+ul.primary {
+  border-bottom: none;
+  color: #929292;
+  font-family: 'open_sansbold_italic';
+  font-size: .857em;
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 447, ../sass/page.scss */
+ul.primary li {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+/* line 451, ../sass/page.scss */
+ul.primary li a {
+  background-color: #f6f5f5;
+  border: none;
+  color: #929292;
+  display: block;
+  margin-right: 0;
+  padding: 0;
+}
+/* line 458, ../sass/page.scss */
+ul.primary li a:hover, ul.primary li a:focus {
+  background-color: #f6f5f5;
+}
+/* line 462, ../sass/page.scss */
+ul.primary li.active a {
+  background-color: #f6f5f5;
+  border: none;
+  color: #0e2127;
+  font-size: 1.666em;
+}
+/* line 468, ../sass/page.scss */
+ul.primary li + li {
+  overflow: hidden;
+  position: relative;
+  padding-left: 60px;
+}
+/* line 146, ../sass/includes/_include.scss */
+ul.primary li + li:after {
+  background-color: #0e2127;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  margin-top: -1px;
+  position: absolute;
+  top: 50%;
+  width: 500px;
+}
+/* line 471, ../sass/page.scss */
+ul.primary li + li a {
+  background-color: #f6f5f5;
+  padding-left: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 480, ../sass/page.scss */
+ul.secondary {
+  border-bottom: none;
+  margin: 0 auto 30px;
+  padding: 0;
+  width: 60%;
+}
+/* line 485, ../sass/page.scss */
+ul.secondary li {
+  border-right: none;
+  display: inline-block;
+  padding: 0;
+}
+/* line 489, ../sass/page.scss */
+ul.secondary li a {
+  border: 1px solid #0e2127;
+  display: inline-block;
+  font-weight: 700;
+  font-size: .928em;
+  padding: 9px 15px;
+  text-transform: uppercase;
+}
+/* line 496, ../sass/page.scss */
+ul.secondary li a:hover, ul.secondary li a:focus {
+  background-color: #0e2127;
+  color: white;
+}
+/* line 501, ../sass/page.scss */
+ul.secondary li.active .active {
+  background-color: #0e2127;
+  border-bottom-color: #0e2127;
+  border-bottom-width: 1px;
+  color: white;
+}
+
+/* line 509, ../sass/page.scss */
+#user-profile-form {
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+  width: 60%;
+}
+/* line 514, ../sass/page.scss */
+#user-profile-form legend {
+  margin-bottom: 0;
+}
+/* line 518, ../sass/page.scss */
+#user-profile-form .form-item label {
+  display: block;
+}
+/* line 519, ../sass/page.scss */
+#user-profile-form .form-item .form-text, #user-profile-form .form-item .form-select {
+  height: 45px;
+  width: 100%;
+}
+/* line 523, ../sass/page.scss */
+#user-profile-form .form-item div.password-suggestions {
+  width: 100%;
+}
+/* line 526, ../sass/page.scss */
+#user-profile-form .form-item .form-radio, #user-profile-form .form-item .form-checkbox {
+  margin: 0;
+}
+/* line 531, ../sass/page.scss */
+#user-profile-form .form-type-checkbox label, #user-profile-form .form-type-radio label {
+  display: inline-block;
+}
+/* line 535, ../sass/page.scss */
+#user-profile-form .confirm-parent, #user-profile-form .password-parent {
+  clear: none;
+  width: 100%;
+}
+
+/* line 540, ../sass/page.scss */
+.commerce-paypal-icons {
+  padding-top: 20px;
+}
+/* line 542, ../sass/page.scss */
+.commerce-paypal-icons .label {
+  color: #0e2127;
+  padding: 0;
+}
+
+/* line 547, ../sass/page.scss */
+html.js fieldset.collapsible .fieldset-legend {
+  background: none;
+  padding-left: 0;
+}
+
+/* page-accommodation */
+/* line 553, ../sass/page.scss */
+#content .region-content {
+  clear: both;
+}
+
+/* line 557, ../sass/page.scss */
+.menu-type {
+  float: right;
+}
+
+/* line 560, ../sass/page.scss */
+.view-type {
+  float: left;
+  margin-bottom: 50px;
+}
+/* line 563, ../sass/page.scss */
+.view-type ul.menu li {
+  display: inline-block;
+  margin-right: -4px;
+  padding: 0;
+}
+/* line 567, ../sass/page.scss */
+.view-type ul.menu li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  width: 40px;
+  text-indent: -9999em;
+}
+/* line 574, ../sass/page.scss */
+.view-type ul.menu li a:before {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  text-indent: 0;
+  top: 0;
+  width: 100%;
+}
+/* line 583, ../sass/page.scss */
+.view-type ul.menu li a:hover, .view-type ul.menu li a:focus, .view-type ul.menu li a.active-trail {
+  background-color: #0e2127;
+  color: white;
+}
+
+/* line 591, ../sass/page.scss */
+.submitted {
+  font-size: .857em;
+  font-family: 'open_sansitalic';
+  color: #b9b9b9;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+/* line 597, ../sass/page.scss */
+.submitted > span + span {
+  margin-left: 15px;
+}
+
+/* line 603, ../sass/page.scss */
+.owl-carousel .owl-wrapper img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 608, ../sass/page.scss */
+.owl-theme {
+  position: relative;
+}
+/* line 96, ../sass/includes/_include.scss */
+.owl-theme:after, .owl-theme:before {
+  bottom: 10px;
+  content: "";
+  left: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+/* line 109, ../sass/includes/_include.scss */
+.owl-theme:before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+/* line 113, ../sass/includes/_include.scss */
+.owl-theme:after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+/* line 117, ../sass/includes/_include.scss */
+.owl-theme:hover:after {
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+/* line 121, ../sass/includes/_include.scss */
+.owl-theme:hover:before {
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+/* line 610, ../sass/page.scss */
+.owl-theme .owl-controls {
+  margin-top: 0;
+  text-align: center;
+}
+/* line 613, ../sass/page.scss */
+.owl-theme .owl-controls .owl-buttons {
+  left: 0;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 2;
+}
+/* line 620, ../sass/page.scss */
+.owl-theme .owl-controls .owl-buttons div {
+  background: white;
+  border-radius: 0;
+  color: #0e2127;
+  font-size: 2.142em;
+  margin: 0;
+  opacity: 1;
+  padding: 0;
+  height: 100px;
+  position: relative;
+  text-indent: -9999em;
+  width: 40px;
+}
+/* line 632, ../sass/page.scss */
+.owl-theme .owl-controls .owl-buttons div:hover, .owl-theme .owl-controls .owl-buttons div:focus {
+  background: #0e2127;
+  color: white;
+}
+/* line 636, ../sass/page.scss */
+.owl-theme .owl-controls .owl-buttons div:after {
+  font-family: 'FontAwesome';
+  line-height: 100px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  text-indent: 0;
+  top: 0;
+  width: 100%;
+}
+/* line 647, ../sass/page.scss */
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  float: left;
+  margin-left: 11px;
+}
+/* line 650, ../sass/page.scss */
+.owl-theme .owl-controls .owl-buttons .owl-prev:after {
+  content: "\f104";
+}
+/* line 654, ../sass/page.scss */
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  float: right;
+  margin-right: 10px;
+}
+/* line 657, ../sass/page.scss */
+.owl-theme .owl-controls .owl-buttons .owl-next:after {
+  content: "\f105";
+}
+
+/* line 664, ../sass/page.scss */
+#comments {
+  padding: 30px;
+  margin-top: 0;
+}
+/* line 668, ../sass/page.scss */
+#comments .title, #comments #rooms-booking-manager-change-search-form legend, #rooms-booking-manager-change-search-form #comments legend, #comments #booking h2, #booking #comments h2, #comments #panel-second h2, #panel-second #comments h2, #comments .bg-grey h2, .bg-grey #comments h2, #comments .main h2, .main #comments h2, #comments .not-front #panel-third h2, .not-front #panel-third #comments h2, #comments .slideshow h2, .slideshow #comments h2 {
+  font-size: 1.428em;
+}
+
+/* comment */
+/* line 674, ../sass/page.scss */
+ul.inline li.comment-add {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+/* line 678, ../sass/page.scss */
+ul.inline li.comment-add a {
+  color: #0e2127;
+}
+/* line 680, ../sass/page.scss */
+ul.inline li.comment-add a:hover, ul.inline li.comment-add a:focus {
+  color: #b9b9b9;
+}
+
+/* line 685, ../sass/page.scss */
+.comment {
+  border-top: 1px solid #e2e1e1;
+  margin-bottom: 30px;
+  padding: 30px 0 0 100px;
+  position: relative;
+}
+/* line 690, ../sass/page.scss */
+.comment .user-picture {
+  border-radius: 50%;
+  left: 0;
+  position: absolute;
+  top: 30px;
+}
+/* line 695, ../sass/page.scss */
+.comment .user-picture img {
+  border-radius: 50%;
+}
+/* line 699, ../sass/page.scss */
+.comment > h3 {
+  font-size: 1em;
+  font-family: 'open_sansbold';
+  margin-bottom: 10px;
+}
+/* line 704, ../sass/page.scss */
+.comment .submitted {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+/* line 708, ../sass/page.scss */
+.comment ul.inline li {
+  padding: 0;
+}
+/* line 710, ../sass/page.scss */
+.comment ul.inline li + li {
+  border-left: 1px solid #e2e1e1;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+/* line 717, ../sass/page.scss */
+.indented {
+  margin-left: 100px;
+}
+
+/* form comment */
+/* line 721, ../sass/page.scss */
+form.comment-form {
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: -30px;
+  padding: 30px;
+}
+/* line 726, ../sass/page.scss */
+form.comment-form label {
+  display: block;
+}
+/* line 729, ../sass/page.scss */
+form.comment-form .form-text {
+  height: 45px;
+}
+/* line 732, ../sass/page.scss */
+form.comment-form .filter-wrapper .form-item {
+  padding-left: 0;
+}
+/* line 735, ../sass/page.scss */
+form.comment-form .tips {
+  margin-top: 20px;
+  padding-left: 0;
+}
+/* line 740, ../sass/page.scss */
+form.comment-form .form-actions .form-submit {
+  margin-right: 15px;
+}
+
+/* line 746, ../sass/page.scss */
+.comment-wrapper form.comment-form {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* line 752, ../sass/page.scss */
+#comment-confirm-delete .form-submit {
+  margin-right: 15px;
+}
+
+/* line 756, ../sass/page.scss */
+.item-featured {
+  border: 1px solid #0e2127;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+/* line 760, ../sass/page.scss */
+.item-featured h3 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 765, ../sass/page.scss */
+.item-featured ul {
+  list-style: none;
+  margin: 0 -30px;
+  padding: 0;
+}
+/* line 770, ../sass/page.scss */
+.item-featured li {
+  padding: 2px 30px 2px 50px;
+  position: relative;
+}
+/* line 773, ../sass/page.scss */
+.item-featured li:before {
+  content: "\f00c  ";
+  font-family: 'FontAwesome';
+  left: 30px;
+  position: absolute;
+  top: 2px;
+}
+/* line 780, ../sass/page.scss */
+.item-featured li:nth-child(even) {
+  background-color: white;
+}
+/* line 783, ../sass/page.scss */
+.item-featured li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* chosen search */
+/* line 790, ../sass/page.scss */
+.chosen-container {
+  font-size: .857em;
+  width: 100% !important;
+}
+/* line 793, ../sass/page.scss */
+.chosen-container .chosen-drop {
+  border-color: #0e2127;
+  border-right-color: #0e2127;
+  box-shadow: none;
+}
+/* line 798, ../sass/page.scss */
+.chosen-container .chosen-results {
+  margin: 0;
+  padding: 0;
+}
+/* line 801, ../sass/page.scss */
+.chosen-container .chosen-results li {
+  padding: 8px 15px;
+}
+/* line 803, ../sass/page.scss */
+.chosen-container .chosen-results li.highlighted {
+  background-color: #0e2127;
+  background-image: none;
+}
+
+/* line 811, ../sass/page.scss */
+.chosen-container-single .chosen-search {
+  display: none;
+}
+/* line 814, ../sass/page.scss */
+.chosen-container-single .chosen-default {
+  color: #0e2127;
+}
+/* line 817, ../sass/page.scss */
+.chosen-container-single .chosen-single {
+  background: none;
+  border-color: #0e2127;
+  border-radius: 0;
+  box-shadow: none;
+  color: #0e2127;
+  height: 45px;
+  line-height: 3.4;
+  padding: 0 0 0 15px;
+}
+/* line 826, ../sass/page.scss */
+.chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b {
+  background-image: url("../images/chosen-sprite.png");
+}
+/* line 829, ../sass/page.scss */
+.chosen-container-single .chosen-single div {
+  right: 7px;
+  width: 16px;
+}
+/* line 834, ../sass/page.scss */
+.chosen-container-single .chosen-drop {
+  border-radius: 0;
+}
+
+/* line 839, ../sass/page.scss */
+.chosen-container-active.chosen-with-drop .chosen-single {
+  background-color: transparent;
+  background-image: none;
+  border-color: #0e2127;
+  box-shadow: none;
+}
+
+/* line 845, ../sass/page.scss */
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+  background-image: url("../images/chosen-sprite.png");
+}
+
+/* pager */
+/* line 850, ../sass/page.scss */
+.item-list .pager {
+  margin: 0;
+  padding: 25px 0 0;
+}
+/* line 853, ../sass/page.scss */
+.item-list .pager li {
+  display: inline-block;
+  margin: 5px 0 0;
+  min-width: 40px;
+  padding: 0;
+}
+
+/* line 861, ../sass/page.scss */
+.pager li > a, .pager li > span {
+  border: none;
+  border-radius: 0;
+  display: inline-block;
+  min-width: 40px;
+  padding: 11px;
+}
+/* line 867, ../sass/page.scss */
+.pager li > a:hover, .pager li > a:focus, .pager li > span:hover, .pager li > span:focus {
+  background-color: #0e2127;
+  color: white;
+}
+/* line 872, ../sass/page.scss */
+.pager li.pager-current {
+  background-color: #0e2127;
+  color: white;
+  padding: 11px;
+}
+
+/* iframe-map */
+/* line 880, ../sass/page.scss */
+.iframe-map iframe {
+  border: none;
+  width: 100%;
+}
+
+/* contact-form */
+/* line 886, ../sass/page.scss */
+.contact-form {
+  background: white;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+/* line 890, ../sass/page.scss */
+.contact-form .form-text {
+  height: 45px;
+}
+/* line 893, ../sass/page.scss */
+.contact-form .form-submit {
+  background-color: #0e2127;
+  color: white;
+}
+/* line 896, ../sass/page.scss */
+.contact-form .form-submit:hover, .contact-form .form-submit:focus {
+  background-color: transparent;
+  border-color: #0e2127;
+  color: #0e2127;
+}
+/* line 902, ../sass/page.scss */
+.contact-form .form-checkbox {
+  margin-top: -4px;
+}
+
+/* line 907, ../sass/page.scss */
+.page-contact .block h2, .node-type-webform .block h2 {
+  font-size: 1em;
+}
+/* line 909, ../sass/page.scss */
+.page-contact .block h2 span, .node-type-webform .block h2 span {
+  background-color: transparent;
+}
+/* line 912, ../sass/page.scss */
+.page-contact .block h2:after, .node-type-webform .block h2:after {
+  display: none;
+}
+
+/* line 919, ../sass/page.scss */
+.page-contact .contact-form .form-item label {
+  display: block;
+}
+/* line 923, ../sass/page.scss */
+.page-contact .contact-form .form-type-checkbox label {
+  display: inline-block;
+}
+/* line 926, ../sass/page.scss */
+.page-contact .contact-form .form-textarea-wrapper {
+  width: 50%;
+}
+
+/* aloha-timeline */
+/* line 937, ../sass/page.scss */
+.aloha-timeline .item-list ul {
+  border-bottom: 1px solid #d2d0d0;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 63px;
+  padding: 0 0 30px;
+  position: relative;
+}
+/* line 944, ../sass/page.scss */
+.aloha-timeline .item-list ul:after {
+  background-color: #d2d0d0;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+/* line 954, ../sass/page.scss */
+.aloha-timeline .views-field-field-image {
+  margin-bottom: 25px;
+}
+/* line 957, ../sass/page.scss */
+.aloha-timeline .views-field-field-year {
+  font-family: 'open_sansbold';
+  font-weight: 700;
+  line-height: 1.3;
+  position: absolute;
+  top: 100px;
+}
+/* line 963, ../sass/page.scss */
+.aloha-timeline .views-field-field-year:before, .aloha-timeline .views-field-field-year:after {
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  z-index: 3;
+}
+/* line 969, ../sass/page.scss */
+.aloha-timeline .views-field-field-year:after {
+  background-color: #0e2127;
+  border: 2px solid #d2d0d0;
+  height: 19px;
+  padding: 2px;
+  bottom: 11px;
+  width: 19px;
+}
+/* line 977, ../sass/page.scss */
+.aloha-timeline .views-field-field-year:before {
+  background-color: #d2d0d0;
+  height: 7px;
+  bottom: 17px;
+  width: 7px;
+}
+/* line 983, ../sass/page.scss */
+.aloha-timeline .views-field-field-year > div {
+  padding: 0 12px 25px;
+  position: relative;
+  z-index: 1;
+}
+/* line 987, ../sass/page.scss */
+.aloha-timeline .views-field-field-year > div:after {
+  background-color: #d2d0d0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 2;
+}
+/* line 999, ../sass/page.scss */
+.aloha-timeline .views-row {
+  margin: 0 0 30px;
+  position: relative;
+  width: 50%;
+}
+/* line 1004, ../sass/page.scss */
+.aloha-timeline .views-row-inner {
+  background-color: white;
+}
+/* line 1007, ../sass/page.scss */
+.aloha-timeline .views-row-odd {
+  float: left;
+}
+/* line 1009, ../sass/page.scss */
+.aloha-timeline .views-row-odd .views-row-inner {
+  margin-right: 85px;
+}
+/* line 1012, ../sass/page.scss */
+.aloha-timeline .views-row-odd .views-field-field-year {
+  right: 0;
+}
+/* line 1014, ../sass/page.scss */
+.aloha-timeline .views-row-odd .views-field-field-year:after {
+  right: -10px;
+}
+/* line 1017, ../sass/page.scss */
+.aloha-timeline .views-row-odd .views-field-field-year:before {
+  left: 0;
+}
+/* line 1022, ../sass/page.scss */
+.aloha-timeline .views-row-even {
+  float: right;
+  margin-bottom: 50px;
+}
+/* line 1025, ../sass/page.scss */
+.aloha-timeline .views-row-even .views-row-inner {
+  margin-left: 85px;
+}
+/* line 1028, ../sass/page.scss */
+.aloha-timeline .views-row-even .views-field-field-year {
+  left: 0;
+  top: 160px;
+}
+/* line 1031, ../sass/page.scss */
+.aloha-timeline .views-row-even .views-field-field-year:after {
+  left: -10px;
+}
+/* line 1034, ../sass/page.scss */
+.aloha-timeline .views-row-even .views-field-field-year:before {
+  right: 0;
+}
+
+/* page-booking
+.page-booking {
+	.rooms-availability-search {
+		.rooms-date-range {
+			float: none;
+			margin: 0 0 20px;
+		}
+		select {
+			width: 109px;
+		}
+		#edit-actions {
+			clear: both;
+			float: none;
+			margin-top: 0;
+			padding-top: 25px;
+		}
+	}
+}*/
+/* 404page */
+/* line 1062, ../sass/page.scss */
+.page-404 {
+  text-align: center;
+}
+/* line 1064, ../sass/page.scss */
+.page-404 h1 {
+  font-family: 'open_sansbold';
+  font-size: 16.357em;
+}
+
+/* line 1069, ../sass/page.scss */
+#errorbox a {
+  border: 1px solid #0e2127;
+  display: inline-block;
+  min-width: 170px;
+  overflow: hidden;
+  padding: 10px 15px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 2;
+}
+/* line 224, ../sass/includes/_include.scss */
+#errorbox a:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  background: #0e2127;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -moz-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+/* line 242, ../sass/includes/_include.scss */
+#errorbox a:hover, #errorbox a:focus, #errorbox a:hover:after {
+  color: white;
+  height: 460%;
+  opacity: 1;
+}
+
+/* .profile */
+/* line 1074, ../sass/page.scss */
+.profile h3 {
+  font-family: 'open_sansbold';
+  font-size: 1.428em;
+  text-transform: uppercase;
+  border-bottom: none;
+}
+/* line 1078, ../sass/page.scss */
+.profile .user-picture {
+  float: left;
+  margin: 0 20px 30px 0;
+}
+/* line 1081, ../sass/page.scss */
+.profile .user-picture img {
+  border: 1px solid #b9b9b9;
+}
+
+/* commerce-line-item-views-form */
+/* line 1089, ../sass/page.scss */
+.commerce-line-item-views-form input.form-text, .commerce-line-item-views-form input.delete-line-item {
+  padding: 10px 15px;
+  text-align: center;
+}
+/* line 1093, ../sass/page.scss */
+.commerce-line-item-views-form input.delete-line-item {
+  min-width: 0;
+}
+
+/* line 1097, ../sass/page.scss */
+.views-table, .sticky-header, .sticky-table, .weather table {
+  border-top: 15px solid #0e2127;
+  width: 100%;
+}
+/* line 1100, ../sass/page.scss */
+.views-table thead th, .sticky-header thead th, .sticky-table thead th, .weather table thead th {
+  text-transform: uppercase;
+}
+/* line 1103, ../sass/page.scss */
+.views-table tbody, .sticky-header tbody, .sticky-table tbody, .weather table tbody {
+  border-bottom: 15px solid #0e2127;
+}
+/* line 1106, ../sass/page.scss */
+.views-table th, .views-table td, .sticky-header th, .sticky-header td, .sticky-table th, .sticky-table td, .weather table th, .weather table td {
+  background-color: white;
+  padding: 15px;
+}
+/* line 1110, ../sass/page.scss */
+.views-table td, .sticky-header td, .sticky-table td, .weather table td {
+  vertical-align: middle;
+}
+
+/* line 1114, ../sass/page.scss */
+.weather table {
+  border-bottom: 15px solid #0e2127;
+}
+
+/* line 1117, ../sass/page.scss */
+.line-item-summary {
+  background-color: #0e2127;
+  color: white;
+  font-family: 'open_sansbold';
+  margin-bottom: 30px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+/* line 1125, ../sass/page.scss */
+.line-item-total-label {
+  padding-right: 50px;
+}
+
+/* line 1128, ../sass/page.scss */
+.line-item-total-raw {
+  font-size: 3.571em;
+}
+
+/* line 1131, ../sass/page.scss */
+.sticky-table {
+  margin-bottom: 30px;
+}
+
+/* line 1134, ../sass/page.scss */
+.commerce-line-item-actions {
+  margin: 0;
+  padding: 0 0 30px;
+}
+/* line 1137, ../sass/page.scss */
+.commerce-line-item-actions .form-submit {
+  margin-left: 20px;
+}
+
+/* line 1142, ../sass/page.scss */
+.customer_profile_billing > .fieldset-wrapper, .checkout-buttons > .fieldset-wrapper {
+  background-color: white;
+  padding: 30px;
+}
+/* line 1146, ../sass/page.scss */
+.customer_profile_billing .button-operator, .checkout-buttons .button-operator {
+  padding: 0 20px;
+}
+
+/* line 1151, ../sass/page.scss */
+.customer_profile_billing .form-item {
+  width: 60%;
+}
+/* line 1154, ../sass/page.scss */
+.customer_profile_billing label {
+  width: 100px;
+}
+/* line 1157, ../sass/page.scss */
+.customer_profile_billing .form-text {
+  height: 45px;
+  width: 50%;
+}
+/* line 1161, ../sass/page.scss */
+.customer_profile_billing .chzn-container {
+  width: 50% !important;
+}
+/* line 1164, ../sass/page.scss */
+.customer_profile_billing .form-select {
+  height: 45px;
+  width: 50%;
+}
+
+/* line 1170, ../sass/page.scss */
+.checkout-help {
+  margin-bottom: 15px;
+}
+
+/* line 1173, ../sass/page.scss */
+.commerce-order-handler-area-order-total .commerce-price-formatted-components {
+  color: white;
+  width: 100%;
+}
+/* line 1176, ../sass/page.scss */
+.commerce-order-handler-area-order-total .commerce-price-formatted-components tr.even, .commerce-order-handler-area-order-total .commerce-price-formatted-components tr.odd {
+  background-color: #0e2127;
+  border-bottom: none;
+  padding: 15px;
+  text-align: right;
+}
+/* line 1182, ../sass/page.scss */
+.commerce-order-handler-area-order-total .commerce-price-formatted-components .component-title {
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 70%;
+}
+/* line 1187, ../sass/page.scss */
+.commerce-order-handler-area-order-total .commerce-price-formatted-components .component-total {
+  font-family: 'open_sansbold';
+  font-size: 3.571em;
+  padding-right: 15px;
+}
+
+/* line 1193, ../sass/page.scss */
+.commerce-line-item-views-form .form-actions {
+  margin-top: 30px;
+}
+
+/* line 1196, ../sass/page.scss */
+table.checkout-review {
+  width: 100%;
+}
+/* line 1198, ../sass/page.scss */
+table.checkout-review tr.even, table.checkout-review tr.odd {
+  background-color: white;
+  border-bottom: none;
+  padding: 0;
+}
+/* line 1203, ../sass/page.scss */
+table.checkout-review tr.pane-title {
+  background-color: transparent;
+}
+/* line 1205, ../sass/page.scss */
+table.checkout-review tr.pane-title td {
+  font-size: 1.428em;
+  font-family: 'open_sansbold';
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+/* line 1212, ../sass/page.scss */
+table.checkout-review .pane-data-full {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 1215, ../sass/page.scss */
+table.checkout-review .pane-data-full .form-item, table.checkout-review .pane-data-full .field-name-commerce-customer-address {
+  padding: 7px 15px;
+}
+/* line 1218, ../sass/page.scss */
+table.checkout-review .pane-data-full .field-item > div {
+  padding: 7px 0;
+}
+
+/* line 1223, ../sass/page.scss */
+.commerce_payment {
+  margin-top: 20px;
+}
+/* line 1225, ../sass/page.scss */
+.commerce_payment > .fieldset-wrapper {
+  background-color: white;
+  padding: 15px;
+}
+/* line 1228, ../sass/page.scss */
+.commerce_payment > .fieldset-wrapper .form-item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+/* line 1232, ../sass/page.scss */
+.commerce_payment > .fieldset-wrapper .form-radio, .commerce_payment > .fieldset-wrapper .option {
+  float: left;
+}
+/* line 1235, ../sass/page.scss */
+.commerce_payment > .fieldset-wrapper .form-radio {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+/* line 1239, ../sass/page.scss */
+.commerce_payment > .fieldset-wrapper .option {
+  width: 90%;
+}
+
+/* line 1244, ../sass/page.scss */
+.commerce-paypal-ec-icon, .commerce-paypal-bml-icon, .commerce-paypal-icon {
+  top: 0;
+}
+
+/* line 1248, ../sass/page.scss */
+.commerce-credit-card-expiration .form-text {
+  height: 45px;
+}
+
+/* newsletter-manage-subscriptions-form */
+/* line 1254, ../sass/page.scss */
+#newsletter-manage-subscriptions-form, #contact-personal-form {
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+  width: 50%;
+}
+/* line 1259, ../sass/page.scss */
+#newsletter-manage-subscriptions-form legend, #contact-personal-form legend {
+  font-size: 1em;
+  margin: 0;
+}
+/* line 1263, ../sass/page.scss */
+#newsletter-manage-subscriptions-form label, #contact-personal-form label {
+  display: block;
+}
+/* line 1266, ../sass/page.scss */
+#newsletter-manage-subscriptions-form .form-type-item label, #newsletter-manage-subscriptions-form .option, #contact-personal-form .form-type-item label, #contact-personal-form .option {
+  display: inline-block;
+}
+/* line 1269, ../sass/page.scss */
+#newsletter-manage-subscriptions-form .form-checkboxes, #contact-personal-form .form-checkboxes {
+  display: inline-block;
+}
+/* line 1272, ../sass/page.scss */
+#newsletter-manage-subscriptions-form .form-text, #contact-personal-form .form-text {
+  height: 45px;
+}
+/* line 1275, ../sass/page.scss */
+#newsletter-manage-subscriptions-form .form-text, #contact-personal-form .form-text {
+  width: 100%;
+}
+
+/* contact-personal-form */
+/* rooms-search-result__unit-type */
+/* line 1283, ../sass/page.scss */
+#rooms-booking-manager-change-search-form .fieldset-legend {
+  text-transform: uppercase;
+}
+/* line 1286, ../sass/page.scss */
+#rooms-booking-manager-change-search-form .rooms-current-search__info {
+  float: none;
+  margin-bottom: 50px;
+}
+/* line 1289, ../sass/page.scss */
+#rooms-booking-manager-change-search-form .rooms-current-search__info .form-item label {
+  float: none;
+  text-align: left;
+}
+/* line 1294, ../sass/page.scss */
+#rooms-booking-manager-change-search-form .fieldset-wrapper {
+  background-color: white;
+  padding: 20px;
+}
+/* line 1297, ../sass/page.scss */
+#rooms-booking-manager-change-search-form .fieldset-wrapper .form-item {
+  display: inline-block;
+  padding: 10px 0;
+  text-align: left;
+  width: 25%;
+}
+/* line 1304, ../sass/page.scss */
+#rooms-booking-manager-change-search-form .rooms-current-search__change-search-button {
+  float: none;
+  margin-left: 0;
+}
+
+/* line 1309, ../sass/page.scss */
+.rooms-search-result__unit-type-name {
+  border-top: none;
+  clear: both;
+  font-family: 'open_sansbold_italic';
+  font-size: 2.142em;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 1317, ../sass/page.scss */
+.rooms-search-result__unit-type {
+  margin-left: -30px;
+  overflow: hidden;
+}
+/* line 1320, ../sass/page.scss */
+.rooms-search-result__unit-type .rooms-search-result__unit-embedded {
+  float: left;
+  width: 33.333%;
+}
+/* line 1323, ../sass/page.scss */
+.rooms-search-result__unit-type .rooms-search-result__unit-embedded .rooms-search-result__new-price, .rooms-search-result__unit-type .rooms-search-result__unit-embedded .rooms-search-result__actions {
+  clear: none;
+  float: none;
+}
+/* line 1327, ../sass/page.scss */
+.rooms-search-result__unit-type .rooms-search-result__unit-embedded .rooms-search-result__new-price {
+  margin-bottom: 20px;
+}
+/* line 1331, ../sass/page.scss */
+.rooms-search-result__unit-type h2 {
+  font-size: 1.142em;
+}
+/* line 1334, ../sass/page.scss */
+.rooms-search-result__unit-type .entity-rooms-unit, .rooms-search-result__unit-type .rooms-book-unit-form {
+  margin-left: 30px;
+}
+/* line 1338, ../sass/page.scss */
+.rooms-search-result__unit-type .field-type-image .field-item {
+  position: relative;
+}
+/* line 96, ../sass/includes/_include.scss */
+.rooms-search-result__unit-type .field-type-image .field-item:after, .rooms-search-result__unit-type .field-type-image .field-item:before {
+  bottom: 10px;
+  content: "";
+  left: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+/* line 109, ../sass/includes/_include.scss */
+.rooms-search-result__unit-type .field-type-image .field-item:before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+/* line 113, ../sass/includes/_include.scss */
+.rooms-search-result__unit-type .field-type-image .field-item:after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+/* line 117, ../sass/includes/_include.scss */
+.rooms-search-result__unit-type .field-type-image .field-item:hover:after {
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+/* line 121, ../sass/includes/_include.scss */
+.rooms-search-result__unit-type .field-type-image .field-item:hover:before {
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+/* line 1342, ../sass/page.scss */
+.rooms-search-result__unit-type .field-name-field-description {
+  background-color: white;
+  padding: 20px 30px;
+}
+/* line 1346, ../sass/page.scss */
+.rooms-search-result__unit-type .rooms-book-unit-form {
+  background-color: white;
+  padding: 0 30px 30px;
+}
+/* line 1349, ../sass/page.scss */
+.rooms-search-result__unit-type .rooms-book-unit-form input[type="radio"], .rooms-search-result__unit-type .rooms-book-unit-form input[type="checkbox"] {
+  margin: 0 0 4px;
+}
+
+/* search page */
+/* line 1356, ../sass/page.scss */
+#search-form #edit-basic {
+  margin-bottom: 50px;
+}
+/* line 1358, ../sass/page.scss */
+#search-form #edit-basic label {
+  margin-right: 10px;
+}
+/* line 1361, ../sass/page.scss */
+#search-form #edit-basic .form-text {
+  height: 44px;
+}
+
+/* line 1366, ../sass/page.scss */
+.search-results {
+  padding: 30px;
+  background: #fff;
+}
+/* line 1369, ../sass/page.scss */
+.search-results .title, .search-results #rooms-booking-manager-change-search-form legend, #rooms-booking-manager-change-search-form .search-results legend, .search-results #booking h2, #booking .search-results h2, .search-results #panel-second h2, #panel-second .search-results h2, .search-results .bg-grey h2, .bg-grey .search-results h2, .search-results .main h2, .main .search-results h2, .search-results .main .title span h2, .main .title span .search-results h2, .search-results .not-front #panel-second h2, .not-front #panel-second .search-results h2, .search-results .not-front #panel-third h2, .not-front #panel-third .search-results h2, .search-results .slideshow h2, .slideshow .search-results h2 {
+  margin-bottom: 10px !important;
+}
+/* line 1371, ../sass/page.scss */
+.search-results .title:after, .search-results #rooms-booking-manager-change-search-form legend:after, #rooms-booking-manager-change-search-form .search-results legend:after, .search-results #booking h2:after, #booking .search-results h2:after, .search-results #panel-second h2:after, #panel-second .search-results h2:after, .search-results .bg-grey h2:after, .bg-grey .search-results h2:after, .search-results .main h2:after, .main .search-results h2:after, .search-results .main .title span h2:after, .main .title span .search-results h2:after, .search-results .not-front #panel-second h2:after, .not-front #panel-second .search-results h2:after, .search-results .not-front #panel-third h2:after, .not-front #panel-third .search-results h2:after, .search-results .slideshow h2:after, .slideshow .search-results h2:after {
+  background: none !important;
+  width: auto !important;
+}
+/* line 1376, ../sass/page.scss */
+.search-results li {
+  margin-bottom: 50px;
+}
+/* line 1378, ../sass/page.scss */
+.search-results li:last-child {
+  margin-bottom: 0;
+}
+
+/* checkout */
+/* line 1386, ../sass/page.scss */
+#commerce-checkout-form-checkout #edit-account {
+  margin-bottom: 30px;
+}
+/* line 1389, ../sass/page.scss */
+#commerce-checkout-form-checkout .form-item-account-login-mail .form-text {
+  height: 45px;
+}
+/* line 1392, ../sass/page.scss */
+#commerce-checkout-form-checkout .form-item-account-login-mail label {
+  width: 130px;
+}
+
+/**/
+/* line 1397, ../sass/page.scss */
+.btn-btt {
+  background: black;
+  bottom: 50px;
+  color: white;
+  display: none;
+  font-size: 1.714em;
+  height: 50px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  font-family: 'FontAwesome';
+  line-height: 50px;
+  position: fixed;
+  right: 30px;
+  text-align: center;
+  text-indent: -9999em;
+  width: 50px;
+  z-index: 200;
+}
+/* line 1413, ../sass/page.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #b9b9b9;
+  color: black;
+}
+/* line 1417, ../sass/page.scss */
+.btn-btt:after {
+  content: "\f106";
+  line-height: 50px;
+  left: 0;
+  position: absolute;
+  text-indent: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+/* line 1429, ../sass/page.scss */
+.form-item .description {
+  margin-top: 5px;
+}

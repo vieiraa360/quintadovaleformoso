@@ -1,0 +1,16 @@
+name = Rooms Package
+description = Create and administer vacational packages for Rooms.
+core = 7.x
+
+package = Rooms
+
+dependencies[] = commerce_stock
+dependencies[] = entityreference
+dependencies[] = rooms_booking_manager
+
+; Information added by Drupal.org packaging script on 2014-06-19
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "rooms_package"
+datestamp = "1403185128"
+

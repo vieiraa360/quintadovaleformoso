@@ -1,0 +1,786 @@
+/* COLORS */
+/* border */
+/* line-through */
+/* title-line */
+/* bg */
+/* position absolute */
+/* arrow */
+/* btn effect */
+/* line 3, ../sass/page-rtl.scss */
+#skip-link {
+  display: none;
+}
+
+/* head */
+/* line 9, ../sass/page-rtl.scss */
+.headline .block-lang-dropdown, .headline .block-search, .headline .block-menu {
+  float: left;
+}
+/* line 12, ../sass/page-rtl.scss */
+.headline .block-lang-dropdown {
+  margin-right: 0;
+  margin-left: 25px;
+}
+/* line 16, ../sass/page-rtl.scss */
+.headline .block-weather {
+  float: right;
+}
+/* line 22, ../sass/page-rtl.scss */
+.headline .block-menu ul.menu li.expanded > a {
+  padding-right: 0;
+  padding-left: 15px;
+}
+/* line 25, ../sass/page-rtl.scss */
+.headline .block-menu ul.menu li.expanded > a:after {
+  right: auto;
+  left: -12px;
+}
+
+/* line 37, ../sass/page-rtl.scss */
+.language .dd-pointer:after {
+  right: auto;
+  left: 0;
+}
+/* line 42, ../sass/page-rtl.scss */
+.language .dd-selected {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+/* line 49, ../sass/page-rtl.scss */
+.ddsDefault .dd-pointer {
+  left: 10px;
+  right: auto;
+}
+
+/* search */
+/* line 57, ../sass/page-rtl.scss */
+#search-block-form .container-inline {
+  right: auto;
+  left: 0;
+}
+/* line 61, ../sass/page-rtl.scss */
+#search-block-form .form-actions {
+  right: auto;
+  left: 10px;
+}
+/* line 65, ../sass/page-rtl.scss */
+#search-block-form .form-text {
+  padding-right: 15px;
+  padding-left: 70px;
+}
+
+/* line 72, ../sass/page-rtl.scss */
+.rooms-management-form .form-type-select, .rooms-management-form .form-item-amount, .rooms-management-form .form-item-operation, .rooms-management-form .rooms-date-range {
+  margin-left: 17px;
+  margin-right: 0;
+}
+
+/* line 78, ../sass/page-rtl.scss */
+.rooms-availability-search .form-item-group-size-children, .rooms-availability-search .form-item-group-size-adults, .rooms-availability-search .form-item-unit-type, .rooms-availability-search .form-item-rooms, .rooms-availability-search .form-wrapper {
+  float: right;
+}
+
+/* line 82, ../sass/page-rtl.scss */
+.rooms-date-range .container-inline-date .form-item input {
+  margin-left: 0;
+}
+
+/* line 87, ../sass/page-rtl.scss */
+.rooms-date-range .start-date {
+  margin-right: 0;
+  margin-left: 17px;
+}
+
+/* line 93, ../sass/page-rtl.scss */
+.rooms-date-range .container-inline-date > .form-item {
+  margin-left: 0;
+}
+
+/* line 100, ../sass/page-rtl.scss */
+.rooms-date-range .date-padding .form-item:after {
+  right: auto;
+  left: 15px;
+}
+
+/* line 109, ../sass/page-rtl.scss */
+.chosen-container-single .chosen-single {
+  padding-right: 15px;
+  padding-left: 0;
+}
+/* line 112, ../sass/page-rtl.scss */
+.chosen-container-single .chosen-single div {
+  right: auto;
+  left: 2px;
+}
+
+/* line 119, ../sass/page-rtl.scss */
+.chosen-rtl .chosen-single span {
+  margin-right: 0;
+  margin-left: 26px;
+}
+
+/* slideshow */
+/* line 126, ../sass/page-rtl.scss */
+.slideshow-thumb .views-field, .slideshow-thumb .thumb-caption {
+  float: right;
+}
+
+/* line 131, ../sass/page-rtl.scss */
+.thumb-caption {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+/* line 136, ../sass/page-rtl.scss */
+.carousel-control {
+  text-align: right;
+}
+
+/* line 141, ../sass/page-rtl.scss */
+.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+  left: 0;
+  right: auto;
+}
+/* line 145, ../sass/page-rtl.scss */
+.jcarousel-skin-default .jcarousel-prev {
+  right: auto;
+  left: 0;
+}
+/* line 149, ../sass/page-rtl.scss */
+.jcarousel-skin-default .jcarousel-next {
+  right: auto;
+  left: 60px;
+}
+
+/* menu */
+/* line 157, ../sass/page-rtl.scss */
+.tb-megamenu-main-menu .nav {
+  float: left;
+}
+/* line 159, ../sass/page-rtl.scss */
+.tb-megamenu-main-menu .nav > li {
+  float: right;
+}
+/* line 161, ../sass/page-rtl.scss */
+.tb-megamenu-main-menu .nav > li > a {
+  text-align: right;
+}
+/* line 168, ../sass/page-rtl.scss */
+.tb-megamenu-main-menu .dropdown-menu .grid-news .views-row {
+  text-align: right;
+}
+
+/* line 175, ../sass/page-rtl.scss */
+.tb-megamenu-main-menu {
+  margin-right: 0;
+  margin-left: -15px;
+}
+
+/* line 181, ../sass/page-rtl.scss */
+.main-slideshow .alo-item-caption {
+  left: 35%;
+  right: 20%;
+}
+
+/* title */
+/* line 188, ../sass/page-rtl.scss */
+.title:after, #rooms-booking-manager-change-search-form legend:after, #booking h2:after, #panel-second h2:after, .bg-grey h2:after, .main h2:after, .main .title span h2:after, .not-front #panel-second h2:after, .not-front #panel-third h2:after, .slideshow h2:after, #page-title:after {
+  left: auto;
+  right: 0;
+}
+
+/* line 193, ../sass/page-rtl.scss */
+.title span, #rooms-booking-manager-change-search-form legend span, #booking h2 span, #panel-second h2 span, .bg-grey h2 span, .main h2 span, .main .title span h2 span, .not-front #panel-second h2 span, .not-front #panel-third h2 span, .slideshow h2 span, #page-title span {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+/* offers */
+/* line 200, ../sass/page-rtl.scss */
+.alo-special-offers .views-row-first {
+  float: right;
+}
+/* line 203, ../sass/page-rtl.scss */
+.alo-special-offers .view-footer {
+  text-align: left;
+}
+
+/* line 208, ../sass/page-rtl.scss */
+.jcarousel-skin-default {
+  text-align: right;
+}
+
+/* line 213, ../sass/page-rtl.scss */
+.alo-main-jcarousel .jcarousel-item {
+  margin-right: 0;
+  margin-left: 30px;
+}
+/* line 217, ../sass/page-rtl.scss */
+.alo-main-jcarousel .views-field-title {
+  padding-right: 0;
+  padding-left: 55px;
+}
+/* line 222, ../sass/page-rtl.scss */
+.alo-main-jcarousel .views-field-body li {
+  padding-left: 0;
+  padding-right: 20px;
+}
+/* line 225, ../sass/page-rtl.scss */
+.alo-main-jcarousel .views-field-body li:before {
+  right: 0;
+  left: auto;
+}
+
+/* line 233, ../sass/page-rtl.scss */
+.views-field-field-from-price, .field-name-commerce-price {
+  float: left;
+}
+
+/* line 239, ../sass/page-rtl.scss */
+.views-field-field-customer-vote .views-label-field-customer-vote,
+.field-name-field-customer-vote .views-label-field-customer-vote {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+/* Testimonials */
+/* line 248, ../sass/page-rtl.scss */
+.alo-testimonial .jcarousel-item .views-field-picture {
+  left: auto;
+  right: 25px;
+}
+/* line 252, ../sass/page-rtl.scss */
+.alo-testimonial .jcarousel-item .info-body {
+  padding-left: 0;
+  padding-right: 100px;
+}
+
+/* why choose us */
+/* line 261, ../sass/page-rtl.scss */
+.ui-accordion .ui-accordion-header {
+  padding-right: 15px;
+  padding-left: 30px;
+}
+/* line 264, ../sass/page-rtl.scss */
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  left: 0.5em;
+  right: auto;
+}
+
+/* form */
+/* line 273, ../sass/page-rtl.scss */
+.simplenews-subscribe .form-submit {
+  right: auto;
+  left: 0;
+}
+/* line 277, ../sass/page-rtl.scss */
+.simplenews-subscribe .form-text {
+  padding-left: 45px;
+  padding-right: 15px;
+}
+/* line 282, ../sass/page-rtl.scss */
+.simplenews-subscribe .form-item:after {
+  right: auto;
+  left: 0;
+}
+
+/* tag */
+/* line 291, ../sass/page-rtl.scss */
+.tagclouds-term a {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+/* panel */
+/* line 300, ../sass/page-rtl.scss */
+.panel-column ul.menu li {
+  padding-right: 10px;
+  padding-left: 0;
+}
+/* line 303, ../sass/page-rtl.scss */
+.panel-column ul.menu li:before {
+  right: 0;
+  left: auto;
+  content: "\f104";
+}
+
+/* back to top */
+/* line 313, ../sass/page-rtl.scss */
+.btn-btt {
+  right: auto;
+  left: 30px;
+}
+
+/* sidebar */
+/* line 320, ../sass/page-rtl.scss */
+.latest-views .views-field-type-image {
+  float: right;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+/* line 327, ../sass/page-rtl.scss */
+.sidebar {
+  /* reservation */
+}
+/* line 329, ../sass/page-rtl.scss */
+.sidebar ul.quicktabs-tabs li.active {
+  padding-left: 35px;
+  padding-right: 0;
+}
+/* line 332, ../sass/page-rtl.scss */
+.sidebar ul.quicktabs-tabs li.active:after {
+  right: 35px;
+}
+/* line 336, ../sass/page-rtl.scss */
+.sidebar ul.quicktabs-tabs li.active.first {
+  padding-left: 35px;
+}
+/* line 340, ../sass/page-rtl.scss */
+.sidebar ul.quicktabs-tabs li.first a {
+  padding-left: 10px;
+}
+/* line 345, ../sass/page-rtl.scss */
+.sidebar ul.quicktabs-tabs li a {
+  padding-left: 10px;
+  padding-right: 0;
+}
+/* line 355, ../sass/page-rtl.scss */
+.sidebar .rooms-date-range .container-inline-date .date-padding input {
+  margin-right: 0;
+}
+/* line 360, ../sass/page-rtl.scss */
+.sidebar .rooms-date-range .container-inline-date .form-item input {
+  margin-right: 0;
+}
+/* line 363, ../sass/page-rtl.scss */
+.sidebar .rooms-date-range .container-inline-date .form-item:after {
+  right: auto;
+  left: 15px;
+}
+
+/* line 372, ../sass/page-rtl.scss */
+.item-meta > div + div {
+  border-left: none;
+  border-right: 1px solid #e2e1e1;
+  margin-right: 5px;
+  margin-left: 0;
+  padding-right: 10px;
+}
+
+/* line 381, ../sass/page-rtl.scss */
+.ui-datepicker .ui-datepicker-prev {
+  right: auto;
+}
+
+/* line 387, ../sass/page-rtl.scss */
+.views-view-grid .views-col {
+  float: right;
+}
+
+/* line 393, ../sass/page-rtl.scss */
+.node .field-name-commerce-price {
+  margin-right: 30px;
+  margin-left: -30px;
+}
+
+/* Shopping cart */
+/* line 401, ../sass/page-rtl.scss */
+.commerce-line-item-actions .form-submit {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+/* line 407, ../sass/page-rtl.scss */
+.paypal-ec-order-form, .paypal-bml-order-form {
+  text-align: left;
+}
+
+/* line 411, ../sass/page-rtl.scss */
+.commerce-order-handler-area-order-total .commerce-price-formatted-components .component-total {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+/* line 416, ../sass/page-rtl.scss */
+.commerce-order-handler-area-order-total .commerce-price-formatted-components .component-title {
+  text-align: left;
+}
+
+/* line 420, ../sass/page-rtl.scss */
+.commerce_payment > .fieldset-wrapper .form-radio, .commerce_payment > .fieldset-wrapper .option {
+  float: right;
+  margin-right: 2px;
+  margin-left: 10px;
+}
+
+/* line 428, ../sass/page-rtl.scss */
+.alo-act-jcarousel .jcarousel-skin-default .jcarousel-next {
+  left: auto;
+  right: 0;
+}
+/* line 432, ../sass/page-rtl.scss */
+.alo-act-jcarousel .jcarousel-skin-default .jcarousel-prev {
+  left: auto;
+  right: 60px;
+}
+
+/* comment form */
+/* line 440, ../sass/page-rtl.scss */
+.comment {
+  padding-right: 100px;
+  padding-left: 0;
+}
+/* line 443, ../sass/page-rtl.scss */
+.comment .user-picture {
+  left: auto;
+  right: 0;
+}
+/* line 448, ../sass/page-rtl.scss */
+.comment ul.inline li + li {
+  border-left: none;
+  border-right: 1px solid #e2e1e1;
+  margin-left: 0;
+  margin-right: 5px;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+/* line 459, ../sass/page-rtl.scss */
+ul.inline, ul.links.inline {
+  padding-right: 0;
+}
+
+/* line 463, ../sass/page-rtl.scss */
+form.comment-form {
+  margin-top: -7px;
+}
+
+/* line 467, ../sass/page-rtl.scss */
+form.comment-form .form-actions .form-submit {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+/* line 473, ../sass/page-rtl.scss */
+#comment-confirm-delete .form-submit {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+/* account form */
+/* line 482, ../sass/page-rtl.scss */
+ul.primary li a {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+/* line 487, ../sass/page-rtl.scss */
+ul.primary li + li {
+  padding-right: 60px;
+  padding-left: 0;
+}
+/* line 490, ../sass/page-rtl.scss */
+ul.primary li + li a {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+/* line 498, ../sass/page-rtl.scss */
+#user-login .form-text, #user-register-form .form-text, #user-pass .form-text {
+  text-align: center;
+}
+
+/* profile */
+/* line 505, ../sass/page-rtl.scss */
+.profile .user-picture {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* news page */
+/* line 515, ../sass/page-rtl.scss */
+.list-article ul.inline li {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* Accommodation */
+/* line 524, ../sass/page-rtl.scss */
+.menu-type {
+  float: left;
+}
+
+/* line 528, ../sass/page-rtl.scss */
+.view-type {
+  float: right;
+}
+
+/* line 534, ../sass/page-rtl.scss */
+.alo-main-jcarousel .view-row-list-inner .views-field-field-images {
+  float: right;
+  margin-right: 0;
+  margin-left: 30px;
+}
+/* line 541, ../sass/page-rtl.scss */
+.alo-main-jcarousel .item-info-wrap .views-field-field-from-price {
+  float: right;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* line 550, ../sass/page-rtl.scss */
+.owl-carousel .owl-item {
+  float: right;
+}
+
+/* line 556, ../sass/page-rtl.scss */
+.item-featured li {
+  padding-right: 50px;
+  padding-left: 30px;
+}
+/* line 559, ../sass/page-rtl.scss */
+.item-featured li:before {
+  left: auto;
+  right: 30px;
+}
+
+/* contact page */
+/* line 570, ../sass/page-rtl.scss */
+.node-type-webform .node-webform .webform-component-textarea .form-textarea-wrapper {
+  padding-right: 0;
+  padding-left: 30px;
+}
+/* line 575, ../sass/page-rtl.scss */
+.node-type-webform .node-webform .webform-client-form {
+  float: right;
+}
+/* line 578, ../sass/page-rtl.scss */
+.node-type-webform .node-webform .field-type-text-with-summary {
+  float: left;
+}
+/* line 581, ../sass/page-rtl.scss */
+.node-type-webform .node-webform .form-item {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+/* line 589, ../sass/page-rtl.scss */
+address .fa {
+  display: inline;
+}
+
+/* line 595, ../sass/page-rtl.scss */
+.customer_profile_billing .form-select {
+  width: 50% !important;
+}
+
+/* skins */
+/* line 602, ../sass/page-rtl.scss */
+.change-skin-menu-wrapper ul {
+  padding-right: 0;
+}
+/* line 604, ../sass/page-rtl.scss */
+.change-skin-menu-wrapper ul li {
+  float: right;
+  margin-right: 0;
+  margin-left: 3px;
+}
+/* line 611, ../sass/page-rtl.scss */
+.change-skin-menu-wrapper .change-layout-button:first-child {
+  border-right: 1px solid #ccc;
+  border-left: none;
+}
+
+/* responsive layout */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 621, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .form-item {
+    width: auto;
+    float: none;
+  }
+  /* line 626, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .webform-component-textarea .form-textarea-wrapper {
+    padding-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  /* line 634, ../sass/page-rtl.scss */
+  #page {
+    /* menu */
+    /* --- Mobile menu --- */
+    /* End Mobile menu */
+  }
+  /* line 635, ../sass/page-rtl.scss */
+  #page #logo {
+    float: right;
+  }
+  /* line 639, ../sass/page-rtl.scss */
+  #page .navbar-toggle {
+    right: auto;
+    left: 0;
+  }
+  /* line 644, ../sass/page-rtl.scss */
+  .html #page {
+    left: 0;
+    right: auto;
+  }
+  /* line 647, ../sass/page-rtl.scss */
+  .html #page.toggled {
+    left: 250px;
+    right: auto;
+  }
+  /* line 650, ../sass/page-rtl.scss */
+  .html #page.toggled #main-menu-inner {
+    left: 0;
+    right: auto;
+  }
+  /* line 656, ../sass/page-rtl.scss */
+  #page .overlay {
+    left: auto;
+    right: 0;
+  }
+  /* line 660, ../sass/page-rtl.scss */
+  #page #main-menu-inner {
+    left: -250px;
+    right: auto;
+  }
+  /* line 663, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu {
+    padding-right: 0;
+  }
+  /* line 665, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu > li {
+    margin-right: 0;
+    padding-left: 0;
+  }
+  /* line 668, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu > li ul {
+    padding: 5px 30px 15px 0;
+  }
+  /* line 671, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu > li ul li ul {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  /* line 678, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu .expanded > a:before {
+    left: 10px;
+    right: auto;
+  }
+  /* line 688, ../sass/page-rtl.scss */
+  #page .tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
+    left: 10px;
+    right: auto;
+  }
+  /* line 695, ../sass/page-rtl.scss */
+  #page .tb-megamenu .row-fluid [class*="span"] {
+    margin-right: 0;
+  }
+  /* line 698, ../sass/page-rtl.scss */
+  #page .tb-megamenu .mega-inner {
+    padding: 10px 30px 10px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 708, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .webform-client-form > div {
+    margin-right: 0 !important;
+    margin-left: 30px;
+  }
+  /* line 712, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .webform-component-textarea .form-textarea-wrapper {
+    padding-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 721, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .field-type-text-with-summary {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  /* line 727, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .webform-client-form {
+    float: none;
+    width: 100%;
+  }
+  /* line 731, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .webform-client-form > div {
+    margin-right: 0 !important;
+  }
+  /* line 734, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .form-item {
+    margin-left: 0;
+  }
+  /* line 737, ../sass/page-rtl.scss */
+  .node-type-webform .node-webform .webform-component-textarea .form-textarea-wrapper {
+    padding-left: 0;
+  }
+}
+@media (max-width: 640px) {
+  /* line 746, ../sass/page-rtl.scss */
+  #page ul.primary li + li {
+    padding-left: 0;
+  }
+}
+@media (max-width: 568px) {
+  /* line 754, ../sass/page-rtl.scss */
+  .alo-act-jcarousel .jcarousel-skin-default .jcarousel-prev {
+    left: 0;
+    right: auto;
+  }
+  /* line 758, ../sass/page-rtl.scss */
+  .alo-act-jcarousel .jcarousel-skin-default .jcarousel-next {
+    left: 60px;
+    right: auto;
+  }
+  /* line 762, ../sass/page-rtl.scss */
+  .alo-act-jcarousel .jcarousel-skin-default .views-field-title {
+    margin-right: 0;
+    margin-left: 110px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 770, ../sass/page-rtl.scss */
+  .comment {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 773, ../sass/page-rtl.scss */
+  .comment .user-picture {
+    position: static;
+    top: auto;
+    left: auto;
+    margin-right: 0 !important;
+    float: right !important;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 787, ../sass/page-rtl.scss */
+  .alo-act-jcarousel .jcarousel-skin-default .jcarousel-next {
+    left: 40px;
+  }
+  /* line 790, ../sass/page-rtl.scss */
+  .alo-act-jcarousel .jcarousel-skin-default .views-field-title {
+    margin-left: 85px;
+  }
+
+  /* line 797, ../sass/page-rtl.scss */
+  #page .jcarousel-skin-default .jcarousel-prev {
+    right: auto;
+    left: 0;
+  }
+  /* line 801, ../sass/page-rtl.scss */
+  #page .jcarousel-skin-default .jcarousel-next {
+    left: 40px;
+  }
+  /* line 806, ../sass/page-rtl.scss */
+  #page .node .field-name-commerce-price {
+    margin-left: -20px;
+  }
+}

@@ -1,0 +1,32 @@
+@import "../includes/_include";
+.alo-testimonial .jcarousel-item {
+    width: 617px;
+}
+.item-info {
+	padding: 0 20px 20px;
+	.views-field-view-node a {
+		min-width: 150px;
+	}
+}
+.sidebar {
+	.alo-testimonial {
+		.jcarousel-skin-default {
+			.jcarousel-item {
+				width: 172px;
+			}
+		}
+	}
+}
+.alo-main-jcarousel {
+	.jcarousel-item{
+		width: 293px;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1279px) {
+	.alo-special-offers .views-row-first {
+		.views-field-type-image img {
+			max-width: none;
+		}
+	}
+}
